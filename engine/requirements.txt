@@ -1,0 +1,9 @@
+ctranslate2==4.6.0
+sentencepiece==0.2.1
+faster-whisper==1.2.1
+requests==2.32.5
+pyinstaller==6.16.0
+setuptools==75.8.2
+backports.tarfile==1.2.0
+sacremoses==0.2.0
+subword-nmt==0.3.8

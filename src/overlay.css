@@ -1,0 +1,53 @@
+html[data-view=overlay],html[data-view=region],body[data-view=overlay],body[data-view=region] { background: transparent!important; color-scheme: normal; }
+body[data-view=overlay] #root { padding: 0; height: 100vh; background: transparent; }
+.overlay-shell { position: relative; isolation: isolate; border: 0!important; outline: 0; border-radius: 8px; height: 100%; padding: 0; overflow: hidden; background: transparent; box-shadow: none; }
+.overlay-tint { position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none; }
+.overlay-backdrop { position: absolute; z-index: -2; max-width: none; object-fit: fill; pointer-events: none; }
+.overlay-handle { position: relative; height: 29px; width: 100%; margin: 0; border-radius: 8px 8px 0 0; opacity: 0; background: rgb(0 0 0 / var(--handle-alpha)); -webkit-app-region: no-drag; transition: opacity .22s ease,background-color .22s ease; }
+.overlay-handle:hover:not(.settled),.overlay-handle:has(button:focus-visible) { opacity: 1; }
+.overlay-handle .overlay-drag-region { position: absolute; inset: 0 74px 0 0; margin: 0; display: flex; justify-content: center; align-items: center; -webkit-app-region: drag; cursor: grab; }
+.overlay-handle .overlay-actions { position: absolute; right: 8px; top: 0; margin: 0; display: flex; align-items: center; gap: 4px; height: 29px; -webkit-app-region: no-drag; }
+.overlay-actions button { color: inherit; width: 27px; height: 25px; min-height: 25px; padding: 4px; border: 0; border-radius: 7px; background: transparent; opacity: .95; box-shadow: none; }
+.overlay-actions button:hover { background: rgb(0 0 0 / var(--handle-alpha)); }
+.overlay-actions button:focus-visible { outline: 1px solid currentColor; outline-offset: 0; }
+.overlay-content { position: relative; padding: 0 22px 7px; }
+.overlay-original { margin: 0 0 4px; opacity: .8; }
+.overlay-language+.overlay-language { margin-top: 7px; }
+.overlay-language-label { font-size: 10px; opacity: .65; display: block; line-height: 1.3; }
+.overlay-translation { font-weight: 500; text-shadow: 0 1px 3px #0007; }
+@media(prefers-reduced-motion:reduce){.overlay-handle{transition:none;}}
+
+.overlay-handle,.overlay-handle .overlay-drag-region{-webkit-app-region:no-drag;touch-action:none;cursor:grab;}
+.overlay-handle .overlay-drag-region{inset:0;pointer-events:none;}
+.overlay-handle .overlay-actions{right:9px;}
+.overlay-content{text-align:center;padding:0 22px 7px;}
+.overlay-original,.overlay-translation{max-height:none!important;overflow:visible;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.5;}
+.caption-entry{padding-bottom:8px;animation:caption-in .15s ease-out;}
+.caption-entry+.caption-entry{padding-top:6px;}
+.caption-entry:not(:last-child){opacity:.76;}
+.overlay-resize-right{position:absolute;right:0;top:30px;bottom:9px;width:8px;cursor:ew-resize;touch-action:none;}
+.overlay-resize-bottom{position:absolute;left:16px;right:16px;bottom:0;height:9px;cursor:ns-resize;touch-action:none;}
+.overlay-resize-right:hover{background:#8884;}.overlay-resize-bottom:hover{background:#8884;border-radius:8px;}
+@keyframes caption-in{from{transform:translateY(4px);opacity:.5}to{transform:translateY(0);opacity:1}}
+.favorite-word{background:rgba(0,0,0,.42);color:inherit;border-radius:3px;padding:0 2px;}
+html[data-view=region],body[data-view=region],body[data-view=region] #root,html[data-view=marker],body[data-view=marker],body[data-view=marker] #root{background:transparent!important;}
+.region-surface{background:rgba(0,0,0,.015)!important;}.selection-rectangle{box-shadow:none!important;background:transparent!important;}
+.region-marker{position:fixed;inset:3px;pointer-events:none;}.region-marker i{position:absolute;width:20px;height:15px;border-color:#b393ff99;border-style:solid;border-width:0;}.region-marker i:nth-child(1){left:0;top:0;border-left-width:3px;border-top-width:3px}.region-marker i:nth-child(2){right:0;top:0;border-right-width:3px;border-top-width:3px}.region-marker i:nth-child(3){left:0;bottom:0;border-left-width:3px;border-bottom-width:3px}.region-marker i:nth-child(4){right:0;bottom:0;border-right-width:3px;border-bottom-width:3px}
+/* Stable desktop interaction surfaces. Native drag regions are deliberately disabled. */
+.overlay-content{display:flow-root;contain:layout style;flex:none;height:auto;min-height:0;}
+.overlay-handle{color:var(--controls-color);}
+.overlay-handle .overlay-actions button{color:var(--controls-color);transform:none!important;transition:background-color .15s;}
+.overlay-shell.no-text-shadow .overlay-original,.overlay-shell.no-text-shadow .overlay-translation{text-shadow:none!important;}
+.favorite-word{background:var(--favorite-bg,#2457c5);color:var(--favorite-color,#fff);}
+html[data-view=handle],body[data-view=handle],body[data-view=handle] #root{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:transparent!important;color-scheme:normal;}
+.region-corner{position:fixed;inset:0;background:rgba(128,128,128,.015);touch-action:none;cursor:crosshair;display:grid;place-items:center;}
+.region-corner i{width:13px;height:13px;border:3px solid #b393ffb0;pointer-events:none;}
+.region-corner.nw i{border-right:0;border-bottom:0}.region-corner.ne i{border-left:0;border-bottom:0}.region-corner.sw i{border-right:0;border-top:0}.region-corner.se i{border-left:0;border-top:0}
+.region-corner:hover{background:#b393ff33;border-radius:5px;}.region-corner:hover i{border-color:#b393ff;}
+
+html[data-view=overlay],body[data-view=overlay],body[data-view=overlay] #root{border-radius:8px;overflow:hidden;}
+.overlay-shell{clip-path:inset(0 round 8px);border-radius:8px;}.overlay-tint{border-radius:8px;}.overlay-original{text-shadow:0 1px 3px #0007;}
+
+.region-corner i{position:absolute;}.region-corner.nw i{left:20px;top:20px;}.region-corner.ne i{right:20px;top:20px;}.region-corner.sw i{left:20px;bottom:20px;}.region-corner.se i{right:20px;bottom:20px;}
+
+.desktop-backdrop-frame{position:absolute;inset:-60px;z-index:-2;overflow:hidden;pointer-events:none;}.desktop-backdrop{position:absolute;max-width:none;pointer-events:none;object-fit:fill;}

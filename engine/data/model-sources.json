@@ -1,0 +1,352 @@
+{
+  "version": 1,
+  "updated": "2026-09-06",
+  "translation": [
+    {
+      "from_code": "zh",
+      "to_code": "en",
+      "package_version": "1.9",
+      "name": "translate-zh_en-1_9.argosmodel",
+      "size": 74481402,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-zh_en-1_9.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-zh_en-1_9.argosmodel"
+        }
+      ],
+      "sha256": "62e7af5a3a48b530e47b7b3e5c78c2de79073ecd815750d2bf3ab35b4a67da2d"
+    },
+    {
+      "from_code": "en",
+      "to_code": "zh",
+      "package_version": "1.9",
+      "name": "translate-en_zh-1_9.argosmodel",
+      "size": 70743021,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-en_zh-1_9.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-en_zh-1_9.argosmodel"
+        }
+      ],
+      "sha256": "433e7c4f034d87fbe2353161e05f18646d7999452f801a4e1f0378522b9850ab"
+    },
+    {
+      "from_code": "en",
+      "to_code": "fr",
+      "package_version": "1.9",
+      "name": "translate-en_fr-1_9.argosmodel",
+      "size": 65472327,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-en_fr-1_9.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-en_fr-1_9.argosmodel"
+        }
+      ],
+      "sha256": "3a65ed83364f4e7b06e30f9dd823db1934899ed3ce839e63f46dc7b09dc797b4"
+    },
+    {
+      "from_code": "en",
+      "to_code": "de",
+      "package_version": "1.3",
+      "name": "translate-en_de-1_3.argosmodel",
+      "size": 150508297,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-en_de-1_3.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-en_de-1_3.argosmodel"
+        }
+      ],
+      "sha256": "6cd847f0c06c9c66013e6b0932e07fd54a6d90894659c02bf6c5247b72fb25b1"
+    },
+    {
+      "from_code": "en",
+      "to_code": "ja",
+      "package_version": "1.1",
+      "name": "translate-en_ja-1_1.argosmodel",
+      "size": 120470284,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-en_ja-1_1.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-en_ja-1_1.argosmodel"
+        }
+      ],
+      "sha256": "16300cc4eaa85320520cabcf433b63d01be40ef6966251de72043a083408f716"
+    },
+    {
+      "from_code": "en",
+      "to_code": "ko",
+      "package_version": "1.1",
+      "name": "translate-en_ko-1_1.argosmodel",
+      "size": 120789009,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-en_ko-1_1.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-en_ko-1_1.argosmodel"
+        }
+      ],
+      "sha256": "e03d8e65e6d44525ec5808c3409fcf8728c76c2c76925372b6d3dc3278de17fc"
+    },
+    {
+      "from_code": "en",
+      "to_code": "ru",
+      "package_version": "1.9",
+      "name": "translate-en_ru-1_9.argosmodel",
+      "size": 195746693,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-en_ru-1_9.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-en_ru-1_9.argosmodel"
+        }
+      ],
+      "sha256": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    },
+    {
+      "from_code": "en",
+      "to_code": "es",
+      "package_version": "1.0",
+      "name": "translate-en_es-1_0.argosmodel",
+      "size": 87503191,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-en_es-1_0.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-en_es-1_0.argosmodel"
+        }
+      ],
+      "sha256": "d698d0ef87ad70d5d184b7fa6965905bf4368f09a2bb9ffb165a79bac96af0c4"
+    },
+    {
+      "from_code": "fr",
+      "to_code": "en",
+      "package_version": "1.9",
+      "name": "translate-fr_en-1_9.argosmodel",
+      "size": 66585033,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-fr_en-1_9.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-fr_en-1_9.argosmodel"
+        }
+      ],
+      "sha256": "3b3052fee6bb1e8e8e632a26a723eb2a2c7710dfe73ba61ffd9b83e85d4f14c1"
+    },
+    {
+      "from_code": "de",
+      "to_code": "en",
+      "package_version": "1.3",
+      "name": "translate-de_en-1_3.argosmodel",
+      "size": 150512831,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-de_en-1_3.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-de_en-1_3.argosmodel"
+        }
+      ],
+      "sha256": "becc2b0011f8249fcb89be9ecb75ba0d876b1fab93c28ee6ff0420936897d637"
+    },
+    {
+      "from_code": "ja",
+      "to_code": "en",
+      "package_version": "1.1",
+      "name": "translate-ja_en-1_1.argosmodel",
+      "size": 117155716,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-ja_en-1_1.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-ja_en-1_1.argosmodel"
+        }
+      ],
+      "sha256": "623e3477959a815eb0a5ef53e09079ae8f1f9d3bbcd230473baf28c03fb83335"
+    },
+    {
+      "from_code": "ko",
+      "to_code": "en",
+      "package_version": "1.1",
+      "name": "translate-ko_en-1_1.argosmodel",
+      "size": 118852077,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-ko_en-1_1.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-ko_en-1_1.argosmodel"
+        }
+      ],
+      "sha256": "6da8f3db6ca40f42b1875570a1c06856f6e17c7ef62845d85de217ba548c1471"
+    },
+    {
+      "from_code": "ru",
+      "to_code": "en",
+      "package_version": "1.9",
+      "name": "translate-ru_en-1_9.argosmodel",
+      "size": 156239112,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-ru_en-1_9.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-ru_en-1_9.argosmodel"
+        }
+      ],
+      "sha256": "e9ba8bf722d10a4a4c39f74289d5938fd47eac08dbe4ed0afd22d89445a5c3ac"
+    },
+    {
+      "from_code": "es",
+      "to_code": "en",
+      "package_version": "1.9",
+      "name": "translate-es_en-1_9.argosmodel",
+      "size": 285208831,
+      "sources": [
+        {
+          "name": "Argos 官方备用源",
+          "url": "https://data.argosopentech.com/argospm/v1/translate-es_en-1_9.argosmodel"
+        },
+        {
+          "name": "Argos 官方主源",
+          "url": "https://argos-net.com/v1/translate-es_en-1_9.argosmodel"
+        }
+      ],
+      "sha256": "c54df2b62fceaf54a3ce5d97db6bf56efd7940063329f6778f4212d2acb370d4"
+    }
+  ],
+  "speech": [
+    {
+      "name": "config.json",
+      "size": 2309,
+      "sha256": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a",
+      "sources": [
+        {
+          "name": "魔搭国内源",
+          "url": "https://modelscope.cn/models/Systran/faster-whisper-base/resolve/master/config.json"
+        },
+        {
+          "name": "魔搭备用仓库",
+          "url": "https://modelscope.cn/models/pengzhendong/faster-whisper-base/resolve/master/config.json"
+        },
+        {
+          "name": "HF 公益镜像",
+          "url": "https://hf-mirror.com/Systran/faster-whisper-base/resolve/main/config.json"
+        },
+        {
+          "name": "Hugging Face 原站",
+          "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/main/config.json"
+        }
+      ]
+    },
+    {
+      "name": "model.bin",
+      "size": 145217532,
+      "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+      "sources": [
+        {
+          "name": "魔搭国内源",
+          "url": "https://modelscope.cn/models/Systran/faster-whisper-base/resolve/master/model.bin"
+        },
+        {
+          "name": "魔搭备用仓库",
+          "url": "https://modelscope.cn/models/pengzhendong/faster-whisper-base/resolve/master/model.bin"
+        },
+        {
+          "name": "HF 公益镜像",
+          "url": "https://hf-mirror.com/Systran/faster-whisper-base/resolve/main/model.bin"
+        },
+        {
+          "name": "Hugging Face 原站",
+          "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/main/model.bin"
+        }
+      ]
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 2203239,
+      "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+      "sources": [
+        {
+          "name": "魔搭国内源",
+          "url": "https://modelscope.cn/models/Systran/faster-whisper-base/resolve/master/tokenizer.json"
+        },
+        {
+          "name": "魔搭备用仓库",
+          "url": "https://modelscope.cn/models/pengzhendong/faster-whisper-base/resolve/master/tokenizer.json"
+        },
+        {
+          "name": "HF 公益镜像",
+          "url": "https://hf-mirror.com/Systran/faster-whisper-base/resolve/main/tokenizer.json"
+        },
+        {
+          "name": "Hugging Face 原站",
+          "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/main/tokenizer.json"
+        }
+      ]
+    },
+    {
+      "name": "vocabulary.txt",
+      "size": 459861,
+      "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+      "sources": [
+        {
+          "name": "魔搭国内源",
+          "url": "https://modelscope.cn/models/Systran/faster-whisper-base/resolve/master/vocabulary.txt"
+        },
+        {
+          "name": "魔搭备用仓库",
+          "url": "https://modelscope.cn/models/pengzhendong/faster-whisper-base/resolve/master/vocabulary.txt"
+        },
+        {
+          "name": "HF 公益镜像",
+          "url": "https://hf-mirror.com/Systran/faster-whisper-base/resolve/main/vocabulary.txt"
+        },
+        {
+          "name": "Hugging Face 原站",
+          "url": "https://huggingface.co/Systran/faster-whisper-base/resolve/main/vocabulary.txt"
+        }
+      ]
+    }
+  ]
+}

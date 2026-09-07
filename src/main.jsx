@@ -1,0 +1,17 @@
+import {LocaleRoot} from './i18n';
+import './international.css';
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import App from './App';
+import Overlay from './Overlay';
+import RegionHandle from './RegionHandle';
+import './styles.css';
+import './studio.css';
+import './overlay.css';
+import './enhancements.css';
+import './chrome.css';
+import './ai.css';
+const view=new URLSearchParams(location.search).get('view');
+document.body.dataset.view=view||'main';
+document.documentElement.dataset.view=view||'main';
+createRoot(document.getElementById('root')).render(<LocaleRoot>{view==='overlay'?<Overlay/>:view==='handle'?<RegionHandle/>:<App/>}</LocaleRoot>);

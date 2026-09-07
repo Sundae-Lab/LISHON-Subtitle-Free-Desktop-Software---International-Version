@@ -1,0 +1,7 @@
+const {contextBridge,ipcRenderer}=require('electron');
+const commands=['ai-status','ai-save','ai-enable','ai-forget','ai-test','ai-portal','translate-cancel','library','lookup','translate-selection','bootstrap','translate','settings','selection','region','screen-start','screen-stop','screen-pause','region-interact','overlay','overlay-fit','overlay-backdrop','overlay-backdrop-error','overlay-backdrop-stopped','overlay-interact','install-language','install-speech','import-models','open-models','choose-models','windows-languages','audio','import-media','export-srt','window','copy','clear-history'];
+contextBridge.exposeInMainWorld('lingua',{
+ call:async(command,args)=>{if(!commands.includes(command))throw new Error('未知操作');const result=await ipcRenderer.invoke('lingua',command,args);if(result?.lishonReply!==1)return result;if(!result.ok)throw new Error(result.error);return result.value;},
+ on:(name,callback)=>{const allowed=['ai-state','close-request','library-index','result','error','download','segment','screen-state','overlay-state','settings','ready','selection-text','selection-state','overlay-moved','overlay-position','overlay-visibility'];if(!allowed.includes(name))return ()=>{};const handler=(_,data)=>callback(data);ipcRenderer.on(name,handler);return ()=>ipcRenderer.removeListener(name,handler);}
+});
+

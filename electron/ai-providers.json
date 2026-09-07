@@ -1,0 +1,9 @@
+[
+ {"id":"deepseek","name":"DeepSeek","tag":"日常翻译","protocol":"openai","baseUrl":"https://api.deepseek.com/v1","model":"deepseek-chat","portal":"https://platform.deepseek.com/api_keys","docs":"https://api-docs.deepseek.com/"},
+ {"id":"qwen","name":"通义千问","tag":"阿里云百炼","protocol":"openai","baseUrl":"https://dashscope.aliyuncs.com/compatible-mode/v1","model":"qwen-plus","portal":"https://bailian.console.aliyun.com/","docs":"https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope"},
+ {"id":"kimi","name":"Kimi","tag":"月之暗面","protocol":"openai","baseUrl":"https://api.moonshot.cn/v1","model":"kimi-k2.6","portal":"https://platform.kimi.com/","docs":"https://platform.kimi.com/docs/api/overview"},
+ {"id":"openai","name":"OpenAI","tag":"GPT 系列","protocol":"openai","baseUrl":"https://api.openai.com/v1","model":"gpt-4.1-mini","portal":"https://platform.openai.com/api-keys","docs":"https://developers.openai.com/api/docs/models/gpt-4.1-mini"},
+ {"id":"gemini","name":"Gemini","tag":"Google AI","protocol":"openai","baseUrl":"https://generativelanguage.googleapis.com/v1beta/openai","model":"gemini-3.8-flash","portal":"https://aistudio.google.com/api-keys","docs":"https://ai.google.dev/gemini-api/docs/openai"},
+ {"id":"claude","name":"Claude","tag":"Anthropic","protocol":"anthropic","baseUrl":"https://api.anthropic.com/v1","model":"claude-haiku-4-5-20251001","portal":"https://platform.claude.com/","docs":"https://platform.claude.com/docs/en/api/http/messages/create"},
+ {"id":"custom","name":"自定义接入","tag":"OpenAI 兼容","protocol":"openai","baseUrl":"","model":"","portal":null,"docs":null}
+]

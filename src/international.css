@@ -1,0 +1,14 @@
+.interface-language{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:0;-webkit-app-region:no-drag;color:var(--text)}
+.interface-language select{max-width:180px;min-width:110px;padding:8px 24px 8px 10px;cursor:pointer}
+.window-buttons .interface-language{margin:0 5px}.interface-language.compact select{width:112px;min-width:0;font-size:12px;background:transparent;border:0;padding:5px 20px 5px 4px}
+button svg{flex-shrink:0}button,select{line-height:1.4}button{white-space:normal;overflow-wrap:anywhere}
+.sidebar .main-nav{max-width:none;min-width:0}.sidebar .utility-nav{flex-wrap:wrap;justify-content:flex-end;max-width:40%}
+.main-nav .nav-item{font-size:14px;gap:8px;padding:9px 8px}.main-nav .nav-item span{white-space:normal;line-height:1.3;text-align:center}.main-nav .nav-item svg{width:20px;height:20px}
+.utility-nav .nav-item{font-size:12px;padding:7px 9px}.page-heading{gap:20px}.page-heading h1{line-height:1.25}
+.button-row,.screen-controls,.language-bar,.library-tools,.library-selection-tools{flex-wrap:wrap}
+.field>div:first-child{min-width:0;flex:1}.field .field-controls{flex:0 0 300px;justify-content:center;min-width:0}.field-controls select{max-width:100%}
+.model-row>div,.import-row>div,.storage-row>div{min-width:0}.model-row button,.storage-row button{flex-shrink:0;max-width:230px}.model-row p{overflow-wrap:anywhere}
+.ai-section-title,.ai-actions,.ai-saved,.library-index,.library-tabs{flex-wrap:wrap;gap:12px}.ai-state,.status-chip{white-space:normal;text-align:center}.library-tools label{min-width:190px}
+.close-dialog{width:min(490px,calc(100vw - 40px))}.statusbar{min-height:32px}.statusbar>span:not(.studio-credit){max-width:34%;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.studio-credit{max-width:30%;text-align:center}
+@media(max-width:1100px){.app-shell{grid-template-rows:52px 136px minmax(0,1fr)}.sidebar{flex-wrap:wrap;gap:8px;padding:8px 24px 12px}.sidebar .main-nav{flex-basis:100%}.sidebar .utility-nav{max-width:none;margin-left:auto}.main-nav .nav-item{min-height:46px}.field .field-controls{flex-basis:260px}.page-heading h1{font-size:28px}}
+@media(max-width:850px){.titlebar{padding-left:18px}.brand strong{font-size:15px}.interface-language.compact select{width:96px}.field{gap:16px}.field .field-controls{flex-basis:230px}.notice{flex-wrap:wrap}.ai-form-grid{grid-template-columns:1fr}.studio-credit{font-size:9px}}

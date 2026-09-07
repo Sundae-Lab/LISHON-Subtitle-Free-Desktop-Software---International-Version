@@ -1,0 +1,3621 @@
+{
+  "连接成功 · {0} 秒": {
+    "en": "Connected · {0} s",
+    "ja": "接続成功 · {0} 秒",
+    "ko": "연결됨 · {0}초",
+    "fr": "Connecté · {0} s",
+    "ru": "Подключено · {0} с"
+  },
+  "已保存并启用，新的翻译将使用 AI。": {
+    "en": "Saved. New translations will use AI.",
+    "ja": "保存しました。次の翻訳から AI を使用します。",
+    "ko": "저장했습니다. 다음 번역부터 AI를 사용합니다.",
+    "fr": "Enregistré. Les prochaines traductions utiliseront l’IA.",
+    "ru": "Сохранено. Новые переводы будут использовать ИИ."
+  },
+  "已启用 AI 翻译。": {
+    "en": "AI translation enabled.",
+    "ja": "AI 翻訳を有効にしました。",
+    "ko": "AI 번역을 켰습니다.",
+    "fr": "Traduction IA activée.",
+    "ru": "Перевод ИИ включён."
+  },
+  "已切回本地翻译。": {
+    "en": "Switched to local translation.",
+    "ja": "ローカル翻訳に切り替えました。",
+    "ko": "로컬 번역으로 전환했습니다.",
+    "fr": "Traduction locale activée.",
+    "ru": "Включён локальный перевод."
+  },
+  "已删除保存的 API Key，并切回本地翻译。": {
+    "en": "API key deleted. Local translation enabled.",
+    "ja": "API キーを削除し、ローカル翻訳に切り替えました。",
+    "ko": "API 키를 삭제하고 로컬 번역으로 전환했습니다.",
+    "fr": "Clé API supprimée. Traduction locale activée.",
+    "ru": "Ключ API удалён. Включён локальный перевод."
+  },
+  "接入 AI": {
+    "en": "Connect AI",
+    "ja": "AI 接続",
+    "ko": "AI 연결",
+    "fr": "Connexion IA",
+    "ru": "Подключить ИИ"
+  },
+  "让翻译理解语境，也理解言外之意。": {
+    "en": "Translate the context, not just the words.",
+    "ja": "言葉の背景まで理解する翻訳。",
+    "ko": "문맥과 숨은 의미까지 이해하는 번역.",
+    "fr": "Une traduction attentive au contexte.",
+    "ru": "Перевод с учётом контекста и смысла."
+  },
+  "AI 翻译已启用": {
+    "en": "AI translation on",
+    "ja": "AI 翻訳が有効",
+    "ko": "AI 번역 켜짐",
+    "fr": "Traduction IA activée",
+    "ru": "Перевод ИИ включён"
+  },
+  "当前使用本地翻译": {
+    "en": "Using local translation",
+    "ja": "ローカル翻訳を使用中",
+    "ko": "로컬 번역 사용 중",
+    "fr": "Traduction locale active",
+    "ru": "Используется локальный перевод"
+  },
+  "你的模型，听现的翻译 Agent": {
+    "en": "Your model, Lishon’s translation agent",
+    "ja": "あなたのモデルと Lishon の翻訳 Agent",
+    "ko": "내 모델과 Lishon 번역 에이전트",
+    "fr": "Votre modèle, l’agent de traduction Lishon",
+    "ru": "Ваша модель, переводчик Lishon"
+  },
+  "连接自己的 API，让划词、屏幕字幕和听译共享更连贯的表达。": {
+    "en": "Connect your API for context-aware text, screen and audio translation.",
+    "ja": "ご自身の API で、テキスト・画面・音声を文脈に沿って翻訳します。",
+    "ko": "내 API로 텍스트·화면·음성을 문맥에 맞게 번역하세요.",
+    "fr": "Connectez votre API pour traduire textes, écrans et audio avec contexte.",
+    "ru": "Подключите свой API для перевода текста, экрана и речи с учётом контекста."
+  },
+  " 选择服务商": {
+    "en": " Choose a provider",
+    "ja": " サービスを選択",
+    "ko": " 서비스 선택",
+    "fr": " Choisir un fournisseur",
+    "ru": " Выберите сервис"
+  },
+  "使用开放平台 API Key": {
+    "en": "Use a developer-platform API key",
+    "ja": "開発者向け API キーを使用",
+    "ko": "개발자 플랫폼 API 키 사용",
+    "fr": "Clé API de la plateforme développeur",
+    "ru": "Ключ API платформы разработчика"
+  },
+  "千": {
+    "en": "Q",
+    "ja": "Q",
+    "ko": "Q",
+    "fr": "Q",
+    "ru": "Q"
+  },
+  " 连接 ": {
+    "en": " Connect ",
+    "ja": " 接続 ",
+    "ko": " 연결 ",
+    "fr": " Connexion ",
+    "ru": " Подключить "
+  },
+  "获取 API Key ": {
+    "en": "Get API key ",
+    "ja": "API キーを取得 ",
+    "ko": "API 키 받기 ",
+    "fr": "Obtenir une clé API ",
+    "ru": "Получить ключ API "
+  },
+  "已加密保存": {
+    "en": "Encrypted and saved",
+    "ja": "暗号化して保存済み",
+    "ko": "암호화하여 저장됨",
+    "fr": "Enregistrée et chiffrée",
+    "ru": "Сохранён в зашифрованном виде"
+  },
+  "已保存 · 留空保留现有密钥": {
+    "en": "Saved · leave blank to keep",
+    "ja": "保存済み · 空欄で維持",
+    "ko": "저장됨 · 비워 두면 유지",
+    "fr": "Enregistrée · laisser vide pour conserver",
+    "ru": "Сохранён · оставьте пустым, чтобы сохранить"
+  },
+  "粘贴你的 API Key": {
+    "en": "Paste your API key",
+    "ja": "API キーを貼り付け",
+    "ko": "API 키 붙여넣기",
+    "fr": "Collez votre clé API",
+    "ru": "Вставьте ключ API"
+  },
+  "模型名称": {
+    "en": "Model name",
+    "ja": "モデル名",
+    "ko": "모델 이름",
+    "fr": "Nom du modèle",
+    "ru": "Название модели"
+  },
+  "AI 模型名称": {
+    "en": "AI model name",
+    "ja": "AI モデル名",
+    "ko": "AI 모델 이름",
+    "fr": "Nom du modèle IA",
+    "ru": "Название модели ИИ"
+  },
+  "填写开放平台中的模型 ID": {
+    "en": "Enter a model ID available on your platform",
+    "ja": "利用可能なモデル ID を入力",
+    "ko": "플랫폼에서 사용 가능한 모델 ID 입력",
+    "fr": "ID d’un modèle disponible sur votre plateforme",
+    "ru": "Введите доступный на платформе ID модели"
+  },
+  "网页会员与 API 额度独立；请使用开放平台密钥。模型名称可按账号可用模型修改。": {
+    "en": "API billing is separate from web subscriptions. Use a developer key and a model available to your account.",
+    "ja": "Web 会員と API の料金は別です。開発者キーと利用可能なモデルを指定してください。",
+    "ko": "웹 구독과 API 요금은 별도입니다. 개발자 키와 계정에서 이용 가능한 모델을 사용하세요.",
+    "fr": "L’API est facturée séparément de l’abonnement web. Utilisez une clé développeur et un modèle autorisé.",
+    "ru": "Оплата API не входит в веб-подписку. Используйте ключ разработчика и доступную вашему аккаунту модель."
+  },
+  "服务地址与翻译偏好 ": {
+    "en": "Endpoint and translation preferences ",
+    "ja": "接続先と翻訳設定 ",
+    "ko": "서버 주소 및 번역 설정 ",
+    "fr": "Adresse et préférences de traduction ",
+    "ru": "Адрес и настройки перевода "
+  },
+  "API 服务地址": {
+    "en": "API base URL",
+    "ja": "API ベース URL",
+    "ko": "API 기본 URL",
+    "fr": "URL de base de l’API",
+    "ru": "Базовый URL API"
+  },
+  "AI 服务地址": {
+    "en": "AI endpoint",
+    "ja": "AI 接続先",
+    "ko": "AI 서버 주소",
+    "fr": "Adresse du service IA",
+    "ru": "Адрес сервиса ИИ"
+  },
+  "填写 Base URL，无需添加 /chat/completions。服务地址须与密钥所属平台及地区一致。更改地址后需要重新填写密钥。": {
+    "en": "Enter the base URL without /chat/completions. It must match your key’s provider and region. Re-enter the key after changing it.",
+    "ja": "/chat/completions を除いたベース URL を指定します。キーのサービス・地域と一致させ、変更後はキーを再入力してください。",
+    "ko": "/chat/completions 없이 기본 URL을 입력하세요. 키의 서비스·지역과 일치해야 하며 주소 변경 후 키를 다시 입력해야 합니다.",
+    "fr": "Saisissez l’URL de base sans /chat/completions, correspondant au fournisseur et à la région de la clé. Ressaisissez la clé après modification.",
+    "ru": "Укажите базовый URL без /chat/completions, соответствующий сервису и региону ключа. После смены адреса введите ключ заново."
+  },
+  "翻译策略": {
+    "en": "Translation strategy",
+    "ja": "翻訳方式",
+    "ko": "번역 방식",
+    "fr": "Stratégie de traduction",
+    "ru": "Режим перевода"
+  },
+  "实时优先只请求一次；精校优先再对照原文复核一次，会增加等待和 API 费用。": {
+    "en": "Fast mode makes one request. Review mode checks the draft against the source, adding time and API cost.",
+    "ja": "速度優先は 1 回、精度優先は原文との照合を追加します。待ち時間と API 料金が増えます。",
+    "ko": "속도 우선은 한 번 요청합니다. 검토 모드는 원문과 대조하여 시간과 API 비용이 늘어납니다.",
+    "fr": "Le mode rapide fait une requête. La relecture compare le brouillon à l’original et augmente le délai et le coût API.",
+    "ru": "Быстрый режим делает один запрос. Проверка сверяет перевод с оригиналом, увеличивая время и расходы API."
+  },
+  "AI 翻译策略": {
+    "en": "AI translation strategy",
+    "ja": "AI 翻訳方式",
+    "ko": "AI 번역 방식",
+    "fr": "Stratégie de traduction IA",
+    "ru": "Режим перевода ИИ"
+  },
+  "实时优先": {
+    "en": "Fast",
+    "ja": "速度優先",
+    "ko": "속도 우선",
+    "fr": "Rapide",
+    "ru": "Быстрый"
+  },
+  "精校优先": {
+    "en": "With review",
+    "ja": "精度優先",
+    "ko": "검토 우선",
+    "fr": "Avec relecture",
+    "ru": "С проверкой"
+  },
+  "参考最近几句": {
+    "en": "Use recent context",
+    "ja": "直前の文を参照",
+    "ko": "최근 문맥 참고",
+    "fr": "Utiliser le contexte récent",
+    "ru": "Учитывать недавний контекст"
+  },
+  "屏幕与听译最多带入最近 3 句短上下文；停止后清空，2 分钟后过期。": {
+    "en": "Screen and audio translation use up to 3 recent short sentences. Context clears on stop and expires after 2 minutes.",
+    "ja": "画面・音声翻訳で直前の短い 3 文まで参照します。停止時に消去し、2 分で期限切れになります。",
+    "ko": "화면·음성 번역에 최근 짧은 문장 3개까지 사용합니다. 중지 시 지워지며 2분 후 만료됩니다.",
+    "fr": "Jusqu’à 3 phrases courtes pour l’écran et l’audio. Le contexte s’efface à l’arrêt et expire après 2 minutes.",
+    "ru": "До 3 недавних коротких предложений для экрана и речи. Контекст очищается при остановке и через 2 минуты."
+  },
+  "AI 参考最近几句": {
+    "en": "Use recent context for AI",
+    "ja": "AI が直前の文を参照",
+    "ko": "AI 최근 문맥 참고",
+    "fr": "Contexte récent pour l’IA",
+    "ru": "Недавний контекст для ИИ"
+  },
+  "Key 由 Windows 加密保存在本机。启用后，仅待译文字及开启的短上下文发送至所选服务商；录音、截图和语库不会上传。调用可能产生 API 费用。": {
+    "en": "Windows encrypts your key locally. Only the text and enabled short context go to your provider, not recordings, screenshots or your library. API charges may apply.",
+    "ja": "キーは Windows で暗号化保存します。送信するのは翻訳対象と有効な短い文脈のみで、録音・画像・語彙集は送信しません。API 料金が発生する場合があります。",
+    "ko": "키는 Windows가 로컬에 암호화해 저장합니다. 번역할 글과 켜진 짧은 문맥만 전송하며 녹음·스크린샷·내 어휘집은 보내지 않습니다. API 요금이 발생할 수 있습니다.",
+    "fr": "Windows chiffre la clé localement. Seuls le texte et le contexte activé sont envoyés, pas les enregistrements, captures ou votre lexique. Des frais API peuvent s’appliquer.",
+    "ru": "Windows шифрует ключ локально. Сервису передаются только текст и включённый контекст, без записей, снимков и словаря. Возможна плата за API."
+  },
+  "{0}测试连接": {
+    "en": "{0}Test connection",
+    "ja": "{0}接続テスト",
+    "ko": "{0}연결 테스트",
+    "fr": "{0}Tester la connexion",
+    "ru": "{0}Проверить подключение"
+  },
+  "{0}保存并启用": {
+    "en": "{0}Save and enable",
+    "ja": "{0}保存して有効化",
+    "ko": "{0}저장하고 켜기",
+    "fr": "{0}Enregistrer et activer",
+    "ru": "{0}Сохранить и включить"
+  },
+  "测试按所选策略发送混合语种示例": {
+    "en": "Test sends a mixed-language sample using this strategy",
+    "ja": "選択方式で混合言語の例文を送信します",
+    "ko": "선택한 방식으로 혼합 언어 예문을 전송합니다",
+    "fr": "Le test envoie un exemple multilingue selon cette stratégie",
+    "ru": "Тест отправляет пример со смешанными языками"
+  },
+  "启用 AI 翻译": {
+    "en": "Enable AI translation",
+    "ja": "AI 翻訳を有効化",
+    "ko": "AI 번역 켜기",
+    "fr": "Activer la traduction IA",
+    "ru": "Включить перевод ИИ"
+  },
+  "使用已保存的连接": {
+    "en": "Use saved connection",
+    "ja": "保存済み接続を使用",
+    "ko": "저장된 연결 사용",
+    "fr": "Utiliser la connexion enregistrée",
+    "ru": "Использовать сохранённое подключение"
+  },
+  "删除此密钥？": {
+    "en": "Delete this key?",
+    "ja": "このキーを削除しますか？",
+    "ko": "이 키를 삭제할까요?",
+    "fr": "Supprimer cette clé ?",
+    "ru": "Удалить этот ключ?"
+  },
+  "删除": {
+    "en": "Delete",
+    "ja": "削除",
+    "ko": "삭제",
+    "fr": "Supprimer",
+    "ru": "Удалить"
+  },
+  "取消": {
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "ko": "취소",
+    "fr": "Annuler",
+    "ru": "Отмена"
+  },
+  "删除密钥": {
+    "en": "Delete key",
+    "ja": "キーを削除",
+    "ko": "키 삭제",
+    "fr": "Supprimer la clé",
+    "ru": "Удалить ключ"
+  },
+  " 已内置翻译规则": {
+    "en": " Built-in translation rules",
+    "ja": " 組み込みの翻訳ルール",
+    "ko": " 기본 번역 규칙",
+    "fr": " Règles de traduction intégrées",
+    "ru": " Встроенные правила перевода"
+  },
+  "自动应用 · 无需编写提示词": {
+    "en": "Applied automatically · no prompt needed",
+    "ja": "自動適用 · プロンプト不要",
+    "ko": "자동 적용 · 프롬프트 불필요",
+    "fr": "Automatiques · aucun prompt requis",
+    "ru": "Применяются автоматически · без промпта"
+  },
+  "理解整句": {
+    "en": "Understand full sentences",
+    "ja": "文全体を理解",
+    "ko": "문장 전체 이해",
+    "fr": "Comprendre la phrase",
+    "ru": "Понимать предложение целиком"
+  },
+  "固定短语、连接词与专业名词，结合上下文选择语义。": {
+    "en": "Interpret phrases, connectors and technical terms in context.",
+    "ja": "慣用句・接続表現・専門用語を文脈に合わせて訳します。",
+    "ko": "관용구·연결어·전문 용어를 문맥에 맞게 해석합니다.",
+    "fr": "Interpréter expressions, connecteurs et termes techniques en contexte.",
+    "ru": "Учитывать контекст выражений, связок и терминов."
+  },
+  "识别混合语种": {
+    "en": "Recognize mixed languages",
+    "ja": "混合言語を識別",
+    "ko": "혼합 언어 인식",
+    "fr": "Reconnaître les langues mêlées",
+    "ru": "Распознавать смешанные языки"
+  },
+  "原文直接翻到每个目标语种，不经英语中转；最多同时输出 3 种译文。": {
+    "en": "Translate directly from the source to up to 3 target languages, without English pivoting.",
+    "ja": "原文から最大 3 言語へ直接翻訳し、英語を経由しません。",
+    "ko": "영어를 거치지 않고 원문에서 최대 3개 언어로 직접 번역합니다.",
+    "fr": "Traduire directement vers 3 langues au maximum, sans passer par l’anglais.",
+    "ru": "Переводить прямо с оригинала максимум на 3 языка, без посредничества английского."
+  },
+  "忠实于原意": {
+    "en": "Stay faithful to the source",
+    "ja": "原文の意味を維持",
+    "ko": "원문의 의미 유지",
+    "fr": "Respecter le sens original",
+    "ru": "Сохранять смысл оригинала"
+  },
+  "保留专名、数字与语气；未知识别内容留白，不自行补写。": {
+    "en": "Preserve names, numbers and tone. Leave unrecognized content blank rather than inventing it.",
+    "ja": "固有名詞・数字・語調を維持し、不明部分は補完せず空白にします。",
+    "ko": "고유명사·숫자·어조를 유지하고 인식 못 한 부분은 지어내지 않고 비워 둡니다.",
+    "fr": "Conserver noms, nombres et ton. Laisser vide ce qui n’est pas reconnu, sans inventer.",
+    "ru": "Сохранять имена, числа и тон. Оставлять нераспознанное пустым, не выдумывая."
+  },
+  "语音和屏幕识别仍在本机完成；听译需要语音识别包。AI 无法恢复未被识别出的声音或文字，速度与质量也取决于网络和所选模型。连接失败会明确提示，可关闭 AI 使用本地翻译。": {
+    "en": "Recognition stays local and audio requires a speech model. AI cannot recover missed content. Speed and quality depend on network and model. Switch to local mode if the connection fails.",
+    "ja": "認識は端末内で行い、音声モデルが必要です。未認識部分は AI でも復元できません。速度と品質は通信とモデルに依存し、接続失敗時はローカルに切り替えられます。",
+    "ko": "인식은 로컬에서 처리하며 음성 모델이 필요합니다. AI는 누락된 내용을 복원할 수 없습니다. 속도와 품질은 네트워크·모델에 따라 달라지며 연결 실패 시 로컬 모드로 전환할 수 있습니다.",
+    "fr": "La reconnaissance reste locale et nécessite un modèle vocal. L’IA ne restaure pas le contenu manqué. Vitesse et qualité dépendent du réseau et du modèle. Passez en local si la connexion échoue.",
+    "ru": "Распознавание локальное; для речи нужна модель. ИИ не восстановит пропущенное. Скорость и качество зависят от сети и модели. При сбое можно перейти в локальный режим."
+  },
+  "正在读取…": {
+    "en": "Loading…",
+    "ja": "読み込み中…",
+    "ko": "불러오는 중…",
+    "fr": "Chargement…",
+    "ru": "Загрузка…"
+  },
+  "请先识别原文，或手动选择原文语言，再交换语言。": {
+    "en": "Recognize some text or select the source language before swapping.",
+    "ja": "先に原文を認識するか、原文の言語を選んでください。",
+    "ko": "먼저 원문을 인식하거나 원문 언어를 선택하세요.",
+    "fr": "Reconnaissez du texte ou choisissez sa langue avant d’inverser.",
+    "ru": "Сначала распознайте текст или выберите исходный язык."
+  },
+  "请先填写并保存 API 连接，再开启 AI 翻译。": {
+    "en": "Save an API connection before enabling AI translation.",
+    "ja": "先に API 接続を入力・保存してください。",
+    "ko": "AI 번역을 켜기 전에 API 연결을 저장하세요.",
+    "fr": "Enregistrez une connexion API avant d’activer l’IA.",
+    "ru": "Сохраните подключение API перед включением ИИ."
+  },
+  "划词翻译": {
+    "en": "Text translation",
+    "ja": "テキスト翻訳",
+    "ko": "텍스트 번역",
+    "fr": "Traduction de texte",
+    "ru": "Перевод текста"
+  },
+  "屏幕字幕": {
+    "en": "Screen subtitles",
+    "ja": "画面字幕",
+    "ko": "화면 자막",
+    "fr": "Sous-titres d’écran",
+    "ru": "Субтитры экрана"
+  },
+  "实时听译": {
+    "en": "Live audio",
+    "ja": "リアルタイム音声",
+    "ko": "실시간 듣기",
+    "fr": "Traduction audio",
+    "ru": "Перевод речи"
+  },
+  "我的语库": {
+    "en": "My library",
+    "ja": "マイ語彙集",
+    "ko": "내 어휘집",
+    "fr": "Mon lexique",
+    "ru": "Мой словарь"
+  },
+  "听现 ": {
+    "en": " ",
+    "ja": " ",
+    "ko": " ",
+    "fr": " ",
+    "ru": " "
+  },
+  "AI 翻译": {
+    "en": "AI translation",
+    "ja": "AI 翻訳",
+    "ko": "AI 번역",
+    "fr": "Traduction IA",
+    "ru": "Перевод ИИ"
+  },
+  "关闭 AI 翻译，保留 API 配置并使用本地语言包": {
+    "en": "Turn off AI, keep API settings and use local models",
+    "ja": "API 設定を保持し、AI を停止してローカルモデルを使用",
+    "ko": "API 설정을 유지하고 AI를 끈 뒤 로컬 모델 사용",
+    "fr": "Désactiver l’IA, conserver l’API et utiliser les modèles locaux",
+    "ru": "Выключить ИИ, сохранив API, и использовать локальные модели"
+  },
+  "开启 AI 翻译，使用已保存的 API 连接": {
+    "en": "Enable AI with the saved API connection",
+    "ja": "保存済み API 接続で AI を有効化",
+    "ko": "저장된 API 연결로 AI 켜기",
+    "fr": "Activer l’IA avec la connexion enregistrée",
+    "ru": "Включить ИИ с сохранённым подключением"
+  },
+  "切换亮暗主题": {
+    "en": "Switch light/dark theme",
+    "ja": "ライト・ダーク切替",
+    "ko": "밝은/어두운 테마 전환",
+    "fr": "Changer le thème clair/sombre",
+    "ru": "Сменить светлую/тёмную тему"
+  },
+  "最小化": {
+    "en": "Minimize",
+    "ja": "最小化",
+    "ko": "최소화",
+    "fr": "Réduire",
+    "ru": "Свернуть"
+  },
+  "最大化": {
+    "en": "Maximize",
+    "ja": "最大化",
+    "ko": "최대화",
+    "fr": "Agrandir",
+    "ru": "Развернуть"
+  },
+  "关闭应用": {
+    "en": "Close application",
+    "ja": "アプリを閉じる",
+    "ko": "앱 닫기",
+    "fr": "Fermer l’application",
+    "ru": "Закрыть приложение"
+  },
+  "翻译模式": {
+    "en": "Translation modes",
+    "ja": "翻訳モード",
+    "ko": "번역 모드",
+    "fr": "Modes de traduction",
+    "ru": "Режимы перевода"
+  },
+  "应用选项": {
+    "en": "Application options",
+    "ja": "アプリ設定",
+    "ko": "앱 옵션",
+    "fr": "Options de l’application",
+    "ru": "Параметры приложения"
+  },
+  "语言与模型": {
+    "en": "Languages & models",
+    "ja": "言語とモデル",
+    "ko": "언어 및 모델",
+    "fr": "Langues et modèles",
+    "ru": "Языки и модели"
+  },
+  "设置": {
+    "en": "Settings",
+    "ja": "設定",
+    "ko": "설정",
+    "fr": "Paramètres",
+    "ru": "Настройки"
+  },
+  "界面预览 · 桌面采集与离线翻译请在 Windows 应用中使用": {
+    "en": "Interface preview · capture and offline translation require the Windows app",
+    "ja": "画面プレビュー · 取得とオフライン翻訳は Windows アプリで利用できます",
+    "ko": "화면 미리보기 · 캡처와 오프라인 번역은 Windows 앱에서 이용하세요",
+    "fr": "Aperçu · capture et traduction hors ligne nécessitent l’application Windows",
+    "ru": "Предпросмотр · захват и офлайн-перевод доступны в приложении Windows"
+  },
+  "关闭提示": {
+    "en": "Dismiss message",
+    "ja": "通知を閉じる",
+    "ko": "알림 닫기",
+    "fr": "Fermer le message",
+    "ru": "Закрыть сообщение"
+  },
+  "选中文字，即时呈现双语。": {
+    "en": "Select text. Read it in two languages.",
+    "ja": "文字を選んで、二言語で読む。",
+    "ko": "텍스트를 선택하고 두 언어로 읽으세요.",
+    "fr": "Sélectionnez un texte, lisez-le en deux langues.",
+    "ru": "Выделите текст и читайте на двух языках."
+  },
+  "自动划词": {
+    "en": "Auto selection",
+    "ja": "自動選択翻訳",
+    "ko": "자동 선택 번역",
+    "fr": "Sélection automatique",
+    "ru": "Автоперевод выделения"
+  },
+  "已开启：在其他应用中拖动选中文字，将自动显示双语译文。": {
+    "en": "Enabled: select text in another app to see its translation here.",
+    "ja": "有効：他のアプリで文字を選ぶと、ここに対訳を表示します。",
+    "ko": "켜짐: 다른 앱에서 텍스트를 선택하면 여기에 번역이 표시됩니다.",
+    "fr": "Activée : sélectionnez du texte dans une autre application pour le traduire ici.",
+    "ru": "Включено: выделите текст в другом приложении, чтобы увидеть перевод здесь."
+  },
+  "开启自动划词后，在其他应用中选中文字即可翻译。": {
+    "en": "Enable auto selection, then select text in another app.",
+    "ja": "自動選択翻訳を有効にし、他のアプリで文字を選びます。",
+    "ko": "자동 선택 번역을 켜고 다른 앱에서 텍스트를 선택하세요.",
+    "fr": "Activez la sélection automatique puis sélectionnez du texte ailleurs.",
+    "ru": "Включите автоперевод и выделите текст в другом приложении."
+  },
+  "部分应用无法读取选中文字？": {
+    "en": "Can’t read selected text in some apps?",
+    "ja": "一部のアプリで文字を取得できない場合",
+    "ko": "일부 앱에서 선택한 글을 읽을 수 없나요?",
+    "fr": "Texte sélectionné inaccessible ?",
+    "ru": "Не удаётся прочитать выделенный текст?"
+  },
+  "在鼠标框选完成后自动复制一次；应用不支持复制时再尝试辅助功能选区。仅处理当前前台窗口，不连续读取剪贴板。图片、禁止复制及更高权限窗口可能无法取词，可改用屏幕字幕。": {
+    "en": "Copies once after selection, then tries accessibility if copying fails. Only the foreground app is read; the clipboard is not polled continuously. For images, protected text or elevated apps, try screen subtitles.",
+    "ja": "選択後に一度コピーし、失敗時はアクセシビリティを試します。前面アプリのみを読み取り、クリップボードを常時監視しません。画像・コピー禁止・管理者権限の画面には画面字幕をお試しください。",
+    "ko": "선택 후 한 번 복사하고 실패하면 접근성 기능을 사용합니다. 전면 앱만 읽으며 클립보드를 계속 감시하지 않습니다. 이미지·복사 금지·관리자 앱에는 화면 자막을 사용하세요.",
+    "fr": "Copie une fois après sélection, puis essaie l’accessibilité. Seule l’application au premier plan est lue, sans surveillance continue du presse-papiers. Essayez les sous-titres d’écran pour les images ou textes protégés.",
+    "ru": "Копирует выделение один раз, затем пробует специальные возможности. Читает только активное окно, без постоянного опроса буфера. Для изображений, защищённого текста и окон администратора используйте субтитры экрана."
+  },
+  "北京MAIS·AI工作室": {
+    "en": "Beijing MAIS·AI Studio",
+    "ja": "北京 MAIS·AI スタジオ",
+    "ko": "베이징 MAIS·AI 스튜디오",
+    "fr": "Studio MAIS·AI · Pékin",
+    "ru": "Студия MAIS·AI · Пекин"
+  },
+  "AI 翻译 · 原文发送至所选服务商": {
+    "en": "AI translation · text sent to your provider",
+    "ja": "AI 翻訳 · 原文をサービスへ送信",
+    "ko": "AI 번역 · 원문을 서비스에 전송",
+    "fr": "Traduction IA · texte envoyé au fournisseur",
+    "ru": "Перевод ИИ · текст отправляется сервису"
+  },
+  "所有翻译在此设备上处理": {
+    "en": "Translations processed on this device",
+    "ja": "翻訳はこの端末で処理",
+    "ko": "이 기기에서 번역 처리",
+    "fr": "Traductions traitées sur cet appareil",
+    "ru": "Переводы обрабатываются на устройстве"
+  },
+  "本地翻译": {
+    "en": "Local translation",
+    "ja": "ローカル翻訳",
+    "ko": "로컬 번역",
+    "fr": "Traduction locale",
+    "ru": "Локальный перевод"
+  },
+  "未获得音频轨道。请检查 Windows 声音设备和录音权限。": {
+    "en": "No audio track. Check Windows audio devices and recording permissions.",
+    "ja": "音声が取得できません。Windows の音声デバイスと録音権限を確認してください。",
+    "ko": "오디오 트랙이 없습니다. Windows 오디오 장치와 녹음 권한을 확인하세요.",
+    "fr": "Aucune piste audio. Vérifiez les périphériques et autorisations Windows.",
+    "ru": "Нет аудиодорожки. Проверьте устройства и разрешения записи Windows."
+  },
+  "音频设备已断开，请重新开始监听。": {
+    "en": "Audio device disconnected. Start listening again.",
+    "ja": "音声デバイスが切断されました。再度開始してください。",
+    "ko": "오디오 장치가 연결 해제되었습니다. 다시 시작하세요.",
+    "fr": "Périphérique audio déconnecté. Relancez l’écoute.",
+    "ru": "Аудиоустройство отключено. Запустите прослушивание снова."
+  },
+  "听见原声，也听懂每一句。": {
+    "en": "Hear the original. Understand every sentence.",
+    "ja": "原音を聞き、一文ずつ理解する。",
+    "ko": "원음을 듣고 문장의 뜻을 이해하세요.",
+    "fr": "Écoutez l’original, comprenez chaque phrase.",
+    "ru": "Слушайте оригинал и понимайте каждую фразу."
+  },
+  "框选一处字幕，理解便会随画面发生。": {
+    "en": "Select a subtitle region and follow the meaning on screen.",
+    "ja": "字幕範囲を選び、画面と一緒に理解する。",
+    "ko": "자막 영역을 선택하고 화면 속 의미를 따라가세요.",
+    "fr": "Sélectionnez les sous-titres pour suivre leur sens.",
+    "ru": "Выберите область субтитров и следите за смыслом."
+  },
+  "已暂停": {
+    "en": "Paused",
+    "ja": "一時停止中",
+    "ko": "일시 정지됨",
+    "fr": "En pause",
+    "ru": "Пауза"
+  },
+  "正在监听": {
+    "en": "Listening",
+    "ja": "取得中",
+    "ko": "듣는 중",
+    "fr": "En écoute",
+    "ru": "Прослушивание"
+  },
+  "未开启": {
+    "en": "Off",
+    "ja": "未開始",
+    "ko": "꺼짐",
+    "fr": "Désactivé",
+    "ru": "Выключено"
+  },
+  "先识别一段内容，或手动选择识别语言后交换": {
+    "en": "Recognize content or choose its language before swapping",
+    "ja": "認識するか言語を指定してから交換",
+    "ko": "내용을 인식하거나 언어 선택 후 교환",
+    "fr": "Reconnaître du contenu ou choisir sa langue avant d’inverser",
+    "ru": "Распознайте текст или выберите язык перед обменом"
+  },
+  "交换识别语言与第一目标语言，继续实时翻译": {
+    "en": "Swap source and first target; continue translating",
+    "ja": "原文と第 1 目標言語を交換して継続",
+    "ko": "원문과 첫 목표 언어를 바꾸고 계속 번역",
+    "fr": "Inverser la source et la première cible, puis continuer",
+    "ru": "Поменять исходный и первый целевой язык и продолжить"
+  },
+  "交换识别语言与翻译语言，继续实时翻译": {
+    "en": "Swap source and target; continue translating",
+    "ja": "認識言語と翻訳言語を交換して継続",
+    "ko": "인식 언어와 번역 언어를 바꾸고 계속 번역",
+    "fr": "Inverser source et cible, puis continuer",
+    "ru": "Поменять исходный и целевой язык и продолжить"
+  },
+  "系统声音": {
+    "en": "System audio",
+    "ja": "システム音声",
+    "ko": "시스템 소리",
+    "fr": "Son du système",
+    "ru": "Системный звук"
+  },
+  "麦克风": {
+    "en": "Microphone",
+    "ja": "マイク",
+    "ko": "마이크",
+    "fr": "Microphone",
+    "ru": "Микрофон"
+  },
+  "正在倾听…": {
+    "en": "Listening…",
+    "ja": "聞き取り中…",
+    "ko": "듣는 중…",
+    "fr": "À l’écoute…",
+    "ru": "Слушаем…"
+  },
+  "准备好，听懂下一句话": {
+    "en": "Ready for the next sentence",
+    "ja": "次の一文を理解する準備ができました",
+    "ko": "다음 문장을 들을 준비 완료",
+    "fr": "Prêt pour la prochaine phrase",
+    "ru": "Готовы к следующей фразе"
+  },
+  "翻译电脑正在播放的会议、视频与声音。": {
+    "en": "Translate meetings, videos and sound playing on your computer.",
+    "ja": "PC で再生中の会議・動画・音声を翻訳します。",
+    "ko": "컴퓨터에서 재생 중인 회의·영상·소리를 번역합니다.",
+    "fr": "Traduisez réunions, vidéos et sons diffusés sur votre ordinateur.",
+    "ru": "Переводите встречи, видео и звук с компьютера."
+  },
+  "从当前默认麦克风识别并翻译。": {
+    "en": "Recognize and translate from the default microphone.",
+    "ja": "既定のマイクから認識・翻訳します。",
+    "ko": "기본 마이크에서 인식하고 번역합니다.",
+    "fr": "Reconnaître et traduire depuis le microphone par défaut.",
+    "ru": "Распознавание и перевод с микрофона по умолчанию."
+  },
+  "连接音频设备…": {
+    "en": "Connecting audio device…",
+    "ja": "音声デバイスに接続中…",
+    "ko": "오디오 장치 연결 중…",
+    "fr": "Connexion au périphérique audio…",
+    "ru": "Подключение аудиоустройства…"
+  },
+  "停止听译": {
+    "en": "Stop listening",
+    "ja": "聞き取りを停止",
+    "ko": "듣기 중지",
+    "fr": "Arrêter l’écoute",
+    "ru": "Остановить"
+  },
+  "开始听译": {
+    "en": "Start listening",
+    "ja": "聞き取りを開始",
+    "ko": "듣기 시작",
+    "fr": "Démarrer l’écoute",
+    "ru": "Начать прослушивание"
+  },
+  "延迟与识别设置": {
+    "en": "Latency and recognition",
+    "ja": "遅延と認識の設定",
+    "ko": "지연 및 인식 설정",
+    "fr": "Délai et reconnaissance",
+    "ru": "Задержка и распознавание"
+  },
+  "每次先听多久，再翻译 ": {
+    "en": "Listen before translating ",
+    "ja": "翻訳前に聞く時間 ",
+    "ko": "번역 전 듣는 시간 ",
+    "fr": "Écoute avant traduction ",
+    "ru": "Длительность прослушивания перед переводом "
+  },
+  "{0} 秒": {
+    "en": "{0} s",
+    "ja": "{0} 秒",
+    "ko": "{0}초",
+    "fr": "{0} s",
+    "ru": "{0} с"
+  },
+  "每次先听多久再翻译": {
+    "en": "Listening interval before translation",
+    "ja": "翻訳前の聞き取り時間",
+    "ko": "번역 전 듣기 간격",
+    "fr": "Durée d’écoute avant traduction",
+    "ru": "Интервал до перевода"
+  },
+  "更快跟上：适合简短对话；句子容易被截断，准确度可能降低。": {
+    "en": "Fastest: short conversations; cuts may reduce accuracy.",
+    "ja": "最速：短い会話向け。文が途切れ、精度が下がる場合があります。",
+    "ko": "가장 빠름: 짧은 대화용. 문장이 잘려 정확도가 낮아질 수 있습니다.",
+    "fr": "Très rapide : conversations courtes, mais phrases parfois coupées.",
+    "ru": "Самый быстрый: короткие диалоги; обрыв фраз может снизить точность."
+  },
+  "日常推荐：适合视频和聊天，兼顾出字幕速度与句子完整度。": {
+    "en": "Recommended: videos and chat, balancing speed and sentence completeness.",
+    "ja": "推奨：動画や会話で、速度と文の完整性を両立。",
+    "ko": "추천: 영상·대화에서 속도와 문장 완성도의 균형.",
+    "fr": "Recommandé : vidéos et conversations, équilibre vitesse et phrases complètes.",
+    "ru": "Рекомендуется: видео и диалоги, баланс скорости и полноты фраз."
+  },
+  "较完整的短句：适合一般会议，等待略长但语义更连贯。": {
+    "en": "Fuller short sentences: everyday meetings, with a little more waiting.",
+    "ja": "短文をより完整に：通常の会議向け。少し長く待ちます。",
+    "ko": "더 완전한 짧은 문장: 일반 회의용, 대기 시간이 조금 늘어납니다.",
+    "fr": "Phrases courtes plus complètes : réunions, avec un léger délai.",
+    "ru": "Более полные короткие фразы: обычные встречи, небольшая задержка."
+  },
+  "均衡听长句：适合讲解和访谈，给识别更多前后文。": {
+    "en": "Balanced long sentences: explanations and interviews with more context.",
+    "ja": "長文のバランス：解説やインタビューに、より多くの文脈。",
+    "ko": "긴 문장의 균형: 설명·인터뷰에 더 많은 문맥 제공.",
+    "fr": "Phrases longues équilibrées : explications et entretiens avec contexte.",
+    "ru": "Баланс для длинных фраз: пояснения и интервью, больше контекста."
+  },
+  "侧重理解：适合演讲和课程，较长句子更容易完整识别。": {
+    "en": "Understanding first: talks and lessons with fuller long sentences.",
+    "ja": "理解を重視：講演や授業の長文をより完整に認識。",
+    "ko": "이해 우선: 강연·수업의 긴 문장을 더 완전하게 인식.",
+    "fr": "Compréhension : conférences et cours, phrases longues plus complètes.",
+    "ru": "Приоритет понимания: лекции и уроки, более полные длинные фразы."
+  },
+  "更多前后文：适合语速平稳的长段讲述，字幕出现会更晚。": {
+    "en": "More context: steady narration, with later subtitles.",
+    "ja": "文脈を増やす：安定した語り向け。字幕表示は遅くなります。",
+    "ko": "더 많은 문맥: 일정한 속도의 설명용. 자막이 늦게 표시됩니다.",
+    "fr": "Plus de contexte : narration régulière, sous-titres plus tardifs.",
+    "ru": "Больше контекста: размеренная речь, субтитры появляются позже."
+  },
+  "优先完整性：适合长句和复杂表达，每次需要等待更久。": {
+    "en": "Completeness first: complex, long sentences; longest wait.",
+    "ja": "完整性を優先：複雑な長文向け。待ち時間が最長です。",
+    "ko": "완성도 우선: 복잡하고 긴 문장용. 대기 시간이 가장 깁니다.",
+    "fr": "Priorité aux phrases complètes : expressions complexes, délai maximal.",
+    "ru": "Приоритет полноты: сложные длинные фразы, максимальное ожидание."
+  },
+  "例如选 3 秒，会先收集约 3 秒声音，再识别并翻译。实际等待还包含识别与翻译处理时间，AI 模式也包含网络等待；调整后下次开始听译生效。": {
+    "en": "At 3 seconds, audio is collected for about 3 seconds before processing. Recognition, translation and AI network time add to the delay. Changes apply when listening restarts.",
+    "ja": "3 秒なら約 3 秒録音してから処理します。認識・翻訳・AI 通信時間が加わります。変更は次回の開始時に適用します。",
+    "ko": "3초를 선택하면 약 3초 수집 후 처리합니다. 인식·번역·AI 통신 시간이 추가되며 다시 시작할 때 적용됩니다.",
+    "fr": "À 3 secondes, le son est collecté pendant environ 3 s avant traitement. Reconnaissance, traduction et réseau ajoutent un délai. Applicable au prochain démarrage.",
+    "ru": "При 3 с сначала собирается около 3 с звука, затем выполняется обработка. Распознавание, перевод и сеть добавляют задержку. Изменения действуют при следующем запуске."
+  },
+  " · 已合并等待 {0} 次（可能漏掉过载期间的内容）": {
+    "en": " · Queue merged {0} times (overloaded audio may be missed)",
+    "ja": " · 待機を {0} 回統合（過負荷時は欠落する場合があります）",
+    "ko": " · 대기 {0}회 병합(과부하 시 내용이 누락될 수 있음)",
+    "fr": " · File fusionnée {0} fois (pertes possibles en surcharge)",
+    "ru": " · Очередь объединена {0} раз (при перегрузке возможны пропуски)"
+  },
+  "最近处理耗时 {0} 秒{1}": {
+    "en": "Last processing time: {0} s{1}",
+    "ja": "直近の処理時間：{0} 秒{1}",
+    "ko": "최근 처리 시간: {0}초{1}",
+    "fr": "Dernier traitement : {0} s{1}",
+    "ru": "Последняя обработка: {0} с{1}"
+  },
+  "你的识别文字区域": {
+    "en": "Your recognition region",
+    "ja": "文字認識エリア",
+    "ko": "문자 인식 영역",
+    "fr": "Votre zone de reconnaissance",
+    "ru": "Ваша область распознавания"
+  },
+  "识别文字区域已选定": {
+    "en": "Recognition region selected",
+    "ja": "認識エリアを選択済み",
+    "ko": "인식 영역 선택됨",
+    "fr": "Zone de reconnaissance sélectionnée",
+    "ru": "Область распознавания выбрана"
+  },
+  "先告诉我，字幕在哪里": {
+    "en": "Show me where the subtitles are",
+    "ja": "字幕の位置を指定してください",
+    "ko": "자막 위치를 알려 주세요",
+    "fr": "Indiquez où sont les sous-titres",
+    "ru": "Укажите, где находятся субтитры"
+  },
+  "{0} × {1} · 可以随时重新框选": {
+    "en": "{0} × {1} · Reselect at any time",
+    "ja": "{0} × {1} · いつでも再選択できます",
+    "ko": "{0} × {1} · 언제든 다시 선택 가능",
+    "fr": "{0} × {1} · Modifiable à tout moment",
+    "ru": "{0} × {1} · Можно выбрать заново"
+  },
+  "点击下方按钮，然后在桌面上拖动框选字幕。按 Esc 取消。": {
+    "en": "Click below, then drag a region on your desktop. Esc cancels.",
+    "ja": "下のボタンを押し、デスクトップ上で範囲をドラッグします。Esc で取消。",
+    "ko": "아래 버튼을 누른 뒤 바탕 화면에서 영역을 드래그하세요. Esc로 취소합니다.",
+    "fr": "Cliquez ci-dessous puis tracez une zone sur le bureau. Échap pour annuler.",
+    "ru": "Нажмите кнопку ниже и выделите область на рабочем столе. Esc — отмена."
+  },
+  "开始选框": {
+    "en": "Select region",
+    "ja": "範囲を選択",
+    "ko": "영역 선택",
+    "fr": "Choisir une zone",
+    "ru": "Выбрать область"
+  },
+  "重新选框": {
+    "en": "Reselect",
+    "ja": "範囲を再選択",
+    "ko": "다시 선택",
+    "fr": "Redéfinir",
+    "ru": "Выбрать заново"
+  },
+  "停止翻译": {
+    "en": "Stop translation",
+    "ja": "翻訳を停止",
+    "ko": "번역 중지",
+    "fr": "Arrêter la traduction",
+    "ru": "Остановить перевод"
+  },
+  "开始翻译": {
+    "en": "Start translation",
+    "ja": "翻訳を開始",
+    "ko": "번역 시작",
+    "fr": "Démarrer la traduction",
+    "ru": "Начать перевод"
+  },
+  "继续翻译": {
+    "en": "Resume",
+    "ja": "翻訳を再開",
+    "ko": "번역 재개",
+    "fr": "Reprendre",
+    "ru": "Продолжить"
+  },
+  "暂停翻译": {
+    "en": "Pause",
+    "ja": "一時停止",
+    "ko": "일시 정지",
+    "fr": "Pause",
+    "ru": "Пауза"
+  },
+  "每次识别完成后约 650ms 再次检测 · 重复字幕自动去重": {
+    "en": "Check again ~650 ms after recognition · duplicate subtitles skipped",
+    "ja": "認識後約 650 ms で再検出 · 重複字幕を除外",
+    "ko": "인식 완료 약 650ms 후 재감지 · 중복 자막 제외",
+    "fr": "Nouvelle détection ~650 ms après reconnaissance · doublons ignorés",
+    "ru": "Повторная проверка через ~650 мс после распознавания · без дублей"
+  },
+  "已有录音或视频？": {
+    "en": "Already have an audio or video file?",
+    "ja": "録音や動画ファイルはありますか？",
+    "ko": "녹음이나 영상 파일이 있나요?",
+    "fr": "Vous avez déjà un fichier audio ou vidéo ?",
+    "ru": "Уже есть запись или видео?"
+  },
+  "直接导入，在这里生成逐句双语字幕。支持 MP3、WAV、MP4 等。": {
+    "en": "Import it to generate bilingual subtitles. MP3, WAV, MP4 and more.",
+    "ja": "読み込んで対訳字幕を作成します。MP3、WAV、MP4 などに対応。",
+    "ko": "파일을 가져와 이중 언어 자막을 만드세요. MP3, WAV, MP4 등을 지원합니다.",
+    "fr": "Importez-le pour créer des sous-titres bilingues. MP3, WAV, MP4, etc.",
+    "ru": "Импортируйте для создания двуязычных субтитров. MP3, WAV, MP4 и другие."
+  },
+  "正在翻译…": {
+    "en": "Translating…",
+    "ja": "翻訳中…",
+    "ko": "번역 중…",
+    "fr": "Traduction…",
+    "ru": "Перевод…"
+  },
+  "导入文件": {
+    "en": "Import file",
+    "ja": "ファイルを読み込む",
+    "ko": "파일 가져오기",
+    "fr": "Importer un fichier",
+    "ru": "Импорт файла"
+  },
+  "导出 SRT": {
+    "en": "Export SRT",
+    "ja": "SRT を出力",
+    "ko": "SRT 내보내기",
+    "fr": "Exporter en SRT",
+    "ru": "Экспорт SRT"
+  },
+  "字幕外观": {
+    "en": "Subtitle appearance",
+    "ja": "字幕の外観",
+    "ko": "자막 모양",
+    "fr": "Apparence des sous-titres",
+    "ru": "Вид субтитров"
+  },
+  "双语记录": {
+    "en": "Bilingual transcript",
+    "ja": "対訳記録",
+    "ko": "이중 언어 기록",
+    "fr": "Transcription bilingue",
+    "ru": "Двуязычная расшифровка"
+  },
+  "暂时无法完成操作，请重试。": {
+    "en": "Unable to complete this action. Try again.",
+    "ja": "操作を完了できません。再試行してください。",
+    "ko": "작업을 완료할 수 없습니다. 다시 시도하세요.",
+    "fr": "Action impossible. Réessayez.",
+    "ru": "Не удалось выполнить действие. Повторите попытку."
+  },
+  "取消关闭": {
+    "en": "Cancel closing",
+    "ja": "閉じる操作を取消",
+    "ko": "닫기 취소",
+    "fr": "Annuler la fermeture",
+    "ru": "Отменить закрытие"
+  },
+  "如何关闭听现？": {
+    "en": "How would you like to close Lishon?",
+    "ja": "Lishon をどう閉じますか？",
+    "ko": "Lishon을 어떻게 닫을까요?",
+    "fr": "Comment fermer Lishon ?",
+    "ru": "Как закрыть Lishon?"
+  },
+  "暂时离开，或结束本次使用。": {
+    "en": "Step away, or end this session.",
+    "ja": "一時的に離れるか、利用を終了します。",
+    "ko": "잠시 창을 접거나 사용을 종료하세요.",
+    "fr": "Faire une pause ou terminer la session.",
+    "ru": "Свернуть окно или завершить сеанс."
+  },
+  "收起窗口，翻译继续进行": {
+    "en": "Hide the window and keep translating",
+    "ja": "ウィンドウをしまい、翻訳を継続",
+    "ko": "창을 접고 번역 계속하기",
+    "fr": "Réduire la fenêtre, poursuivre la traduction",
+    "ru": "Свернуть окно и продолжить перевод"
+  },
+  "退出软件": {
+    "en": "Quit app",
+    "ja": "アプリを終了",
+    "ko": "앱 종료",
+    "fr": "Quitter l’application",
+    "ru": "Выйти из приложения"
+  },
+  "结束本次使用，停止识别与监听": {
+    "en": "End this session and stop recognition and listening",
+    "ja": "利用を終了し、認識と聞き取りを停止",
+    "ko": "사용을 종료하고 인식·듣기 중지",
+    "fr": "Terminer la session et arrêter la reconnaissance",
+    "ru": "Завершить сеанс и остановить распознавание"
+  },
+  "记住我的选择": {
+    "en": "Remember my choice",
+    "ja": "選択を記憶する",
+    "ko": "선택 기억하기",
+    "fr": "Mémoriser mon choix",
+    "ru": "Запомнить мой выбор"
+  },
+  "之后可在「设置 · 窗口行为」中修改": {
+    "en": "Change this later in Settings → Window behavior",
+    "ja": "後で「設定 → ウィンドウの動作」で変更できます",
+    "ko": "나중에 설정 → 창 동작에서 변경할 수 있습니다",
+    "fr": "Modifiable dans Paramètres → Comportement de la fenêtre",
+    "ru": "Можно изменить в Настройки → Поведение окна"
+  },
+  "原文语言": {
+    "en": "Source language",
+    "ja": "原文の言語",
+    "ko": "원문 언어",
+    "fr": "Langue source",
+    "ru": "Исходный язык"
+  },
+  "自动 · 含混合语种": {
+    "en": "Auto · mixed languages",
+    "ja": "自動 · 混合言語",
+    "ko": "자동 · 혼합 언어",
+    "fr": "Auto · langues mêlées",
+    "ru": "Авто · смешанные языки"
+  },
+  "自动 · 中英日韩俄": {
+    "en": "Auto · ZH EN JA KO RU",
+    "ja": "自動 · 中英日韓露",
+    "ko": "자동 · 중영일한러",
+    "fr": "Auto · ZH EN JA KO RU",
+    "ru": "Авто · ZH EN JA KO RU"
+  },
+  "等待翻译完成，或先选择原文语言": {
+    "en": "Wait for translation or choose a source language",
+    "ja": "翻訳完了を待つか原文言語を選択",
+    "ko": "번역 완료를 기다리거나 원문 언어 선택",
+    "fr": "Attendre la traduction ou choisir la langue source",
+    "ru": "Дождитесь перевода или выберите исходный язык"
+  },
+  "将第一种译文与原文交换": {
+    "en": "Swap source with the first translation",
+    "ja": "原文と第 1 訳文を交換",
+    "ko": "원문과 첫 번역 교환",
+    "fr": "Inverser l’original et la première traduction",
+    "ru": "Поменять оригинал и первый перевод"
+  },
+  "交换原文与译文语言及内容": {
+    "en": "Swap source and target languages and text",
+    "ja": "原文と訳文の言語・内容を交換",
+    "ko": "원문·번역 언어와 내용 교환",
+    "fr": "Inverser les langues et les textes",
+    "ru": "Поменять языки и тексты местами"
+  },
+  "多语种的目标语言请在设置中调整": {
+    "en": "Change multiple target languages in Settings",
+    "ja": "複数の目標言語は設定で変更",
+    "ko": "여러 목표 언어는 설정에서 변경",
+    "fr": "Modifier les langues cibles dans les paramètres",
+    "ru": "Несколько целевых языков меняются в настройках"
+  },
+  "交换语言": {
+    "en": "Swap languages",
+    "ja": "言語を交換",
+    "ko": "언어 교환",
+    "fr": "Inverser les langues",
+    "ru": "Поменять языки"
+  },
+  "目标语言": {
+    "en": "Target language",
+    "ja": "翻訳先の言語",
+    "ko": "목표 언어",
+    "fr": "Langue cible",
+    "ru": "Целевой язык"
+  },
+  "原文和译文字号": {
+    "en": "Source and translation text size",
+    "ja": "原文と訳文の文字サイズ",
+    "ko": "원문·번역 글자 크기",
+    "fr": "Taille des textes source et traduit",
+    "ru": "Размер текста оригинала и перевода"
+  },
+  "字号": {
+    "en": "Text size",
+    "ja": "文字サイズ",
+    "ko": "글자 크기",
+    "fr": "Taille du texte",
+    "ru": "Размер текста"
+  },
+  "阅读字号": {
+    "en": "Reading text size",
+    "ja": "読み取り文字サイズ",
+    "ko": "읽기 글자 크기",
+    "fr": "Taille de lecture",
+    "ru": "Размер текста для чтения"
+  },
+  "原文": {
+    "en": "Original",
+    "ja": "原文",
+    "ko": "원문",
+    "fr": "Original",
+    "ru": "Оригинал"
+  },
+  "译文": {
+    "en": "Translation",
+    "ja": "訳文",
+    "ko": "번역",
+    "fr": "Traduction",
+    "ru": "Перевод"
+  },
+  "小": {
+    "en": "Small",
+    "ja": "小",
+    "ko": "작게",
+    "fr": "Petit",
+    "ru": "Малый"
+  },
+  "中": {
+    "en": "Medium",
+    "ja": "中",
+    "ko": "중간",
+    "fr": "Moyen",
+    "ru": "Средний"
+  },
+  "大": {
+    "en": "Large",
+    "ja": "大",
+    "ko": "크게",
+    "fr": "Grand",
+    "ru": "Крупный"
+  },
+  "号": {
+    "en": " size",
+    "ja": "サイズ",
+    "ko": " 크기",
+    "fr": " taille",
+    "ru": " размер"
+  },
+  "当前目录缺少语音识别模型": {
+    "en": "Speech model missing from this folder",
+    "ja": "このフォルダーに音声モデルがありません",
+    "ko": "이 폴더에 음성 모델이 없습니다",
+    "fr": "Modèle vocal absent de ce dossier",
+    "ru": "В этой папке нет речевой модели"
+  },
+  "当前语言方向未包含本地直译包": {
+    "en": "No local model for this translation direction",
+    "ja": "この方向の直接翻訳モデルがありません",
+    "ko": "이 번역 방향의 로컬 모델이 없습니다",
+    "fr": "Aucun modèle local pour ce sens de traduction",
+    "ru": "Нет локальной модели для этого направления"
+  },
+  "缺少到 {0} 的直译方向。内置包支持英语与其他 7 种语言互译；其他组合可开启 AI 直译。": {
+    "en": "Missing direct translation to {0}. Packs support English ↔ 7 other languages. Use AI for other pairs.",
+    "ja": "{0} への直接翻訳がありません。パックは英語と他の 7 言語間に対応。他の組合せは AI を使用してください。",
+    "ko": "{0} 직접 번역이 없습니다. 팩은 영어와 다른 7개 언어 간 번역을 지원합니다. 다른 조합은 AI를 사용하세요.",
+    "fr": "Traduction directe vers {0} absente. Les packs relient l’anglais à 7 langues. Utilisez l’IA pour les autres paires.",
+    "ru": "Нет прямого перевода на {0}. Пакеты связывают английский с 7 языками. Для других пар используйте ИИ."
+  },
+  "实际读取目录：{0}": {
+    "en": "Model folder: {0}",
+    "ja": "読込先：{0}",
+    "ko": "모델 폴더: {0}",
+    "fr": "Dossier des modèles : {0}",
+    "ru": "Папка моделей: {0}"
+  },
+  "查看模型": {
+    "en": "View models",
+    "ja": "モデルを見る",
+    "ko": "모델 보기",
+    "fr": "Voir les modèles",
+    "ru": "Посмотреть модели"
+  },
+  "最近翻译": {
+    "en": "Recent translations",
+    "ja": "最近の翻訳",
+    "ko": "최근 번역",
+    "fr": "Traductions récentes",
+    "ru": "Недавние переводы"
+  },
+  "清空历史": {
+    "en": "Clear history",
+    "ja": "履歴を消去",
+    "ko": "기록 지우기",
+    "fr": "Effacer l’historique",
+    "ru": "Очистить историю"
+  },
+  "暂时没有记录。可在设置中开启本地翻译历史。": {
+    "en": "No history yet. Enable local history in Settings.",
+    "ja": "履歴はありません。設定でローカル履歴を有効にできます。",
+    "ko": "기록이 없습니다. 설정에서 로컬 기록을 켤 수 있습니다.",
+    "fr": "Aucun historique. Activez l’historique local dans les paramètres.",
+    "ru": "История пуста. Включите локальную историю в настройках."
+  },
+  "需要先删除至少 {0} 条记录才能启用实时高亮；关闭时仍可继续收藏和检索。": {
+    "en": "Delete at least {0} records to enable live highlighting. Saving and search still work with it off.",
+    "ja": "リアルタイム強調には最低 {0} 件削除してください。無効時も保存と検索は使えます。",
+    "ko": "실시간 강조를 켜려면 최소 {0}개를 삭제하세요. 꺼도 저장과 검색은 가능합니다.",
+    "fr": "Supprimez au moins {0} éléments pour activer le surlignage. L’enregistrement et la recherche restent disponibles.",
+    "ru": "Удалите минимум {0} записей для подсветки. Сохранение и поиск доступны и без неё."
+  },
+  "把遇见的词句，留在自己的语言里。": {
+    "en": "Keep the words and sentences you discover.",
+    "ja": "出会った言葉を、自分の語彙に。",
+    "ko": "만난 단어와 문장을 내 언어로 남기세요.",
+    "fr": "Gardez les mots et phrases que vous découvrez.",
+    "ru": "Сохраняйте новые слова и выражения."
+  },
+  "{0} 条 · 本地保存": {
+    "en": "{0} records · saved locally",
+    "ja": "{0} 件 · ローカル保存",
+    "ko": "{0}개 · 로컬 저장",
+    "fr": "{0} éléments · enregistrés localement",
+    "ru": "{0} записей · локально"
+  },
+  "实时翻译中显示收藏的单词": {
+    "en": "Highlight favorite words in live translations",
+    "ja": "リアルタイム翻訳でお気に入りの単語を強調",
+    "ko": "실시간 번역에서 즐겨찾는 단어 강조",
+    "fr": "Surligner les favoris dans les traductions en direct",
+    "ru": "Подсвечивать избранные слова в переводе"
+  },
+  "开启后，最多索引 {0} 条语库记录。关闭实时高亮可继续收藏，关键词检索始终可用。": {
+    "en": "Indexes up to {0} records. Turn highlighting off to keep saving beyond the limit. Keyword search always remains available.",
+    "ja": "最大 {0} 件を索引化します。上限後も保存するには強調を無効にします。キーワード検索は常に利用可能です。",
+    "ko": "최대 {0}개를 색인합니다. 강조를 끄면 한도를 넘어 저장할 수 있습니다. 키워드 검색은 계속 가능합니다.",
+    "fr": "Indexe jusqu’à {0} éléments. Désactivez le surlignage pour dépasser cette limite. La recherche reste disponible.",
+    "ru": "Индексирует до {0} записей. Отключите подсветку для сохранения сверх лимита. Поиск всегда доступен."
+  },
+  "实时翻译高亮收藏词": {
+    "en": "Highlight favorite words live",
+    "ja": "お気に入りをリアルタイム強調",
+    "ko": "즐겨찾는 단어 실시간 강조",
+    "fr": "Surligner les favoris en direct",
+    "ru": "Подсветка избранных слов"
+  },
+  "收藏词高亮配色": {
+    "en": "Favorite highlight colors",
+    "ja": "お気に入りの強調色",
+    "ko": "즐겨찾기 강조 색상",
+    "fr": "Couleurs du surlignage des favoris",
+    "ru": "Цвета подсветки избранного"
+  },
+  "文字颜色": {
+    "en": "Text color",
+    "ja": "文字色",
+    "ko": "글자 색상",
+    "fr": "Couleur du texte",
+    "ru": "Цвет текста"
+  },
+  "收藏词文字颜色": {
+    "en": "Favorite text color",
+    "ja": "お気に入りの文字色",
+    "ko": "즐겨찾기 글자 색상",
+    "fr": "Couleur du texte des favoris",
+    "ru": "Цвет текста избранного"
+  },
+  "背景颜色": {
+    "en": "Background color",
+    "ja": "背景色",
+    "ko": "배경 색상",
+    "fr": "Couleur de fond",
+    "ru": "Цвет фона"
+  },
+  "收藏词背景颜色": {
+    "en": "Favorite background color",
+    "ja": "お気に入りの背景色",
+    "ko": "즐겨찾기 배경 색상",
+    "fr": "Fond des favoris",
+    "ru": "Фон избранного"
+  },
+  "word 单词": {
+    "en": "Sample word",
+    "ja": "単語の例",
+    "ko": "예시 단어",
+    "fr": "Exemple de mot",
+    "ru": "Пример слова"
+  },
+  "知道了": {
+    "en": "Got it",
+    "ja": "了解",
+    "ko": "확인",
+    "fr": "Compris",
+    "ru": "Понятно"
+  },
+  "喜欢的单词": {
+    "en": "Favorite words",
+    "ja": "お気に入りの単語",
+    "ko": "즐겨찾는 단어",
+    "fr": "Mots favoris",
+    "ru": "Избранные слова"
+  },
+  "单词卡片": {
+    "en": "Word cards",
+    "ja": "単語カード",
+    "ko": "단어 카드",
+    "fr": "Fiches de mots",
+    "ru": "Карточки слов"
+  },
+  "句子卡片": {
+    "en": "Sentence cards",
+    "ja": "例文カード",
+    "ko": "문장 카드",
+    "fr": "Fiches de phrases",
+    "ru": "Карточки фраз"
+  },
+  "检索语库": {
+    "en": "Search library",
+    "ja": "語彙集を検索",
+    "ko": "어휘집 검색",
+    "fr": "Rechercher dans le lexique",
+    "ru": "Поиск по словарю"
+  },
+  "检索单词、句子或释义": {
+    "en": "Search words, sentences or definitions",
+    "ja": "単語・例文・意味を検索",
+    "ko": "단어·문장·뜻 검색",
+    "fr": "Mots, phrases ou définitions",
+    "ru": "Слова, фразы или определения"
+  },
+  "语库排序": {
+    "en": "Library sort order",
+    "ja": "語彙集の並び順",
+    "ko": "어휘집 정렬",
+    "fr": "Tri du lexique",
+    "ru": "Сортировка словаря"
+  },
+  "按收藏时间": {
+    "en": "By date saved",
+    "ja": "保存日時順",
+    "ko": "저장 날짜순",
+    "fr": "Par date d’ajout",
+    "ru": "По дате добавления"
+  },
+  "按开头字母": {
+    "en": "Alphabetical",
+    "ja": "アルファベット順",
+    "ko": "알파벳순",
+    "fr": "Ordre alphabétique",
+    "ru": "По алфавиту"
+  },
+  "筛选译文语种": {
+    "en": "Filter translation languages",
+    "ja": "訳文の言語で絞り込む",
+    "ko": "번역 언어 필터",
+    "fr": "Filtrer les langues de traduction",
+    "ru": "Фильтр языков перевода"
+  },
+  "全部语种": {
+    "en": "All languages",
+    "ja": "すべての言語",
+    "ko": "모든 언어",
+    "fr": "Toutes les langues",
+    "ru": "Все языки"
+  },
+  "批量删除 ": {
+    "en": "Delete selected ",
+    "ja": "選択を削除 ",
+    "ko": "선택 삭제 ",
+    "fr": "Supprimer la sélection ",
+    "ru": "Удалить выбранные "
+  },
+  "译文语种筛选": {
+    "en": "Translation language filter",
+    "ja": "訳文言語フィルター",
+    "ko": "번역 언어 필터",
+    "fr": "Filtre de langues cibles",
+    "ru": "Фильтр целевых языков"
+  },
+  "全部": {
+    "en": "All",
+    "ja": "すべて",
+    "ko": "전체",
+    "fr": "Tout",
+    "ru": "Все"
+  },
+  "可多选；相同原文的不同语种译文并排对照。": {
+    "en": "Select multiple languages to compare translations of the same original side by side.",
+    "ja": "複数選択すると同じ原文の訳を横並びで比較できます。",
+    "ko": "여러 언어를 선택하면 같은 원문의 번역을 나란히 비교합니다.",
+    "fr": "Choisissez plusieurs langues pour comparer les traductions d’un même original.",
+    "ru": "Выберите несколько языков для сравнения переводов одного оригинала."
+  },
+  "选择本页记录": {
+    "en": "Select records on this page",
+    "ja": "このページの記録を選択",
+    "ko": "현재 페이지 기록 선택",
+    "fr": "Sélectionner les éléments de cette page",
+    "ru": "Выбрать записи на странице"
+  },
+  "选择本页": {
+    "en": "Select page",
+    "ja": "このページを選択",
+    "ko": "현재 페이지 선택",
+    "fr": "Sélectionner la page",
+    "ru": "Выбрать страницу"
+  },
+  "显示收藏日期": {
+    "en": "Show saved dates",
+    "ja": "保存日を表示",
+    "ko": "저장 날짜 표시",
+    "fr": "Afficher les dates d’ajout",
+    "ru": "Показывать даты добавления"
+  },
+  "退出选择": {
+    "en": "Exit selection",
+    "ja": "選択を終了",
+    "ko": "선택 종료",
+    "fr": "Quitter la sélection",
+    "ru": "Выйти из выбора"
+  },
+  "选择 ": {
+    "en": "Select ",
+    "ja": "選択 ",
+    "ko": "선택 ",
+    "fr": "Sélectionner ",
+    "ru": "Выбрать "
+  },
+  "没有找到对应记录": {
+    "en": "No matching records",
+    "ja": "一致する記録はありません",
+    "ko": "일치하는 기록이 없습니다",
+    "fr": "Aucun résultat",
+    "ru": "Совпадений нет"
+  },
+  "从一个词，开始积累": {
+    "en": "Start with one word",
+    "ja": "ひとつの単語から始める",
+    "ko": "단어 하나부터 시작하세요",
+    "fr": "Commencez par un mot",
+    "ru": "Начните с одного слова"
+  },
+  "在划词翻译中点击单词，或框选句子，添加到这里。": {
+    "en": "Click a word or select a sentence in Text translation to save it here.",
+    "ja": "テキスト翻訳で単語をクリック、または文を選択して保存します。",
+    "ko": "텍스트 번역에서 단어를 클릭하거나 문장을 선택해 저장하세요.",
+    "fr": "Cliquez sur un mot ou sélectionnez une phrase dans la traduction de texte pour l’ajouter.",
+    "ru": "Нажмите слово или выделите фразу в переводе текста, чтобы сохранить здесь."
+  },
+  "共 {0} 组": {
+    "en": "{0} groups total",
+    "ja": "全 {0} グループ",
+    "ko": "총 {0}개 그룹",
+    "fr": "{0} groupes au total",
+    "ru": "Всего групп: {0}"
+  },
+  "语库上一页": {
+    "en": "Previous library page",
+    "ja": "語彙集の前ページ",
+    "ko": "어휘집 이전 페이지",
+    "fr": "Page précédente du lexique",
+    "ru": "Предыдущая страница словаря"
+  },
+  "语库下一页": {
+    "en": "Next library page",
+    "ja": "語彙集の次ページ",
+    "ko": "어휘집 다음 페이지",
+    "fr": "Page suivante du lexique",
+    "ru": "Следующая страница словаря"
+  },
+  "英": {
+    "en": "EN",
+    "ja": "英",
+    "ko": "EN",
+    "fr": "EN",
+    "ru": "EN"
+  },
+  "日": {
+    "en": "JA",
+    "ja": "日",
+    "ko": "JA",
+    "fr": "JA",
+    "ru": "JA"
+  },
+  "韩": {
+    "en": "KO",
+    "ja": "韓",
+    "ko": "KO",
+    "fr": "KO",
+    "ru": "KO"
+  },
+  "法": {
+    "en": "FR",
+    "ja": "仏",
+    "ko": "FR",
+    "fr": "FR",
+    "ru": "FR"
+  },
+  "德": {
+    "en": "DE",
+    "ja": "独",
+    "ko": "DE",
+    "fr": "DE",
+    "ru": "DE"
+  },
+  "西": {
+    "en": "ES",
+    "ja": "西",
+    "ko": "ES",
+    "fr": "ES",
+    "ru": "ES"
+  },
+  "俄": {
+    "en": "RU",
+    "ja": "露",
+    "ko": "RU",
+    "fr": "RU",
+    "ru": "RU"
+  },
+  "译": {
+    "en": "TR",
+    "ja": "訳",
+    "ko": "역",
+    "fr": "TR",
+    "ru": "ПР"
+  },
+  "释义": {
+    "en": "Definition",
+    "ja": "意味",
+    "ko": "뜻",
+    "fr": "Définition",
+    "ru": "Определение"
+  },
+  "暂无词典释义": {
+    "en": "No dictionary definition available",
+    "ja": "辞書の意味はありません",
+    "ko": "사전 뜻이 없습니다",
+    "fr": "Aucune définition disponible",
+    "ru": "Определение отсутствует"
+  },
+  "收起完整释义": {
+    "en": "Collapse definitions",
+    "ja": "意味を折りたたむ",
+    "ko": "뜻 접기",
+    "fr": "Réduire les définitions",
+    "ru": "Свернуть определения"
+  },
+  "展开完整释义": {
+    "en": "Expand definitions",
+    "ja": "意味をすべて表示",
+    "ko": "뜻 펼치기",
+    "fr": "Développer les définitions",
+    "ru": "Развернуть определения"
+  },
+  "AI 与本地翻译，按需切换。": {
+    "en": "Switch between AI and local translation as needed.",
+    "ja": "AI とローカル翻訳を必要に応じて切り替え。",
+    "ko": "필요에 따라 AI와 로컬 번역을 전환하세요.",
+    "fr": "Alternez entre traduction IA et locale.",
+    "ru": "Переключайтесь между ИИ и локальным переводом."
+  },
+  "模型存储位置": {
+    "en": "Model storage folder",
+    "ja": "モデル保存先",
+    "ko": "모델 저장 폴더",
+    "fr": "Dossier des modèles",
+    "ru": "Папка хранения моделей"
+  },
+  "打开目录": {
+    "en": "Open folder",
+    "ja": "フォルダーを開く",
+    "ko": "폴더 열기",
+    "fr": "Ouvrir le dossier",
+    "ru": "Открыть папку"
+  },
+  "更改": {
+    "en": "Change",
+    "ja": "変更",
+    "ko": "변경",
+    "fr": "Modifier",
+    "ru": "Изменить"
+  },
+  "更改目录不会移动或删除原模型。可选择已有模型目录，或在新位置重新下载。": {
+    "en": "Changing the folder does not move or delete models. Select an existing folder or download into the new one.",
+    "ja": "保存先を変更しても既存モデルは移動・削除しません。既存フォルダーを選ぶか新しい場所にダウンロードしてください。",
+    "ko": "폴더를 바꿔도 모델을 옮기거나 삭제하지 않습니다. 기존 폴더를 선택하거나 새 위치에 내려받으세요.",
+    "fr": "Changer de dossier ne déplace ni ne supprime les modèles. Choisissez un dossier existant ou téléchargez dans le nouveau.",
+    "ru": "Смена папки не перемещает и не удаляет модели. Выберите существующую папку или скачайте в новую."
+  },
+  "正在准备下载…": {
+    "en": "Preparing download…",
+    "ja": "ダウンロード準備中…",
+    "ko": "다운로드 준비 중…",
+    "fr": "Préparation du téléchargement…",
+    "ru": "Подготовка загрузки…"
+  },
+  "AI 直接互译 · 已启用": {
+    "en": "Direct AI translation · enabled",
+    "ja": "AI 直接翻訳 · 有効",
+    "ko": "AI 직접 번역 · 켜짐",
+    "fr": "Traduction IA directe · activée",
+    "ru": "Прямой перевод ИИ · включён"
+  },
+  "本地直接翻译 · 不使用英语中转": {
+    "en": "Direct local translation · no English pivot",
+    "ja": "ローカル直接翻訳 · 英語経由なし",
+    "ko": "로컬 직접 번역 · 영어 중계 없음",
+    "fr": "Traduction locale directe · sans pivot anglais",
+    "ru": "Прямой локальный перевод · без английского посредника"
+  },
+  "将识别到的原文直接翻译为所选目标语种，支持一句中混合多种语言。AI 翻译无需下载下面的离线包。": {
+    "en": "AI translates the original directly to the target, including mixed-language sentences. Offline translation packs are not required.",
+    "ja": "AI は混合言語を含む原文を直接翻訳します。オフライン翻訳パックは不要です。",
+    "ko": "AI는 혼합 언어 문장도 원문에서 목표 언어로 직접 번역합니다. 오프라인 번역 팩은 필요 없습니다.",
+    "fr": "L’IA traduit directement l’original, même multilingue. Aucun pack de traduction hors ligne requis.",
+    "ru": "ИИ переводит оригинал напрямую, включая смешанные языки. Офлайн-пакеты перевода не нужны."
+  },
+  "本地翻译需要原文 → 目标语种的对应直译包。缺少该方向时会提示启用 AI，不会通过英语二次翻译。": {
+    "en": "Local mode needs a direct source → target model. Missing pairs prompt you to use AI, without translating through English.",
+    "ja": "ローカルには原文→目標言語の直接モデルが必要です。不足時は AI を案内し、英語経由の再翻訳はしません。",
+    "ko": "로컬 모드에는 원문→목표 언어의 직접 모델이 필요합니다. 없으면 AI를 안내하며 영어 중계 번역은 하지 않습니다.",
+    "fr": "Le mode local exige un modèle source → cible. Si absent, l’IA est proposée, sans détour par l’anglais.",
+    "ru": "Для локального режима нужна модель исходный → целевой язык. При её отсутствии предлагается ИИ, без перевода через английский."
+  },
+  "管理 AI 连接": {
+    "en": "Manage AI connection",
+    "ja": "AI 接続を管理",
+    "ko": "AI 연결 관리",
+    "fr": "Gérer la connexion IA",
+    "ru": "Управлять подключением ИИ"
+  },
+  "内置语言包与补充安装": {
+    "en": "Offline models and installation",
+    "ja": "オフラインモデルとインストール",
+    "ko": "오프라인 모델 및 설치",
+    "fr": "Modèles hors ligne et installation",
+    "ru": "Офлайн-модели и установка"
+  },
+  "导入离线包": {
+    "en": "Import offline pack",
+    "ja": "オフラインパック読込",
+    "ko": "오프라인 팩 가져오기",
+    "fr": "Importer un pack hors ligne",
+    "ru": "Импорт офлайн-пакета"
+  },
+  "翻译语言 ": {
+    "en": "Translation languages ",
+    "ja": "翻訳言語 ",
+    "ko": "번역 언어 ",
+    "fr": "Langues de traduction ",
+    "ru": "Языки перевода "
+  },
+  "8 种常用语言 · 可作为原文或目标语种": {
+    "en": "8 common languages · source or target",
+    "ja": "8 言語 · 原文・目標に指定可能",
+    "ko": "8개 언어 · 원문 또는 목표 언어",
+    "fr": "8 langues · source ou cible",
+    "ru": "8 языков · исходный или целевой"
+  },
+  "AI：直接翻译到所选目标语言，无需英语中转": {
+    "en": "AI: direct translation to the target, without English pivoting",
+    "ja": "AI：目標言語へ直接翻訳、英語経由なし",
+    "ko": "AI: 영어 중계 없이 목표 언어로 직접 번역",
+    "fr": "IA : traduction directe vers la cible, sans pivot anglais",
+    "ru": "ИИ: прямо на целевой язык, без английского посредника"
+  },
+  "本机直译方向：{0} → {1}": {
+    "en": "Local directions: {0} → {1}",
+    "ja": "ローカル方向：{0} → {1}",
+    "ko": "로컬 번역 방향: {0} → {1}",
+    "fr": "Directions locales : {0} → {1}",
+    "ru": "Локальные направления: {0} → {1}"
+  },
+  "本机暂无此语种的直译包，可接入 AI 翻译": {
+    "en": "No local model for this language. AI is available.",
+    "ja": "この言語のローカルモデルはありません。AI を使用できます。",
+    "ko": "이 언어의 로컬 모델이 없습니다. AI를 사용할 수 있습니다.",
+    "fr": "Aucun modèle local pour cette langue. L’IA est disponible.",
+    "ru": "Локальной модели этого языка нет. Можно использовать ИИ."
+  },
+  "AI 已启用": {
+    "en": "AI enabled",
+    "ja": "AI 有効",
+    "ko": "AI 켜짐",
+    "fr": "IA activée",
+    "ru": "ИИ включён"
+  },
+  "离线模式": {
+    "en": "Offline mode",
+    "ja": "オフラインモード",
+    "ko": "오프라인 모드",
+    "fr": "Mode hors ligne",
+    "ru": "Офлайн-режим"
+  },
+  "内置翻译包 ": {
+    "en": "Translation packs ",
+    "ja": "翻訳パック ",
+    "ko": "번역 팩 ",
+    "fr": "Packs de traduction ",
+    "ru": "Пакеты перевода "
+  },
+  "以下包只提供标明的两种语言之间的直接翻译。这 8 种语言的内置包提供与英语的直接语言对；中文与日语等其他组合请用 AI 直译。不会下载后再经英语中转。": {
+    "en": "These models only translate directly within each listed pair. English pairs cover 8 languages; use AI for other combinations such as Chinese ↔ Japanese.",
+    "ja": "各パックは表示された言語間のみ直接翻訳します。英語を含む 8 言語に対応し、中国語と日本語など他の組合せは AI を使用してください。",
+    "ko": "각 팩은 표시된 언어 쌍 안에서만 직접 번역합니다. 영어 쌍으로 8개 언어를 지원하며 중국어↔일본어 등은 AI를 사용하세요.",
+    "fr": "Chaque modèle traduit uniquement la paire indiquée. Les paires avec l’anglais couvrent 8 langues ; utilisez l’IA pour chinois ↔ japonais, par exemple.",
+    "ru": "Модель работает только внутри указанной пары. Пары с английским охватывают 8 языков; для других сочетаний, например китайский ↔ японский, используйте ИИ."
+  },
+  "双向离线直译包 · 仅用于这一语言对": {
+    "en": "Bidirectional offline model · this pair only",
+    "ja": "双方向オフラインモデル · この言語対専用",
+    "ko": "양방향 오프라인 모델 · 해당 언어 쌍 전용",
+    "fr": "Modèle hors ligne bidirectionnel · cette paire uniquement",
+    "ru": "Двунаправленная офлайн-модель · только эта пара"
+  },
+  "已安装 · 检查内置版本": {
+    "en": "Installed · check bundled version",
+    "ja": "導入済み · 同梱版を確認",
+    "ko": "설치됨 · 포함 버전 확인",
+    "fr": "Installé · vérifier la version fournie",
+    "ru": "Установлено · проверить комплектную версию"
+  },
+  "下载中…": {
+    "en": "Downloading…",
+    "ja": "ダウンロード中…",
+    "ko": "다운로드 중…",
+    "fr": "Téléchargement…",
+    "ru": "Загрузка…"
+  },
+  "下载直译包": {
+    "en": "Download model",
+    "ja": "モデルをダウンロード",
+    "ko": "모델 다운로드",
+    "fr": "Télécharger le modèle",
+    "ru": "Скачать модель"
+  },
+  "本地词典": {
+    "en": "Local dictionary",
+    "ja": "ローカル辞書",
+    "ko": "로컬 사전",
+    "fr": "Dictionnaire local",
+    "ru": "Локальный словарь"
+  },
+  "双解词典与词性词库 · 已内置": {
+    "en": "Bilingual dictionary and parts of speech",
+    "ja": "対訳辞書と品詞データ",
+    "ko": "이중 언어 사전 및 품사",
+    "fr": "Dictionnaire bilingue et catégories grammaticales",
+    "ru": "Двуязычный словарь и части речи"
+  },
+  "约 77 万词条，含词性解释与词形变化。英语词典检索与 AI 正文翻译独立；其他语言词头可能借助英语检索词典，并标明来源。": {
+    "en": "About 770,000 entries with definitions and word forms. English dictionary lookup is separate from AI translation. Other headwords may use English lookup, with attribution.",
+    "ja": "約 77 万語の意味・品詞・活用形を収録。英語辞書と AI 翻訳は独立しています。他言語は英語を介した辞書検索の場合があり、出典を表示します。",
+    "ko": "약 77만 항목의 뜻·품사·활용형을 제공합니다. 영어 사전은 AI 번역과 별개이며 다른 언어는 영어 기반 검색을 사용할 수 있고 출처를 표시합니다.",
+    "fr": "Environ 770 000 entrées avec définitions et formes. Le dictionnaire anglais est indépendant de l’IA. Les autres langues peuvent passer par une recherche en anglais, avec source indiquée.",
+    "ru": "Около 770 000 статей с определениями и формами. Английский словарь независим от ИИ. Другие заголовки могут искаться через английский с указанием источника."
+  },
+  "语音识别": {
+    "en": "Speech recognition",
+    "ja": "音声認識",
+    "ko": "음성 인식",
+    "fr": "Reconnaissance vocale",
+    "ru": "Распознавание речи"
+  },
+  "Whisper Base · 多语种语音包": {
+    "en": "Whisper Base · multilingual speech model",
+    "ja": "Whisper Base · 多言語音声モデル",
+    "ko": "Whisper Base · 다국어 음성 모델",
+    "fr": "Whisper Base · modèle vocal multilingue",
+    "ru": "Whisper Base · многоязычная речевая модель"
+  },
+  "已安装": {
+    "en": "Installed",
+    "ja": "インストール済み",
+    "ko": "설치됨",
+    "fr": "Installé",
+    "ru": "Установлено"
+  },
+  "下载语音包": {
+    "en": "Download speech model",
+    "ja": "音声モデルをダウンロード",
+    "ko": "음성 모델 다운로드",
+    "fr": "Télécharger le modèle vocal",
+    "ru": "Скачать речевую модель"
+  },
+  "屏幕文字识别": {
+    "en": "Screen text recognition",
+    "ja": "画面文字認識",
+    "ko": "화면 문자 인식",
+    "fr": "Reconnaissance de texte à l’écran",
+    "ru": "Распознавание текста на экране"
+  },
+  "中英屏幕识别已内置": {
+    "en": "Chinese and English OCR included",
+    "ja": "中国語・英語 OCR を搭載",
+    "ko": "중국어·영어 OCR 포함",
+    "fr": "OCR chinois et anglais inclus",
+    "ru": "OCR китайского и английского включён"
+  },
+  "无需额外安装中英 OCR。其他语种可在 Windows 语言设置中添加。": {
+    "en": "Chinese/English OCR needs no extra pack. Add other languages in Windows language settings.",
+    "ja": "中英 OCR は追加不要です。他言語は Windows の言語設定で追加します。",
+    "ko": "중국어·영어 OCR은 추가 팩이 필요 없습니다. 다른 언어는 Windows 언어 설정에서 추가하세요.",
+    "fr": "Aucun pack requis pour l’OCR chinois/anglais. Ajoutez les autres langues dans Windows.",
+    "ru": "Для OCR китайского/английского пакеты не нужны. Другие языки добавьте в Windows."
+  },
+  "本机已安装：": {
+    "en": "Installed on this device: ",
+    "ja": "この端末に導入済み：",
+    "ko": "이 기기에 설치됨: ",
+    "fr": "Installé sur cet appareil : ",
+    "ru": "Установлено на устройстве: "
+  },
+  "在 Windows 语言选项中安装对应语言的文字识别功能。": {
+    "en": "Install OCR for the language in Windows language options.",
+    "ja": "Windows の言語オプションで対象の文字認識機能を導入してください。",
+    "ko": "Windows 언어 옵션에서 해당 언어의 OCR을 설치하세요.",
+    "fr": "Installez l’OCR de la langue dans les options Windows.",
+    "ru": "Установите OCR нужного языка в параметрах Windows."
+  },
+  "语言设置": {
+    "en": "Language settings",
+    "ja": "言語設定",
+    "ko": "언어 설정",
+    "fr": "Paramètres de langue",
+    "ru": "Языковые настройки"
+  },
+  "多语种翻译": {
+    "en": "Multiple target languages",
+    "ja": "多言語翻訳",
+    "ko": "다국어 번역",
+    "fr": "Plusieurs langues cibles",
+    "ru": "Несколько целевых языков"
+  },
+  "同时翻译为多种语言": {
+    "en": "Translate into multiple languages",
+    "ja": "複数の言語へ同時翻訳",
+    "ko": "여러 언어로 동시 번역",
+    "fr": "Traduire en plusieurs langues",
+    "ru": "Переводить на несколько языков"
+  },
+  "最多 3 个目标语种，按下面的顺序从上到下显示。": {
+    "en": "Up to 3 target languages, displayed from top to bottom in this order.",
+    "ja": "最大 3 言語を、以下の順で上から表示します。",
+    "ko": "최대 3개 언어를 아래 순서대로 위에서부터 표시합니다.",
+    "fr": "Jusqu’à 3 langues, affichées de haut en bas dans cet ordre.",
+    "ru": "До 3 языков, отображаемых сверху вниз в этом порядке."
+  },
+  "AI 将一次翻译为以下语种，无需下载本地翻译包；语种越多，响应可能越慢。": {
+    "en": "AI translates to these languages in one request. No local translation packs required; more targets can increase latency.",
+    "ja": "AI が 1 回で各言語に翻訳します。ローカルパックは不要ですが、言語数で時間が増える場合があります。",
+    "ko": "AI가 한 번에 여러 언어로 번역합니다. 로컬 팩은 필요 없지만 언어가 많으면 지연이 늘 수 있습니다.",
+    "fr": "L’IA traduit en une requête, sans packs locaux. Plus de langues peut augmenter le délai.",
+    "ru": "ИИ переводит одним запросом без локальных пакетов. Больше языков может увеличить задержку."
+  },
+  "请下载或更新对应语言包": {
+    "en": "Download or update the matching models",
+    "ja": "対応モデルをダウンロード・更新",
+    "ko": "해당 모델 다운로드 또는 업데이트",
+    "fr": "Télécharger ou actualiser les modèles requis",
+    "ru": "Скачайте или обновите нужные модели"
+  },
+  "新增语种前，前往语言与模型获取最新的双向翻译包。语种越多，处理时间也会增加。": {
+    "en": "Check Languages & models before adding targets. Only supported direct pairs work locally; more targets take more time.",
+    "ja": "言語追加前に「言語とモデル」を確認してください。ローカルは対応する直訳方向のみで、言語数により時間が増えます。",
+    "ko": "언어 추가 전 언어 및 모델을 확인하세요. 로컬은 지원되는 직접 번역 쌍만 가능하며 언어가 많으면 시간이 늘어납니다.",
+    "fr": "Consultez Langues et modèles avant d’ajouter une cible. Seules les paires directes prises en charge fonctionnent localement ; plus de langues prend plus de temps.",
+    "ru": "Перед добавлением проверьте раздел языков и моделей. Локально работают лишь поддерживаемые прямые пары; больше языков требует больше времени."
+  },
+  "前往语言包": {
+    "en": "Open language models",
+    "ja": "言語モデルへ",
+    "ko": "언어 모델 열기",
+    "fr": "Ouvrir les modèles",
+    "ru": "Открыть языковые модели"
+  },
+  "第 {0} 个目标语种": {
+    "en": "Target language {0}",
+    "ja": "目標言語 {0}",
+    "ko": "목표 언어 {0}",
+    "fr": "Langue cible {0}",
+    "ru": "Целевой язык {0}"
+  },
+  "{0}字幕文字颜色": {
+    "en": "{0} subtitle color",
+    "ja": "{0}の字幕色",
+    "ko": "{0} 자막 색상",
+    "fr": "Couleur des sous-titres {0}",
+    "ru": "Цвет субтитров {0}"
+  },
+  "字号 ": {
+    "en": "Size ",
+    "ja": "文字サイズ ",
+    "ko": "크기 ",
+    "fr": "Taille ",
+    "ru": "Размер "
+  },
+  "{0}字幕字号": {
+    "en": "{0} subtitle size",
+    "ja": "{0}の字幕サイズ",
+    "ko": "{0} 자막 크기",
+    "fr": "Taille des sous-titres {0}",
+    "ru": "Размер субтитров {0}"
+  },
+  "上移{0}": {
+    "en": "Move {0} up",
+    "ja": "{0}を上へ",
+    "ko": "{0} 위로",
+    "fr": "Monter {0}",
+    "ru": "Поднять {0}"
+  },
+  "上移": {
+    "en": "Move up",
+    "ja": "上へ",
+    "ko": "위로",
+    "fr": "Monter",
+    "ru": "Выше"
+  },
+  "下移{0}": {
+    "en": "Move {0} down",
+    "ja": "{0}を下へ",
+    "ko": "{0} 아래로",
+    "fr": "Descendre {0}",
+    "ru": "Опустить {0}"
+  },
+  "下移": {
+    "en": "Move down",
+    "ja": "下へ",
+    "ko": "아래로",
+    "fr": "Descendre",
+    "ru": "Ниже"
+  },
+  "移除{0}": {
+    "en": "Remove {0}",
+    "ja": "{0}を削除",
+    "ko": "{0} 제거",
+    "fr": "Retirer {0}",
+    "ru": "Убрать {0}"
+  },
+  "移除此语种": {
+    "en": "Remove this language",
+    "ja": "この言語を削除",
+    "ko": "이 언어 제거",
+    "fr": "Retirer cette langue",
+    "ru": "Убрать этот язык"
+  },
+  "已达到 3 个语种": {
+    "en": "Maximum of 3 languages reached",
+    "ja": "3 言語の上限です",
+    "ko": "최대 3개 언어에 도달함",
+    "fr": "Maximum de 3 langues atteint",
+    "ru": "Достигнут максимум: 3 языка"
+  },
+  "添加目标语种": {
+    "en": "Add target language",
+    "ja": "目標言語を追加",
+    "ko": "목표 언어 추가",
+    "fr": "Ajouter une langue cible",
+    "ru": "Добавить целевой язык"
+  },
+  "拖动移动字幕": {
+    "en": "Drag to move subtitles",
+    "ja": "ドラッグして字幕を移動",
+    "ko": "드래그하여 자막 이동",
+    "fr": "Déplacer les sous-titres",
+    "ru": "Перетащите субтитры"
+  },
+  "交换文字与背景颜色": {
+    "en": "Swap text and background colors",
+    "ja": "文字色と背景色を交換",
+    "ko": "글자·배경 색상 교환",
+    "fr": "Inverser texte et fond",
+    "ru": "Поменять цвета текста и фона"
+  },
+  "只显示译文": {
+    "en": "Translation only",
+    "ja": "訳文のみ",
+    "ko": "번역만 표시",
+    "fr": "Traduction seule",
+    "ru": "Только перевод"
+  },
+  "同时显示原文": {
+    "en": "Show original too",
+    "ja": "原文も表示",
+    "ko": "원문도 표시",
+    "fr": "Afficher aussi l’original",
+    "ru": "Показывать оригинал"
+  },
+  "关闭字幕": {
+    "en": "Close subtitles",
+    "ja": "字幕を閉じる",
+    "ko": "자막 닫기",
+    "fr": "Fermer les sous-titres",
+    "ru": "Закрыть субтитры"
+  },
+  "拖动调整字幕宽度 · 20 档": {
+    "en": "Drag to resize subtitle width · 20 steps",
+    "ja": "ドラッグで字幕幅調整 · 20 段階",
+    "ko": "드래그하여 자막 너비 조절 · 20단계",
+    "fr": "Glisser pour régler la largeur · 20 niveaux",
+    "ru": "Ширина перетаскиванием · 20 уровней"
+  },
+  "拖动调整历史行数 · 1–3 行": {
+    "en": "Drag to change history · 1–3 rows",
+    "ja": "ドラッグで履歴行数調整 · 1～3 行",
+    "ko": "드래그하여 이전 기록 조절 · 1~3행",
+    "fr": "Glisser pour régler l’historique · 1 à 3 lignes",
+    "ru": "История перетаскиванием · 1–3 строки"
+  },
+  "选择": {
+    "en": "Choose",
+    "ja": "選択",
+    "ko": "선택",
+    "fr": "Choisir",
+    "ru": "Выбрать"
+  },
+  "拖动调整识别范围：先横移调整宽度，先竖移调整高度": {
+    "en": "Resize region: move horizontally for width or vertically for height",
+    "ja": "範囲調整：横に動かすと幅、縦に動かすと高さ",
+    "ko": "영역 조절: 가로 이동은 너비, 세로 이동은 높이",
+    "fr": "Redimensionner : horizontalement pour la largeur, verticalement pour la hauteur",
+    "ru": "Размер области: горизонтально — ширина, вертикально — высота"
+  },
+  "句子已收藏": {
+    "en": "Sentence saved",
+    "ja": "例文を保存済み",
+    "ko": "문장 저장됨",
+    "fr": "Phrase enregistrée",
+    "ru": "Фраза сохранена"
+  },
+  "添加句子卡片": {
+    "en": "Add sentence card",
+    "ja": "例文カードに追加",
+    "ko": "문장 카드 추가",
+    "fr": "Ajouter une fiche de phrase",
+    "ru": "Добавить карточку фразы"
+  },
+  "已加入句子卡片": {
+    "en": "Added to sentence cards",
+    "ja": "例文カードに追加済み",
+    "ko": "문장 카드에 추가됨",
+    "fr": "Ajoutée aux fiches de phrases",
+    "ru": "Добавлено в карточки фраз"
+  },
+  "收藏这句原文与译文": {
+    "en": "Save this sentence and its translation",
+    "ja": "この文と訳を保存",
+    "ko": "이 문장과 번역 저장",
+    "fr": "Enregistrer cette phrase et sa traduction",
+    "ru": "Сохранить фразу и её перевод"
+  },
+  "棋盘格表示透明区域，桌面字幕会透出后方窗口。": {
+    "en": "The checkerboard indicates transparency. Desktop subtitles reveal the windows behind them.",
+    "ja": "市松模様は透明部分です。デスクトップでは背後のウィンドウが透けます。",
+    "ko": "체크무늬는 투명 영역입니다. 바탕 화면에서는 뒤의 창이 비칩니다.",
+    "fr": "Le damier indique la transparence. Les fenêtres derrière les sous-titres restent visibles.",
+    "ru": "Шахматный фон обозначает прозрачность. На рабочем столе видны окна позади."
+  },
+  "原文字号 / 默认字号": {
+    "en": "Original / default text size",
+    "ja": "原文／標準文字サイズ",
+    "ko": "원문/기본 글자 크기",
+    "fr": "Taille originale / par défaut",
+    "ru": "Размер оригинала / по умолчанию"
+  },
+  "字幕字号": {
+    "en": "Subtitle text size",
+    "ja": "字幕文字サイズ",
+    "ko": "자막 글자 크기",
+    "fr": "Taille des sous-titres",
+    "ru": "Размер текста субтитров"
+  },
+  "字幕宽度": {
+    "en": "Subtitle width",
+    "ja": "字幕の幅",
+    "ko": "자막 너비",
+    "fr": "Largeur des sous-titres",
+    "ru": "Ширина субтитров"
+  },
+  "字体": {
+    "en": "Font",
+    "ja": "フォント",
+    "ko": "글꼴",
+    "fr": "Police",
+    "ru": "Шрифт"
+  },
+  "字幕字体": {
+    "en": "Subtitle font",
+    "ja": "字幕フォント",
+    "ko": "자막 글꼴",
+    "fr": "Police des sous-titres",
+    "ru": "Шрифт субтитров"
+  },
+  "微软雅黑": {
+    "en": "Microsoft YaHei",
+    "ja": "Microsoft YaHei",
+    "ko": "Microsoft YaHei",
+    "fr": "Microsoft YaHei",
+    "ru": "Microsoft YaHei"
+  },
+  "黑体": {
+    "en": "SimHei",
+    "ja": "SimHei",
+    "ko": "SimHei",
+    "fr": "SimHei",
+    "ru": "SimHei"
+  },
+  "宋体": {
+    "en": "SimSun",
+    "ja": "SimSun",
+    "ko": "SimSun",
+    "fr": "SimSun",
+    "ru": "SimSun"
+  },
+  "开关控制文字投影": {
+    "en": "Toggle text shadow",
+    "ja": "文字の影を切替",
+    "ko": "글자 그림자 전환",
+    "fr": "Activer l’ombre du texte",
+    "ru": "Переключить тень текста"
+  },
+  "字幕文字颜色": {
+    "en": "Subtitle text color",
+    "ja": "字幕の文字色",
+    "ko": "자막 글자 색상",
+    "fr": "Couleur du texte des sous-titres",
+    "ru": "Цвет текста субтитров"
+  },
+  "字幕文字投影": {
+    "en": "Subtitle text shadow",
+    "ja": "字幕の文字影",
+    "ko": "자막 글자 그림자",
+    "fr": "Ombre du texte des sous-titres",
+    "ru": "Тень текста субтитров"
+  },
+  "显示字幕背景": {
+    "en": "Show subtitle background",
+    "ja": "字幕背景を表示",
+    "ko": "자막 배경 표시",
+    "fr": "Afficher le fond des sous-titres",
+    "ru": "Показывать фон субтитров"
+  },
+  "字幕背景颜色": {
+    "en": "Subtitle background color",
+    "ja": "字幕の背景色",
+    "ko": "자막 배경 색상",
+    "fr": "Couleur du fond des sous-titres",
+    "ru": "Цвет фона субтитров"
+  },
+  "背景不透明度": {
+    "en": "Background opacity",
+    "ja": "背景の不透明度",
+    "ko": "배경 불투명도",
+    "fr": "Opacité du fond",
+    "ru": "Непрозрачность фона"
+  },
+  "背景模糊": {
+    "en": "Background blur",
+    "ja": "背景ぼかし",
+    "ko": "배경 흐림",
+    "fr": "Flou d’arrière-plan",
+    "ru": "Размытие фона"
+  },
+  "实时模糊后方画面，背景颜色和不透明度保持原设置。": {
+    "en": "Blur the scene behind the subtitles, keeping your background color and opacity.",
+    "ja": "背景色と不透明度を維持したまま背後をぼかします。",
+    "ko": "배경 색상과 불투명도를 유지하며 뒤 화면을 흐리게 합니다.",
+    "fr": "Flouter l’arrière-plan en conservant la couleur et l’opacité choisies.",
+    "ru": "Размывать изображение позади, сохраняя цвет и непрозрачность фона."
+  },
+  "允许截图与录屏": {
+    "en": "Allow screenshots and recording",
+    "ja": "スクリーンショット・録画を許可",
+    "ko": "스크린샷 및 녹화 허용",
+    "fr": "Autoriser les captures et l’enregistrement",
+    "ru": "Разрешить снимки и запись экрана"
+  },
+  "默认开启，可用外部软件捕获字幕；磨砂采用 Windows 系统模糊。关闭后可使用十档精细模糊，但字幕不会出现在截图中。": {
+    "en": "On by default: subtitles appear in captures with Windows blur. Turn off for 10-step fine blur; subtitles will then be excluded from captures.",
+    "ja": "既定は有効で、字幕を撮影でき Windows ぼかしを使います。無効時は 10 段階の精細ぼかしを使えますが、字幕は撮影されません。",
+    "ko": "기본 켜짐: Windows 흐림을 사용하며 자막을 캡처할 수 있습니다. 끄면 10단계 정밀 흐림을 쓰지만 자막은 캡처에서 제외됩니다.",
+    "fr": "Activé : sous-titres capturables avec flou Windows. Désactivez pour un flou fin à 10 niveaux ; les sous-titres seront exclus des captures.",
+    "ru": "По умолчанию включено: субтитры попадают в снимки с размытием Windows. Выключите для 10 уровней точного размытия; субтитры не будут захватываться."
+  },
+  "模糊程度": {
+    "en": "Blur strength",
+    "ja": "ぼかしの強さ",
+    "ko": "흐림 강도",
+    "fr": "Intensité du flou",
+    "ru": "Сила размытия"
+  },
+  "由 Windows 调整系统磨砂强度；背景颜色与不透明度仍可独立设置。": {
+    "en": "Windows controls blur strength. Background color and opacity remain independent.",
+    "ja": "ぼかしの強さは Windows が制御します。背景色と不透明度は別々に設定できます。",
+    "ko": "흐림 강도는 Windows가 제어합니다. 배경 색상과 불투명도는 독립적으로 설정됩니다.",
+    "fr": "Windows contrôle l’intensité du flou. Couleur et opacité restent indépendantes.",
+    "ru": "Силой размытия управляет Windows. Цвет и непрозрачность задаются отдельно."
+  },
+  "系统磨砂": {
+    "en": "System blur",
+    "ja": "システムぼかし",
+    "ko": "시스템 흐림",
+    "fr": "Flou système",
+    "ru": "Системное размытие"
+  },
+  "10 档模糊半径；完全不透明时，后方画面被背景颜色遮住。": {
+    "en": "10 blur levels. An opaque background hides the scene behind it.",
+    "ja": "10 段階のぼかし。完全不透明では背後の画面は見えません。",
+    "ko": "10단계 흐림입니다. 완전히 불투명하면 뒤 화면이 보이지 않습니다.",
+    "fr": "10 niveaux de flou. Un fond opaque masque l’arrière-plan.",
+    "ru": "10 уровней размытия. Непрозрачный фон скрывает изображение позади."
+  },
+  "背景模糊程度": {
+    "en": "Background blur strength",
+    "ja": "背景ぼかしの強さ",
+    "ko": "배경 흐림 강도",
+    "fr": "Intensité du flou d’arrière-plan",
+    "ru": "Сила размытия фона"
+  },
+  "桌面预览": {
+    "en": "Desktop preview",
+    "ja": "デスクトッププレビュー",
+    "ko": "바탕 화면 미리보기",
+    "fr": "Aperçu sur le bureau",
+    "ru": "Просмотр на рабочем столе"
+  },
+  "隐藏": {
+    "en": "Hide",
+    "ja": "非表示",
+    "ko": "숨기기",
+    "fr": "Masquer",
+    "ru": "Скрыть"
+  },
+  "关闭": {
+    "en": "Close",
+    "ja": "閉じる",
+    "ko": "닫기",
+    "fr": "Fermer",
+    "ru": "Закрыть"
+  },
+  "移入字幕上沿显示拖拽与操作区 · 字幕内可切换原文 / 仅译文 · Ctrl + Shift + L 隐藏": {
+    "en": "Hover over the top edge for controls · switch original/translation · Ctrl + Shift + L to hide",
+    "ja": "字幕の上端で操作表示 · 原文／訳文切替 · Ctrl + Shift + L で非表示",
+    "ko": "상단에 마우스를 올려 조작 · 원문/번역 전환 · Ctrl + Shift + L로 숨기기",
+    "fr": "Survolez le bord supérieur pour les commandes · original/traduction · Ctrl + Shift + L pour masquer",
+    "ru": "Наведите на верхний край для управления · оригинал/перевод · Ctrl + Shift + L — скрыть"
+  },
+  "让每一次理解，都合乎你的习惯。": {
+    "en": "Make understanding fit your habits.",
+    "ja": "あなたの習慣に合った理解を。",
+    "ko": "내 습관에 맞는 읽기 환경을 만드세요.",
+    "fr": "Adaptez la lecture à vos habitudes.",
+    "ru": "Настройте чтение под свои привычки."
+  },
+  "外观": {
+    "en": "Appearance",
+    "ja": "外観",
+    "ko": "모양",
+    "fr": "Apparence",
+    "ru": "Оформление"
+  },
+  "亮色": {
+    "en": "Light",
+    "ja": "ライト",
+    "ko": "밝게",
+    "fr": "Clair",
+    "ru": "Светлая"
+  },
+  "清晰，轻盈": {
+    "en": "Clear and light",
+    "ja": "明るく軽やか",
+    "ko": "선명하고 가볍게",
+    "fr": "Clair et léger",
+    "ru": "Ясно и легко"
+  },
+  "暗色": {
+    "en": "Dark",
+    "ja": "ダーク",
+    "ko": "어둡게",
+    "fr": "Sombre",
+    "ru": "Тёмная"
+  },
+  "专注，柔和": {
+    "en": "Focused and calm",
+    "ja": "落ち着いて集中",
+    "ko": "차분하게 집중",
+    "fr": "Calme et concentration",
+    "ru": "Спокойствие и внимание"
+  },
+  "窗口行为": {
+    "en": "Window behavior",
+    "ja": "ウィンドウの動作",
+    "ko": "창 동작",
+    "fr": "Comportement de la fenêtre",
+    "ru": "Поведение окна"
+  },
+  "点击关闭按钮时": {
+    "en": "When clicking Close",
+    "ja": "閉じるボタンを押した時",
+    "ko": "닫기 버튼을 누를 때",
+    "fr": "Au clic sur Fermer",
+    "ru": "При нажатии «Закрыть»"
+  },
+  "最小化会继续当前翻译；退出软件会停止识别与监听。": {
+    "en": "Minimizing continues translation. Quitting stops recognition and listening.",
+    "ja": "最小化で翻訳を継続し、終了すると認識と聞き取りを停止します。",
+    "ko": "최소화하면 번역을 계속합니다. 종료하면 인식과 듣기가 중지됩니다.",
+    "fr": "Réduire poursuit la traduction. Quitter arrête la reconnaissance et l’écoute.",
+    "ru": "Сворачивание продолжает перевод. Выход останавливает распознавание и прослушивание."
+  },
+  "关闭窗口时": {
+    "en": "On window close",
+    "ja": "ウィンドウを閉じる時",
+    "ko": "창을 닫을 때",
+    "fr": "À la fermeture",
+    "ru": "При закрытии окна"
+  },
+  "每次询问": {
+    "en": "Ask every time",
+    "ja": "毎回確認",
+    "ko": "매번 확인",
+    "fr": "Toujours demander",
+    "ru": "Всегда спрашивать"
+  },
+  "字幕显示": {
+    "en": "Subtitle display",
+    "ja": "字幕表示",
+    "ko": "자막 표시",
+    "fr": "Affichage des sous-titres",
+    "ru": "Отображение субтитров"
+  },
+  "显示原文": {
+    "en": "Show original",
+    "ja": "原文を表示",
+    "ko": "원문 표시",
+    "fr": "Afficher l’original",
+    "ru": "Показывать оригинал"
+  },
+  "每种语言显示行数": {
+    "en": "History rows per language",
+    "ja": "言語ごとの履歴行数",
+    "ko": "언어별 기록 행 수",
+    "fr": "Lignes d’historique par langue",
+    "ru": "Строки истории на язык"
+  },
+  "一行是一组原文与译文。最多保留最近 3 组；文字过长时自动换行撑开背景。": {
+    "en": "Each row is an original/translation group, up to 3 recent groups. Long text wraps and expands the background.",
+    "ja": "1 行は原文と訳文の組です。最新 3 組まで表示し、長い文は折り返して背景が広がります。",
+    "ko": "한 행은 원문과 번역 한 묶음입니다. 최근 3개까지 표시하며 긴 글은 줄바꿈되고 배경이 늘어납니다.",
+    "fr": "Une ligne correspond à un groupe original/traduction, jusqu’à 3 groupes récents. Les textes longs se replient et agrandissent le fond.",
+    "ru": "Строка — группа оригинала и перевода, до 3 последних групп. Длинный текст переносится и расширяет фон."
+  },
+  "字幕行数": {
+    "en": "Subtitle history rows",
+    "ja": "字幕履歴の行数",
+    "ko": "자막 기록 행 수",
+    "fr": "Lignes d’historique des sous-titres",
+    "ru": "Строки истории субтитров"
+  },
+  "{0} 行": {
+    "en": "{0} rows",
+    "ja": "{0} 行",
+    "ko": "{0}행",
+    "fr": "{0} lignes",
+    "ru": "{0} строк"
+  },
+  "桌面字幕": {
+    "en": "Desktop subtitles",
+    "ja": "デスクトップ字幕",
+    "ko": "바탕 화면 자막",
+    "fr": "Sous-titres de bureau",
+    "ru": "Субтитры на рабочем столе"
+  },
+  "处理与隐私": {
+    "en": "Processing and privacy",
+    "ja": "処理とプライバシー",
+    "ko": "처리 및 개인정보",
+    "fr": "Traitement et confidentialité",
+    "ru": "Обработка и конфиденциальность"
+  },
+  "保存本地翻译历史": {
+    "en": "Save local translation history",
+    "ja": "ローカル翻訳履歴を保存",
+    "ko": "로컬 번역 기록 저장",
+    "fr": "Enregistrer l’historique local",
+    "ru": "Сохранять локальную историю переводов"
+  },
+  "最多保留 30 条。关闭时清除已有历史；音频文件不会复制到应用。": {
+    "en": "Keeps up to 30 entries. Turning off clears history. Audio files are not copied into the app.",
+    "ja": "最大 30 件を保存。無効化で履歴を消去します。音声ファイルはアプリに複製しません。",
+    "ko": "최대 30개를 저장하며 끄면 기존 기록을 지웁니다. 오디오 파일은 앱에 복사하지 않습니다.",
+    "fr": "Conserve 30 entrées au maximum. Désactiver efface l’historique. Les fichiers audio ne sont pas copiés dans l’application.",
+    "ru": "До 30 записей. Отключение очищает историю. Аудиофайлы не копируются в приложение."
+  },
+  "保存翻译历史": {
+    "en": "Save translation history",
+    "ja": "翻訳履歴を保存",
+    "ko": "번역 기록 저장",
+    "fr": "Enregistrer l’historique",
+    "ru": "Сохранять историю переводов"
+  },
+  "识别在本地运行；本地模式离线翻译，AI 模式将待译文字及开启的短上下文发送至所选服务商。模型下载连接官方站点。自动划词开启后，会在需要时复制选区。关闭应用将停止所有监听。": {
+    "en": "Recognition runs locally. AI sends text and enabled short context to your provider. Model downloads connect to model hosts. Auto selection copies selected text as needed. Quitting stops all listeners.",
+    "ja": "認識とローカル翻訳は端末内で処理。AI は原文と有効な短い文脈をサービスへ送信します。モデルは配布元から取得し、自動選択は必要時にコピーします。終了で全取得を停止します。",
+    "ko": "인식과 로컬 번역은 기기에서 처리합니다. AI는 글과 켜진 짧은 문맥을 서비스에 전송합니다. 모델은 배포처에서 내려받고 자동 선택 시 필요에 따라 복사합니다. 종료하면 모든 감지가 중지됩니다.",
+    "fr": "La reconnaissance est locale. L’IA envoie texte et contexte activé au fournisseur. Les modèles sont téléchargés chez leurs hébergeurs. La sélection automatique copie le texte si nécessaire. Quitter arrête toute écoute.",
+    "ru": "Распознавание локальное. ИИ отправляет текст и включённый контекст сервису. Модели скачиваются у поставщиков. Автовыделение копирует текст по необходимости. Выход останавливает все слушатели."
+  },
+  "输入或粘贴文字，也可以开启自动划词…": {
+    "en": "Type or paste text, or enable auto selection…",
+    "ja": "入力・貼り付け、または自動選択翻訳を有効に…",
+    "ko": "텍스트를 입력·붙여넣거나 자동 선택 번역을 켜세요…",
+    "fr": "Saisissez ou collez du texte, ou activez la sélection automatique…",
+    "ru": "Введите или вставьте текст либо включите автоперевод выделения…"
+  },
+  "已保存到我的语库": {
+    "en": "Saved to My library",
+    "ja": "マイ語彙集に保存しました",
+    "ko": "내 어휘집에 저장됨",
+    "fr": "Enregistré dans Mon lexique",
+    "ru": "Сохранено в Мой словарь"
+  },
+  "清空原文和译文": {
+    "en": "Clear original and translation",
+    "ja": "原文と訳文を消去",
+    "ko": "원문과 번역 지우기",
+    "fr": "Effacer l’original et la traduction",
+    "ru": "Очистить оригинал и перевод"
+  },
+  "复制译文": {
+    "en": "Copy translation",
+    "ja": "訳文をコピー",
+    "ko": "번역 복사",
+    "fr": "Copier la traduction",
+    "ru": "Копировать перевод"
+  },
+  "AI 正在理解并翻译…": {
+    "en": "AI is interpreting and translating…",
+    "ja": "AI が理解・翻訳中…",
+    "ko": "AI가 이해하고 번역하는 중…",
+    "fr": "L’IA interprète et traduit…",
+    "ru": "ИИ анализирует и переводит…"
+  },
+  "正在本地翻译…": {
+    "en": "Translating locally…",
+    "ja": "ローカルで翻訳中…",
+    "ko": "로컬에서 번역 중…",
+    "fr": "Traduction locale…",
+    "ru": "Локальный перевод…"
+  },
+  "译文会显示在这里": {
+    "en": "Your translation will appear here",
+    "ja": "ここに訳文を表示します",
+    "ko": "여기에 번역이 표시됩니다",
+    "fr": "La traduction apparaîtra ici",
+    "ru": "Здесь появится перевод"
+  },
+  "拖动调整文本窗口高度": {
+    "en": "Drag to resize the text panels",
+    "ja": "ドラッグでテキスト欄の高さを調整",
+    "ko": "드래그하여 텍스트 패널 높이 조절",
+    "fr": "Glisser pour redimensionner les panneaux",
+    "ru": "Перетащите для изменения высоты текста"
+  },
+  "点击单词查义 · 框选句子收藏": {
+    "en": "Click words for definitions · select sentences to save",
+    "ja": "単語で意味を表示 · 文を選択して保存",
+    "ko": "단어 클릭으로 뜻 보기 · 문장 선택하여 저장",
+    "fr": "Cliquez pour définir · sélectionnez pour enregistrer",
+    "ru": "Нажмите слово для значения · выделите фразу для сохранения"
+  },
+  "翻译": {
+    "en": "Translate",
+    "ja": "翻訳",
+    "ko": "번역",
+    "fr": "Traduire",
+    "ru": "Перевести"
+  },
+  "词典释义": {
+    "en": "Dictionary definitions",
+    "ja": "辞書の意味",
+    "ko": "사전 뜻",
+    "fr": "Définitions du dictionnaire",
+    "ru": "Словарные определения"
+  },
+  "喜欢此单词": {
+    "en": "Favorite this word",
+    "ja": "単語をお気に入りに",
+    "ko": "단어 즐겨찾기",
+    "fr": "Ajouter ce mot aux favoris",
+    "ru": "В избранные слова"
+  },
+  "添加单词卡片": {
+    "en": "Add word card",
+    "ja": "単語カードに追加",
+    "ko": "단어 카드 추가",
+    "fr": "Ajouter une fiche de mot",
+    "ru": "Добавить карточку слова"
+  },
+  "关闭词典": {
+    "en": "Close dictionary",
+    "ja": "辞書を閉じる",
+    "ko": "사전 닫기",
+    "fr": "Fermer le dictionnaire",
+    "ru": "Закрыть словарь"
+  },
+  "词典目标语言": {
+    "en": "Dictionary target language",
+    "ja": "辞書の目標言語",
+    "ko": "사전 목표 언어",
+    "fr": "Langue cible du dictionnaire",
+    "ru": "Целевой язык словаря"
+  },
+  "完整词性与释义": {
+    "en": "Full definitions and parts of speech",
+    "ja": "すべての品詞と意味",
+    "ko": "전체 품사 및 뜻",
+    "fr": "Définitions et catégories grammaticales",
+    "ru": "Все определения и части речи"
+  },
+  "正在查询本地词典…": {
+    "en": "Looking up the local dictionary…",
+    "ja": "ローカル辞書を検索中…",
+    "ko": "로컬 사전 검색 중…",
+    "fr": "Recherche dans le dictionnaire local…",
+    "ru": "Поиск в локальном словаре…"
+  },
+  "索引数量上限": {
+    "en": "Index limit",
+    "ja": "索引の上限",
+    "ko": "색인 한도",
+    "fr": "Limite de l’index",
+    "ru": "Лимит индекса"
+  },
+  "实时高亮索引已达 {0} 条": {
+    "en": "Live highlighting reached {0} records",
+    "ja": "リアルタイム強調が {0} 件の上限に達しました",
+    "ko": "실시간 강조가 {0}개 한도에 도달했습니다",
+    "fr": "Le surlignage a atteint {0} éléments",
+    "ru": "Подсветка достигла {0} записей"
+  },
+  "可关闭实时索引继续收藏；或先在我的语库删除至少 {0} 条记录。": {
+    "en": "Disable live indexing to keep saving, or delete at least {0} records in My library.",
+    "ja": "索引を無効にして保存を続けるか、語彙集で最低 {0} 件削除してください。",
+    "ko": "실시간 색인을 끄고 계속 저장하거나 내 어휘집에서 최소 {0}개를 삭제하세요.",
+    "fr": "Désactivez l’indexation pour continuer à enregistrer, ou supprimez au moins {0} éléments du lexique.",
+    "ru": "Отключите индексирование для дальнейшего сохранения или удалите минимум {0} записей из словаря."
+  },
+  "关闭实时索引并收藏": {
+    "en": "Disable live index and save",
+    "ja": "索引を無効にして保存",
+    "ko": "실시간 색인을 끄고 저장",
+    "fr": "Désactiver l’index et enregistrer",
+    "ru": "Выключить индекс и сохранить"
+  },
+  "保留索引，先整理记录": {
+    "en": "Keep index and manage records first",
+    "ja": "索引を維持して先に整理",
+    "ko": "색인을 유지하고 먼저 정리",
+    "fr": "Garder l’index et gérer les éléments",
+    "ru": "Сохранить индекс и упорядочить записи"
+  },
+  "界面语言": {
+    "en": "Interface language",
+    "ja": "表示言語",
+    "ko": "화면 언어",
+    "fr": "Langue de l’interface",
+    "ru": "Язык интерфейса"
+  },
+  "中文": {
+    "en": "Chinese",
+    "ja": "中国語",
+    "ko": "중국어",
+    "fr": "Chinois",
+    "ru": "Китайский"
+  },
+  "日本語": {
+    "en": "Japanese",
+    "ja": "日本語",
+    "ko": "일본어",
+    "fr": "Japonais",
+    "ru": "Японский"
+  },
+  "在 Windows 应用中选择存储位置": {
+    "en": "Choose a storage folder in the Windows app",
+    "ja": "Windows アプリで保存先を選択",
+    "ko": "Windows 앱에서 저장 폴더 선택",
+    "fr": "Choisir un dossier dans l’application Windows",
+    "ru": "Выберите папку в приложении Windows"
+  },
+  "此功能需要 Windows 桌面应用。浏览器仅用于界面预览，请启动 Lishon.exe。": {
+    "en": "This feature requires the Windows desktop app. The browser is a UI preview; start Lishon.exe.",
+    "ja": "この機能は Windows アプリ専用です。ブラウザーは画面プレビューのみです。Lishon.exe を起動してください。",
+    "ko": "이 기능은 Windows 앱에서 이용할 수 있습니다. 브라우저는 화면 미리보기입니다. Lishon.exe를 실행하세요.",
+    "fr": "Cette fonction nécessite l’application Windows. Le navigateur sert d’aperçu ; lancez Lishon.exe.",
+    "ru": "Эта функция требует приложения Windows. Браузер — только предпросмотр; запустите Lishon.exe."
+  },
+  "简体中文": {
+    "en": "Simplified Chinese",
+    "ja": "簡体字中国語",
+    "ko": "중국어 간체",
+    "fr": "Chinois simplifié",
+    "ru": "Китайский упрощённый"
+  },
+  "请选择 AI 服务商": {
+    "en": "Choose an AI provider",
+    "ja": "AI サービスを選択してください",
+    "ko": "AI 서비스를 선택하세요",
+    "fr": "Choisissez un fournisseur IA",
+    "ru": "Выберите сервис ИИ"
+  },
+  "请填写正确的 API 服务地址": {
+    "en": "Enter a valid API base URL",
+    "ja": "有効な API URL を入力してください",
+    "ko": "올바른 API 기본 URL을 입력하세요",
+    "fr": "Saisissez une URL API valide",
+    "ru": "Введите правильный URL API"
+  },
+  "服务地址不能包含密钥、查询参数或账号": {
+    "en": "The endpoint must not contain keys, query parameters or credentials",
+    "ja": "接続先にキー・クエリ・認証情報を含めないでください",
+    "ko": "주소에 키·쿼리 매개변수·인증 정보를 넣지 마세요",
+    "fr": "L’adresse ne doit contenir ni clé, ni paramètres, ni identifiants",
+    "ru": "Адрес не должен содержать ключи, параметры или учётные данные"
+  },
+  "远程 API 服务地址必须使用 HTTPS": {
+    "en": "Remote API endpoints must use HTTPS",
+    "ja": "外部 API 接続には HTTPS が必要です",
+    "ko": "원격 API 주소는 HTTPS를 사용해야 합니다",
+    "fr": "Les API distantes doivent utiliser HTTPS",
+    "ru": "Удалённые API должны использовать HTTPS"
+  },
+  "请填写有效的模型名称": {
+    "en": "Enter a valid model name",
+    "ja": "有効なモデル名を入力してください",
+    "ko": "유효한 모델 이름을 입력하세요",
+    "fr": "Saisissez un nom de modèle valide",
+    "ru": "Введите правильное название модели"
+  },
+  "AI 返回的译文被截断，请缩短原文或更换模型": {
+    "en": "AI translation was truncated. Shorten the source or change the model.",
+    "ja": "AI 訳文が途切れました。原文を短くするかモデルを変更してください。",
+    "ko": "AI 번역이 잘렸습니다. 원문을 줄이거나 모델을 바꾸세요.",
+    "fr": "Traduction IA tronquée. Raccourcissez le texte ou changez de modèle.",
+    "ru": "Перевод ИИ обрезан. Сократите текст или смените модель."
+  },
+  "AI 未返回译文，请检查模型是否支持文本翻译": {
+    "en": "AI returned no translation. Check the model’s text translation support.",
+    "ja": "AI から訳文がありません。テキスト翻訳に対応するモデルか確認してください。",
+    "ko": "AI가 번역을 반환하지 않았습니다. 모델의 텍스트 번역 지원을 확인하세요.",
+    "fr": "L’IA n’a pas renvoyé de traduction. Vérifiez la compatibilité du modèle.",
+    "ru": "ИИ не вернул перевод. Проверьте поддержку перевода моделью."
+  },
+  "AI 返回格式不正确，请重试或更换模型": {
+    "en": "Invalid AI response format. Retry or change model.",
+    "ja": "AI の形式が不正です。再試行またはモデルを変更してください。",
+    "ko": "AI 응답 형식이 올바르지 않습니다. 다시 시도하거나 모델을 바꾸세요.",
+    "fr": "Format de réponse IA invalide. Réessayez ou changez de modèle.",
+    "ru": "Неверный формат ответа ИИ. Повторите или смените модель."
+  },
+  "AI 未完整返回所有目标语种，请重试": {
+    "en": "AI did not return all target languages. Retry.",
+    "ja": "すべての目標言語が返されませんでした。再試行してください。",
+    "ko": "AI가 모든 목표 언어를 반환하지 않았습니다. 다시 시도하세요.",
+    "fr": "L’IA n’a pas renvoyé toutes les langues cibles. Réessayez.",
+    "ru": "ИИ вернул не все целевые языки. Повторите попытку."
+  },
+  "AI 返回的译文不完整，请重试": {
+    "en": "Incomplete AI translation. Retry.",
+    "ja": "AI 訳文が不完全です。再試行してください。",
+    "ko": "AI 번역이 불완전합니다. 다시 시도하세요.",
+    "fr": "Traduction IA incomplète. Réessayez.",
+    "ru": "Перевод ИИ неполон. Повторите попытку."
+  },
+  "请求不被模型支持，请检查模型名称和服务地址": {
+    "en": "Unsupported request. Check model name and endpoint.",
+    "ja": "非対応のリクエストです。モデル名と接続先を確認してください。",
+    "ko": "지원하지 않는 요청입니다. 모델 이름과 주소를 확인하세요.",
+    "fr": "Requête non prise en charge. Vérifiez modèle et adresse.",
+    "ru": "Запрос не поддерживается. Проверьте модель и адрес."
+  },
+  "API Key 无效或已过期": {
+    "en": "Invalid or expired API key",
+    "ja": "API キーが無効または期限切れです",
+    "ko": "API 키가 유효하지 않거나 만료되었습니다",
+    "fr": "Clé API invalide ou expirée",
+    "ru": "Ключ API недействителен или истёк"
+  },
+  "API 余额不足，请在服务商平台充值": {
+    "en": "Insufficient API balance. Add credit on your provider’s platform.",
+    "ja": "API 残高不足です。サービス側でチャージしてください。",
+    "ko": "API 잔액이 부족합니다. 서비스 플랫폼에서 충전하세요.",
+    "fr": "Solde API insuffisant. Rechargez chez le fournisseur.",
+    "ru": "Недостаточно средств API. Пополните баланс у сервиса."
+  },
+  "API 没有访问权限，或当前地区不可用": {
+    "en": "API access denied or unavailable in this region",
+    "ja": "API 権限がないか、この地域では利用できません",
+    "ko": "API 접근 권한이 없거나 이 지역에서 사용할 수 없습니다",
+    "fr": "Accès API refusé ou indisponible dans cette région",
+    "ru": "Нет доступа API или сервис недоступен в регионе"
+  },
+  "未找到模型或接口，请检查服务地址和模型名称": {
+    "en": "Model or endpoint not found. Check URL and model name.",
+    "ja": "モデルまたは接続先がありません。URL とモデル名を確認してください。",
+    "ko": "모델 또는 주소를 찾지 못했습니다. URL과 모델 이름을 확인하세요.",
+    "fr": "Modèle ou adresse introuvable. Vérifiez URL et nom.",
+    "ru": "Модель или адрес не найдены. Проверьте URL и название."
+  },
+  "API 调用过于频繁或额度不足，请稍后重试": {
+    "en": "API rate or quota limit reached. Try again later.",
+    "ja": "API の頻度・割当上限です。後で再試行してください。",
+    "ko": "API 빈도 또는 할당량 한도입니다. 나중에 다시 시도하세요.",
+    "fr": "Limite de fréquence ou quota API atteint. Réessayez plus tard.",
+    "ru": "Достигнут лимит частоты или квоты API. Повторите позже."
+  },
+  "AI 服务暂时不可用，请稍后重试": {
+    "en": "AI service temporarily unavailable. Try again later.",
+    "ja": "AI サービスが一時利用できません。後で再試行してください。",
+    "ko": "AI 서비스를 일시적으로 사용할 수 없습니다. 나중에 다시 시도하세요.",
+    "fr": "Service IA temporairement indisponible. Réessayez plus tard.",
+    "ru": "Сервис ИИ временно недоступен. Повторите позже."
+  },
+  "API 请求失败": {
+    "en": "API request failed",
+    "ja": "API リクエスト失敗",
+    "ko": "API 요청 실패",
+    "fr": "Échec de la requête API",
+    "ru": "Ошибка запроса API"
+  },
+  "AI 响应过大，请缩短原文": {
+    "en": "AI response too large. Shorten the source.",
+    "ja": "AI 応答が大きすぎます。原文を短くしてください。",
+    "ko": "AI 응답이 너무 큽니다. 원문을 줄이세요.",
+    "fr": "Réponse IA trop volumineuse. Raccourcissez le texte.",
+    "ru": "Ответ ИИ слишком велик. Сократите текст."
+  },
+  "API 返回了无效数据，请检查服务地址": {
+    "en": "Invalid API data. Check the endpoint.",
+    "ja": "API データが不正です。接続先を確認してください。",
+    "ko": "API 데이터가 올바르지 않습니다. 주소를 확인하세요.",
+    "fr": "Données API invalides. Vérifiez l’adresse.",
+    "ru": "Неверные данные API. Проверьте адрес."
+  },
+  "翻译已取消": {
+    "en": "Translation cancelled",
+    "ja": "翻訳を取り消しました",
+    "ko": "번역 취소됨",
+    "fr": "Traduction annulée",
+    "ru": "Перевод отменён"
+  },
+  "AI 连接超时，请检查网络或换用较快的模型": {
+    "en": "AI connection timed out. Check network or use a faster model.",
+    "ja": "AI 接続が時間切れです。ネットワークを確認するか速いモデルを使用してください。",
+    "ko": "AI 연결 시간이 초과되었습니다. 네트워크를 확인하거나 더 빠른 모델을 사용하세요.",
+    "fr": "Connexion IA expirée. Vérifiez le réseau ou utilisez un modèle plus rapide.",
+    "ru": "Время подключения ИИ истекло. Проверьте сеть или выберите более быструю модель."
+  },
+  "无法连接 AI 服务，请检查网络、系统代理和 API 服务地址": {
+    "en": "Cannot connect to AI. Check network, system proxy and endpoint.",
+    "ja": "AI に接続できません。ネットワーク・プロキシ・接続先を確認してください。",
+    "ko": "AI에 연결할 수 없습니다. 네트워크·시스템 프록시·주소를 확인하세요.",
+    "fr": "Connexion IA impossible. Vérifiez réseau, proxy et adresse.",
+    "ru": "Не удалось подключиться к ИИ. Проверьте сеть, прокси и адрес."
+  },
+  "API Key 格式不正确": {
+    "en": "Invalid API key format",
+    "ja": "API キーの形式が不正です",
+    "ko": "API 키 형식이 올바르지 않습니다",
+    "fr": "Format de clé API invalide",
+    "ru": "Неверный формат ключа API"
+  },
+  "请输入此服务地址对应的 API Key": {
+    "en": "Enter the API key for this endpoint",
+    "ja": "この接続先の API キーを入力してください",
+    "ko": "이 주소의 API 키를 입력하세요",
+    "fr": "Saisissez la clé API de cette adresse",
+    "ru": "Введите ключ API для этого адреса"
+  },
+  "无法解密 API Key，请重新输入并保存": {
+    "en": "Cannot decrypt the API key. Enter and save it again.",
+    "ja": "API キーを復号できません。再入力して保存してください。",
+    "ko": "API 키를 복호화할 수 없습니다. 다시 입력하고 저장하세요.",
+    "fr": "Clé API indéchiffrable. Saisissez-la et enregistrez-la à nouveau.",
+    "ru": "Не удалось расшифровать ключ API. Введите и сохраните его заново."
+  },
+  "Windows 密钥加密暂不可用，未保存 API Key": {
+    "en": "Windows encryption unavailable. API key was not saved.",
+    "ja": "Windows の暗号化が利用できません。API キーは保存していません。",
+    "ko": "Windows 암호화를 사용할 수 없어 API 키를 저장하지 않았습니다.",
+    "fr": "Chiffrement Windows indisponible. Clé API non enregistrée.",
+    "ru": "Шифрование Windows недоступно. Ключ API не сохранён."
+  },
+  "请选择 1 至 3 种目标语言": {
+    "en": "Choose 1 to 3 target languages",
+    "ja": "目標言語を 1～3 個選んでください",
+    "ko": "목표 언어를 1~3개 선택하세요",
+    "fr": "Choisissez 1 à 3 langues cibles",
+    "ru": "Выберите от 1 до 3 целевых языков"
+  },
+  "每次最多翻译 5000 字符": {
+    "en": "Maximum 5,000 characters per translation",
+    "ja": "1 回の翻訳は最大 5,000 文字です",
+    "ko": "한 번에 최대 5,000자까지 번역합니다",
+    "fr": "5 000 caractères maximum par traduction",
+    "ru": "Не более 5 000 символов за перевод"
+  },
+  "AI 正在处理其他任务，请稍后重试": {
+    "en": "AI is busy with another task. Try again shortly.",
+    "ja": "AI が別の処理中です。少し待って再試行してください。",
+    "ko": "AI가 다른 작업 중입니다. 잠시 후 다시 시도하세요.",
+    "fr": "L’IA traite une autre tâche. Réessayez bientôt.",
+    "ru": "ИИ занят другой задачей. Повторите чуть позже."
+  },
+  "安装时选择的语言包目录无效，请在语言与模型中重新选择。": {
+    "en": "Invalid model folder selected during installation. Choose it again in Languages & models.",
+    "ja": "インストール時のモデル保存先が無効です。「言語とモデル」で選び直してください。",
+    "ko": "설치 시 선택한 모델 폴더가 잘못되었습니다. 언어 및 모델에서 다시 선택하세요.",
+    "fr": "Dossier choisi à l’installation invalide. Sélectionnez-le dans Langues et modèles.",
+    "ru": "Папка моделей, выбранная при установке, недействительна. Выберите её в разделе языков и моделей."
+  },
+  "操作失败，请重试": {
+    "en": "Action failed. Try again.",
+    "ja": "操作に失敗しました。再試行してください。",
+    "ko": "작업에 실패했습니다. 다시 시도하세요.",
+    "fr": "Échec de l’action. Réessayez.",
+    "ru": "Действие не удалось. Повторите попытку."
+  },
+  "本地引擎已停止，请重新启动应用。": {
+    "en": "Local engine stopped. Restart the app.",
+    "ja": "ローカルエンジンが停止しました。アプリを再起動してください。",
+    "ko": "로컬 엔진이 중지되었습니다. 앱을 다시 시작하세요.",
+    "fr": "Moteur local arrêté. Redémarrez l’application.",
+    "ru": "Локальный движок остановлен. Перезапустите приложение."
+  },
+  "处理超时，请检查模型或缩短输入后重试。": {
+    "en": "Processing timed out. Check models or shorten the input.",
+    "ja": "処理が時間切れです。モデルを確認するか入力を短くしてください。",
+    "ko": "처리 시간이 초과되었습니다. 모델을 확인하거나 입력을 줄이세요.",
+    "fr": "Délai de traitement dépassé. Vérifiez les modèles ou raccourcissez le texte.",
+    "ru": "Время обработки истекло. Проверьте модели или сократите ввод."
+  },
+  "Windows 识别组件返回异常": {
+    "en": "Unexpected response from Windows recognition component",
+    "ja": "Windows 認識コンポーネントの応答が不正です",
+    "ko": "Windows 인식 구성 요소 응답 오류",
+    "fr": "Réponse inattendue du composant de reconnaissance Windows",
+    "ru": "Неожиданный ответ компонента распознавания Windows"
+  },
+  "听现 Lishon": {
+    "en": "Lishon",
+    "ja": "Lishon",
+    "ko": "Lishon",
+    "fr": "Lishon",
+    "ru": "Lishon"
+  },
+  "划词组件已停止，请重新开启自动划词。": {
+    "en": "Text selection helper stopped. Enable auto selection again.",
+    "ja": "選択取得が停止しました。自動選択翻訳を再度有効にしてください。",
+    "ko": "텍스트 선택 도우미가 중지되었습니다. 자동 선택 번역을 다시 켜세요.",
+    "fr": "L’assistant de sélection s’est arrêté. Réactivez la sélection automatique.",
+    "ru": "Помощник выделения остановлен. Включите автовыделение снова."
+  },
+  "请先点击开始选框，选择需要识别的文字区域": {
+    "en": "Select a recognition region first",
+    "ja": "先に認識範囲を選んでください",
+    "ko": "먼저 인식 영역을 선택하세요",
+    "fr": "Choisissez d’abord une zone de reconnaissance",
+    "ru": "Сначала выберите область распознавания"
+  },
+  "选区工具已退出，请重新选框": {
+    "en": "Region selector closed. Select the region again.",
+    "ja": "範囲選択ツールが終了しました。再度選択してください。",
+    "ko": "영역 선택기가 닫혔습니다. 다시 선택하세요.",
+    "fr": "Sélecteur de zone fermé. Sélectionnez à nouveau.",
+    "ru": "Выбор области закрыт. Выберите заново."
+  },
+  "无权执行此操作": {
+    "en": "This action is not permitted",
+    "ja": "この操作は許可されていません",
+    "ko": "이 작업은 허용되지 않습니다",
+    "fr": "Cette action n’est pas autorisée",
+    "ru": "Это действие не разрешено"
+  },
+  "未找到字幕所在屏幕": {
+    "en": "Subtitle display not found",
+    "ja": "字幕の画面が見つかりません",
+    "ko": "자막 화면을 찾을 수 없습니다",
+    "fr": "Écran des sous-titres introuvable",
+    "ru": "Экран субтитров не найден"
+  },
+  "无法读取实时磨砂背景，已保留原有背景颜色与透明度。": {
+    "en": "Live blur unavailable. Background color and opacity were preserved.",
+    "ja": "リアルタイムぼかしが使えません。背景色と不透明度は維持しました。",
+    "ko": "실시간 흐림을 사용할 수 없습니다. 배경 색상과 불투명도는 유지됩니다.",
+    "fr": "Flou en direct indisponible. Couleur et opacité conservées.",
+    "ru": "Размытие в реальном времени недоступно. Цвет и непрозрачность сохранены."
+  },
+  "导入基础离线语言包": {
+    "en": "Import offline language pack",
+    "ja": "オフライン言語パックを読込",
+    "ko": "오프라인 언어 팩 가져오기",
+    "fr": "Importer un pack de langues hors ligne",
+    "ru": "Импорт офлайн-языкового пакета"
+  },
+  "Lishon 基础离线语言包": {
+    "en": "Lishon offline language pack",
+    "ja": "Lishon オフライン言語パック",
+    "ko": "Lishon 오프라인 언어 팩",
+    "fr": "Pack de langues hors ligne Lishon",
+    "ru": "Офлайн-языковой пакет Lishon"
+  },
+  "请等待当前翻译或下载完成后再更改目录": {
+    "en": "Wait for translation or download to finish before changing folders",
+    "ja": "翻訳・ダウンロードの完了後に保存先を変更してください",
+    "ko": "번역이나 다운로드가 끝난 뒤 폴더를 변경하세요",
+    "fr": "Attendez la fin de la traduction ou du téléchargement avant de changer de dossier",
+    "ru": "Дождитесь окончания перевода или загрузки перед сменой папки"
+  },
+  "选择语言模型存储目录（原模型保留在原目录）": {
+    "en": "Choose model storage folder (existing models stay in place)",
+    "ja": "モデル保存先を選択（既存モデルは移動しません）",
+    "ko": "모델 저장 폴더 선택(기존 모델은 유지)",
+    "fr": "Choisir le dossier des modèles (anciens modèles conservés)",
+    "ru": "Выберите папку моделей (старые остаются на месте)"
+  },
+  "当前模型目录缺少完整的语音识别包：": {
+    "en": "Speech model missing or incomplete in: ",
+    "ja": "音声モデルが不足・不完全な場所：",
+    "ko": "음성 모델이 없거나 불완전한 위치: ",
+    "fr": "Modèle vocal absent ou incomplet dans : ",
+    "ru": "Речевая модель отсутствует или неполна в: "
+  },
+  "。请运行新版安装程序补齐，或在语言与模型导入基础离线包。": {
+    "en": ". Install the model or import an offline pack in Languages & models.",
+    "ja": "。「言語とモデル」でモデルを準備するかオフラインパックを読み込んでください。",
+    "ko": ". 언어 및 모델에서 설치하거나 오프라인 팩을 가져오세요.",
+    "fr": ". Installez le modèle ou importez un pack hors ligne dans Langues et modèles.",
+    "ru": ". Установите модель или импортируйте офлайн-пакет в разделе языков и моделей."
+  },
+  "音频片段过大": {
+    "en": "Audio chunk too large",
+    "ja": "音声データが大きすぎます",
+    "ko": "오디오 조각이 너무 큽니다",
+    "fr": "Segment audio trop volumineux",
+    "ru": "Аудиофрагмент слишком велик"
+  },
+  "翻译音频或视频": {
+    "en": "Translate audio or video",
+    "ja": "音声・動画を翻訳",
+    "ko": "오디오·영상 번역",
+    "fr": "Traduire un fichier audio ou vidéo",
+    "ru": "Перевести аудио или видео"
+  },
+  "音频与视频": {
+    "en": "Audio and video",
+    "ja": "音声と動画",
+    "ko": "오디오 및 영상",
+    "fr": "Audio et vidéo",
+    "ru": "Аудио и видео"
+  },
+  "AI 配置已变更，请重新导入文件": {
+    "en": "AI settings changed. Import the file again.",
+    "ja": "AI 設定が変更されました。ファイルを再度読み込んでください。",
+    "ko": "AI 설정이 변경되었습니다. 파일을 다시 가져오세요.",
+    "fr": "Paramètres IA modifiés. Importez à nouveau le fichier.",
+    "ru": "Настройки ИИ изменены. Импортируйте файл заново."
+  },
+  "请先导入并翻译音频或视频": {
+    "en": "Import and translate an audio or video file first",
+    "ja": "先に音声・動画を読み込んで翻訳してください",
+    "ko": "먼저 오디오·영상을 가져와 번역하세요",
+    "fr": "Importez et traduisez d’abord un fichier audio ou vidéo",
+    "ru": "Сначала импортируйте и переведите аудио или видео"
+  },
+  "双语字幕.srt": {
+    "en": "bilingual-subtitles.srt",
+    "ja": "対訳字幕.srt",
+    "ko": "이중언어-자막.srt",
+    "fr": "sous-titres-bilingues.srt",
+    "ru": "двуязычные-субтитры.srt"
+  },
+  "SubRip 字幕": {
+    "en": "SubRip subtitles",
+    "ja": "SubRip 字幕",
+    "ko": "SubRip 자막",
+    "fr": "Sous-titres SubRip",
+    "ru": "Субтитры SubRip"
+  },
+  "未知操作": {
+    "en": "Unknown action",
+    "ja": "不明な操作",
+    "ko": "알 수 없는 작업",
+    "fr": "Action inconnue",
+    "ru": "Неизвестное действие"
+  },
+  "字幕磨砂组件连接中断，请关闭字幕后重新打开": {
+    "en": "Subtitle blur disconnected. Close and reopen subtitles.",
+    "ja": "字幕ぼかしが切断されました。字幕を閉じて開き直してください。",
+    "ko": "자막 흐림 연결이 끊겼습니다. 자막을 닫고 다시 여세요.",
+    "fr": "Flou des sous-titres déconnecté. Fermez puis rouvrez les sous-titres.",
+    "ru": "Размытие субтитров отключено. Закройте и откройте субтитры снова."
+  },
+  "Windows 磨砂效果不可用": {
+    "en": "Windows blur unavailable",
+    "ja": "Windows のぼかしは利用できません",
+    "ko": "Windows 흐림을 사용할 수 없습니다",
+    "fr": "Flou Windows indisponible",
+    "ru": "Размытие Windows недоступно"
+  },
+  "后台组件连接已关闭，请重试": {
+    "en": "Background component disconnected. Retry.",
+    "ja": "バックグラウンド処理が切断されました。再試行してください。",
+    "ko": "백그라운드 구성 요소 연결이 끊겼습니다. 다시 시도하세요.",
+    "fr": "Composant en arrière-plan déconnecté. Réessayez.",
+    "ru": "Фоновый компонент отключён. Повторите попытку."
+  },
+  "日常翻译": {
+    "en": "Everyday translation",
+    "ja": "日常翻訳",
+    "ko": "일상 번역",
+    "fr": "Traduction quotidienne",
+    "ru": "Повседневный перевод"
+  },
+  "通义千问": {
+    "en": "Qwen",
+    "ja": "Qwen",
+    "ko": "Qwen",
+    "fr": "Qwen",
+    "ru": "Qwen"
+  },
+  "阿里云百炼": {
+    "en": "Alibaba Cloud Model Studio",
+    "ja": "Alibaba Cloud Model Studio",
+    "ko": "Alibaba Cloud Model Studio",
+    "fr": "Alibaba Cloud Model Studio",
+    "ru": "Alibaba Cloud Model Studio"
+  },
+  "月之暗面": {
+    "en": "Moonshot AI",
+    "ja": "Moonshot AI",
+    "ko": "Moonshot AI",
+    "fr": "Moonshot AI",
+    "ru": "Moonshot AI"
+  },
+  "GPT 系列": {
+    "en": "GPT models",
+    "ja": "GPT モデル",
+    "ko": "GPT 모델",
+    "fr": "Modèles GPT",
+    "ru": "Модели GPT"
+  },
+  "自定义接入": {
+    "en": "Custom provider",
+    "ja": "カスタム接続",
+    "ko": "사용자 지정 연결",
+    "fr": "Service personnalisé",
+    "ru": "Свой сервис"
+  },
+  "OpenAI 兼容": {
+    "en": "OpenAI compatible",
+    "ja": "OpenAI 互換",
+    "ko": "OpenAI 호환",
+    "fr": "Compatible OpenAI",
+    "ru": "Совместимый с OpenAI"
+  },
+  "只更改界面文字，不改变识别语言与翻译方向。切换后立即生效，并自动保存。": {
+    "en": "Changes interface text only, not recognition or translation languages. Applies immediately and saves automatically.",
+    "ja": "表示言語のみを変更し、認識・翻訳の言語は変えません。すぐに反映し、自動保存します。",
+    "ko": "화면 언어만 바꾸며 인식·번역 언어는 유지합니다. 즉시 적용되고 자동 저장됩니다.",
+    "fr": "Modifie uniquement l’interface, pas les langues de reconnaissance ou de traduction. Application immédiate et enregistrement automatique.",
+    "ru": "Меняет только интерфейс, не языки распознавания и перевода. Применяется сразу и сохраняется автоматически."
+  },
+  "拖动选择识别文字区域  ·  Esc 取消": {
+    "en": "Drag to select text region · Esc to cancel",
+    "ja": "ドラッグで認識範囲を選択 · Esc で取消",
+    "ko": "드래그하여 인식 영역 선택 · Esc로 취소",
+    "fr": "Glissez pour sélectionner une zone · Échap pour annuler",
+    "ru": "Выделите область текста · Esc — отмена"
+  },
+  "选区尺寸超出 OCR 范围，请缩小选区。": {
+    "en": "Region exceeds OCR limits. Select a smaller area.",
+    "ja": "OCR の範囲を超えています。選択範囲を小さくしてください。",
+    "ko": "영역이 OCR 한도를 초과했습니다. 더 작게 선택하세요.",
+    "fr": "Zone trop grande pour l’OCR. Réduisez-la.",
+    "ru": "Область превышает лимит OCR. Уменьшите её."
+  },
+  "此语言的 Windows 文字识别包尚未安装，请在语言与模型中打开 Windows 语言设置。": {
+    "en": "Windows OCR for this language is missing. Open Windows language settings from Languages & models.",
+    "ja": "この言語の Windows OCR がありません。「言語とモデル」から Windows 言語設定を開いてください。",
+    "ko": "이 언어의 Windows OCR이 없습니다. 언어 및 모델에서 Windows 언어 설정을 여세요.",
+    "fr": "OCR Windows absent pour cette langue. Ouvrez les paramètres Windows depuis Langues et modèles.",
+    "ru": "Windows OCR для этого языка не установлен. Откройте языковые параметры Windows из раздела языков и моделей."
+  },
+  "Windows 系统磨砂不可用": {
+    "en": "Windows system blur unavailable",
+    "ja": "Windows システムぼかしは利用できません",
+    "ko": "Windows 시스템 흐림을 사용할 수 없습니다",
+    "fr": "Flou système Windows indisponible",
+    "ru": "Системное размытие Windows недоступно"
+  },
+  "当前系统不支持圆角系统磨砂，已保留圆角透明背景。关闭“允许截图与录屏”后可使用精细磨砂。": {
+    "en": "Rounded system blur is unavailable; the rounded transparent background is preserved. Disable capture to use fine blur.",
+    "ja": "角丸のシステムぼかしは非対応です。角丸の透明背景を維持しました。撮影許可を無効にすると精細ぼかしを使えます。",
+    "ko": "둥근 시스템 흐림을 지원하지 않아 둥근 투명 배경을 유지합니다. 캡처 허용을 끄면 정밀 흐림을 사용할 수 있습니다.",
+    "fr": "Flou système arrondi indisponible ; fond transparent arrondi conservé. Désactivez la capture pour le flou fin.",
+    "ru": "Системное размытие со скруглением недоступно; прозрачный фон сохранён. Отключите захват для точного размытия."
+  },
+  "操作未完成。请查看技术详情或重试。": {
+    "en": "The action could not be completed. Review the technical details or retry.",
+    "ja": "操作を完了できません。技術情報を確認するか再試行してください。",
+    "ko": "작업을 완료하지 못했습니다. 기술 세부 정보를 확인하거나 다시 시도하세요.",
+    "fr": "L’action n’a pas abouti. Consultez les détails techniques ou réessayez.",
+    "ru": "Не удалось завершить действие. Посмотрите технические сведения или повторите попытку."
+  },
+  "技术详情": {
+    "en": "Technical details",
+    "ja": "技術情報",
+    "ko": "기술 세부 정보",
+    "fr": "Détails techniques",
+    "ru": "Технические сведения"
+  },
+  "无效收藏内容": {
+    "en": "Invalid library item",
+    "ja": "保存内容が無効です",
+    "ko": "저장 항목이 잘못되었습니다",
+    "fr": "Élément de lexique invalide",
+    "ru": "Недопустимая запись словаря"
+  },
+  "单条收藏内容过长": {
+    "en": "Library item too long",
+    "ja": "保存内容が長すぎます",
+    "ko": "저장 항목이 너무 깁니다",
+    "fr": "Élément trop long",
+    "ru": "Запись слишком длинная"
+  },
+  "ECDICT 本地双解词典": {
+    "en": "ECDICT local bilingual dictionary",
+    "ja": "ECDICT ローカル対訳辞書",
+    "ko": "ECDICT 로컬 이중 언어 사전",
+    "fr": "Dictionnaire bilingue local ECDICT",
+    "ru": "Локальный двуязычный словарь ECDICT"
+  },
+  "本地词典未收录此词或词组，不推测词义。": {
+    "en": "This word or phrase is not in the local dictionary. No definition is guessed.",
+    "ja": "ローカル辞書にない単語・表現です。意味は推測しません。",
+    "ko": "로컬 사전에 없는 단어·구입니다. 뜻을 추측하지 않습니다.",
+    "fr": "Mot ou expression absent du dictionnaire local. Aucun sens n’est inventé.",
+    "ru": "Слова или выражения нет в локальном словаре. Значение не выдумывается."
+  },
+  " + WordNet（补充释义经本地翻译）": {
+    "en": " + WordNet (extra definitions translated locally)",
+    "ja": " + WordNet（補足の意味はローカル翻訳）",
+    "ko": " + WordNet(추가 뜻은 로컬 번역)",
+    "fr": " + WordNet (définitions complémentaires traduites localement)",
+    "ru": " + WordNet (дополнительные определения переведены локально)"
+  },
+  " · 经英语词头查询，请结合原句核对": {
+    "en": " · Looked up via an English headword; check against the original sentence",
+    "ja": " · 英語見出し語から検索。原文と照合してください",
+    "ko": " · 영어 표제어로 검색됨. 원문과 대조하세요",
+    "fr": " · Recherche via un mot anglais ; vérifiez avec l’original",
+    "ru": " · Найдено через английское слово; сверьте с оригиналом"
+  },
+  " · 释义经本地翻译": {
+    "en": " · Definitions translated locally",
+    "ja": " · 意味はローカル翻訳",
+    "ko": " · 뜻은 로컬 번역",
+    "fr": " · Définitions traduites localement",
+    "ru": " · Определения переведены локально"
+  },
+  "过去式": {
+    "en": "Past tense",
+    "ja": "過去形",
+    "ko": "과거형",
+    "fr": "Passé",
+    "ru": "Прошедшее время"
+  },
+  "过去分词": {
+    "en": "Past participle",
+    "ja": "過去分詞",
+    "ko": "과거분사",
+    "fr": "Participe passé",
+    "ru": "Причастие прошедшего времени"
+  },
+  "现在分词": {
+    "en": "Present participle",
+    "ja": "現在分詞",
+    "ko": "현재분사",
+    "fr": "Participe présent",
+    "ru": "Причастие настоящего времени"
+  },
+  "第三人称单数": {
+    "en": "Third-person singular",
+    "ja": "三人称単数",
+    "ko": "3인칭 단수",
+    "fr": "Troisième personne du singulier",
+    "ru": "Третье лицо единственного числа"
+  },
+  "比较级": {
+    "en": "Comparative",
+    "ja": "比較級",
+    "ko": "비교급",
+    "fr": "Comparatif",
+    "ru": "Сравнительная степень"
+  },
+  "最高级": {
+    "en": "Superlative",
+    "ja": "最上級",
+    "ko": "최상급",
+    "fr": "Superlatif",
+    "ru": "Превосходная степень"
+  },
+  "复数": {
+    "en": "Plural",
+    "ja": "複数形",
+    "ko": "복수형",
+    "fr": "Pluriel",
+    "ru": "Множественное число"
+  },
+  "原形": {
+    "en": "Base form",
+    "ja": "原形",
+    "ko": "원형",
+    "fr": "Forme de base",
+    "ru": "Начальная форма"
+  },
+  "n.": {
+    "en": "n.",
+    "ja": "名詞",
+    "ko": "명사",
+    "fr": "n.",
+    "ru": "сущ."
+  },
+  "v.": {
+    "en": "v.",
+    "ja": "動詞",
+    "ko": "동사",
+    "fr": "v.",
+    "ru": "гл."
+  },
+  "adj.": {
+    "en": "adj.",
+    "ja": "形容詞",
+    "ko": "형용사",
+    "fr": "adj.",
+    "ru": "прил."
+  },
+  "adv.": {
+    "en": "adv.",
+    "ja": "副詞",
+    "ko": "부사",
+    "fr": "adv.",
+    "ru": "нареч."
+  },
+  "pron.": {
+    "en": "pron.",
+    "ja": "代名詞",
+    "ko": "대명사",
+    "fr": "pron.",
+    "ru": "мест."
+  },
+  "prep.": {
+    "en": "prep.",
+    "ja": "前置詞",
+    "ko": "전치사",
+    "fr": "prép.",
+    "ru": "предл."
+  },
+  "conj.": {
+    "en": "conj.",
+    "ja": "接続詞",
+    "ko": "접속사",
+    "fr": "conj.",
+    "ru": "союз"
+  },
+  "下载源必须使用 HTTPS": {
+    "en": "Downloads require HTTPS",
+    "ja": "ダウンロードには HTTPS が必要です",
+    "ko": "다운로드에는 HTTPS가 필요합니다",
+    "fr": "HTTPS requis pour télécharger",
+    "ru": "Для загрузки нужен HTTPS"
+  },
+  "下载重定向未使用 HTTPS": {
+    "en": "Download redirect did not use HTTPS",
+    "ja": "リダイレクトが HTTPS ではありません",
+    "ko": "다운로드 리디렉션이 HTTPS가 아닙니다",
+    "fr": "Redirection sans HTTPS",
+    "ru": "Перенаправление загрузки не использует HTTPS"
+  },
+  "下载续传范围异常": {
+    "en": "Invalid resume range",
+    "ja": "再開範囲が不正です",
+    "ko": "이어받기 범위 오류",
+    "fr": "Plage de reprise invalide",
+    "ru": "Неверный диапазон докачки"
+  },
+  "下载响应异常": {
+    "en": "Unexpected download response",
+    "ja": "ダウンロード応答が不正です",
+    "ko": "다운로드 응답 오류",
+    "fr": "Réponse de téléchargement inattendue",
+    "ru": "Неожиданный ответ загрузки"
+  },
+  "下载文件尺寸与内置目录不符": {
+    "en": "Downloaded size does not match the catalog",
+    "ja": "サイズがモデル一覧と一致しません",
+    "ko": "다운로드 크기가 목록과 다릅니다",
+    "fr": "Taille différente du catalogue",
+    "ru": "Размер загрузки не соответствует каталогу"
+  },
+  "下载分段未完成": {
+    "en": "Incomplete download segment",
+    "ja": "ダウンロード部分が未完了です",
+    "ko": "다운로드 구간이 불완전합니다",
+    "fr": "Segment téléchargé incomplet",
+    "ru": "Неполный сегмент загрузки"
+  },
+  "下载未完成或文件校验不通过": {
+    "en": "Download incomplete or verification failed",
+    "ja": "未完了または検証失敗です",
+    "ko": "다운로드 미완료 또는 검증 실패",
+    "fr": "Téléchargement incomplet ou vérification échouée",
+    "ru": "Загрузка не завершена или проверка не пройдена"
+  },
+  " · 已校验，跳过重复下载": {
+    "en": " · Verified; skipping duplicate download",
+    "ja": " · 検証済み、重複取得を省略",
+    "ko": " · 검증됨, 중복 다운로드 생략",
+    "fr": " · Vérifié, téléchargement ignoré",
+    "ru": " · Проверено, повторная загрузка пропущена"
+  },
+  " · 断点续传": {
+    "en": " · Resuming",
+    "ja": " · 再開中",
+    "ko": " · 이어받는 중",
+    "fr": " · Reprise",
+    "ru": " · Докачка"
+  },
+  " · 校验完成": {
+    "en": " · Verified",
+    "ja": " · 検証完了",
+    "ko": " · 검증 완료",
+    "fr": " · Vérifié",
+    "ru": " · Проверено"
+  },
+  " · 当前来源暂不可用，正在重试或切换备用源": {
+    "en": " · Source unavailable; retrying or switching mirror",
+    "ja": " · 取得先が利用不可。再試行・代替先へ切替中",
+    "ko": " · 서버 사용 불가, 재시도 또는 대체 서버로 전환 중",
+    "fr": " · Source indisponible, nouvel essai ou source de secours",
+    "ru": " · Источник недоступен, повтор или смена зеркала"
+  },
+  "失败。已尝试：": {
+    "en": " failed. Sources tried: ",
+    "ja": "に失敗。試行済み：",
+    "ko": " 실패. 시도한 서버: ",
+    "fr": " a échoué. Sources essayées : ",
+    "ru": " не удалось. Проверенные источники: "
+  },
+  "。已保留下载进度，请稍后重试，或使用「导入离线包」。": {
+    "en": ". Progress saved. Retry later or import an offline pack.",
+    "ja": "。進捗は保存済みです。後で再試行するかオフラインパックを読み込んでください。",
+    "ko": ". 진행 상태를 저장했습니다. 나중에 다시 시도하거나 오프라인 팩을 가져오세요.",
+    "fr": ". Progression conservée. Réessayez ou importez un pack hors ligne.",
+    "ru": ". Прогресс сохранён. Повторите позже или импортируйте офлайн-пакет."
+  },
+  "旧目录语音模型复制校验失败，原模型已保留": {
+    "en": "Speech model copy verification failed; original preserved",
+    "ja": "音声モデルの複製検証に失敗。元データは保持しました",
+    "ko": "음성 모델 복사 검증 실패, 원본 유지됨",
+    "fr": "Échec de vérification de la copie ; original conservé",
+    "ru": "Проверка копии речевой модели не пройдена; оригинал сохранён"
+  },
+  "模型解压尺寸异常": {
+    "en": "Unexpected extracted model size",
+    "ja": "展開サイズが不正です",
+    "ko": "모델 압축 해제 크기 오류",
+    "fr": "Taille extraite anormale",
+    "ru": "Неверный размер распакованной модели"
+  },
+  "模型包含不安全路径": {
+    "en": "Unsafe path in model archive",
+    "ja": "モデル内に不正なパスがあります",
+    "ko": "모델에 안전하지 않은 경로가 있습니다",
+    "fr": "Chemin dangereux dans l’archive",
+    "ru": "Небезопасный путь в архиве модели"
+  },
+  "模型包含符号链接": {
+    "en": "Symbolic link in model archive",
+    "ja": "モデル内にシンボリックリンクがあります",
+    "ko": "모델에 심볼릭 링크가 있습니다",
+    "fr": "Lien symbolique dans l’archive",
+    "ru": "Символическая ссылка в архиве модели"
+  },
+  "请选择中文或其他语言包": {
+    "en": "Choose a Chinese or another language pack",
+    "ja": "中国語などの言語パックを選んでください",
+    "ko": "중국어 또는 다른 언어 팩을 선택하세요",
+    "fr": "Choisissez un pack chinois ou d’une autre langue",
+    "ru": "Выберите китайский или другой языковой пакет"
+  },
+  "正在读取内置语言包目录，无需连接 GitHub": {
+    "en": "Reading the built-in catalog; no GitHub connection needed",
+    "ja": "内蔵一覧を読込中。GitHub 接続は不要です",
+    "ko": "내장 목록 읽는 중, GitHub 연결 불필요",
+    "fr": "Lecture du catalogue intégré, sans connexion GitHub",
+    "ru": "Чтение встроенного каталога, без подключения к GitHub"
+  },
+  "官方目录暂未提供 {0} → {1}": {
+    "en": "Catalog has no {0} → {1} model yet",
+    "ja": "公式一覧に {0} → {1} はありません",
+    "ko": "공식 목록에 {0} → {1} 모델이 없습니다",
+    "fr": "Aucun modèle {0} → {1} au catalogue",
+    "ru": "В каталоге пока нет модели {0} → {1}"
+  },
+  "{0} → {1} 已达到内置目录版本": {
+    "en": "{0} → {1} matches the bundled catalog version",
+    "ja": "{0} → {1} は内蔵一覧と同じ版です",
+    "ko": "{0} → {1}은 내장 목록 버전과 일치합니다",
+    "fr": "{0} → {1} correspond à la version du catalogue",
+    "ru": "{0} → {1} соответствует версии каталога"
+  },
+  "下载 {0} → {1}": {
+    "en": "Downloading {0} → {1}",
+    "ja": "{0} → {1} を取得中",
+    "ko": "{0} → {1} 다운로드 중",
+    "fr": "Téléchargement {0} → {1}",
+    "ru": "Загрузка {0} → {1}"
+  },
+  "翻译包解压校验失败，请重新下载或导入离线包": {
+    "en": "Model verification failed. Download again or import an offline pack.",
+    "ja": "翻訳パックの検証失敗。再取得するかオフラインパックを読み込んでください。",
+    "ko": "번역 팩 검증 실패. 다시 내려받거나 오프라인 팩을 가져오세요.",
+    "fr": "Vérification du modèle échouée. Retéléchargez ou importez un pack hors ligne.",
+    "ru": "Проверка модели не пройдена. Скачайте заново или импортируйте офлайн-пакет."
+  },
+  "语言包内容不匹配": {
+    "en": "Language pack content mismatch",
+    "ja": "言語パックの内容が不一致です",
+    "ko": "언어 팩 내용이 일치하지 않습니다",
+    "fr": "Contenu du pack incompatible",
+    "ru": "Содержимое языкового пакета не совпадает"
+  },
+  "语言包缺少模型文件": {
+    "en": "Model files missing from language pack",
+    "ja": "言語パックにモデルファイルがありません",
+    "ko": "언어 팩에 모델 파일이 없습니다",
+    "fr": "Fichiers du modèle manquants",
+    "ru": "В языковом пакете нет файлов модели"
+  },
+  "语言包安装完成": {
+    "en": "Language pack installed",
+    "ja": "言語パックを導入しました",
+    "ko": "언어 팩 설치 완료",
+    "fr": "Pack de langues installé",
+    "ru": "Языковой пакет установлен"
+  },
+  "下载语音模型 ": {
+    "en": "Downloading speech model ",
+    "ja": "音声モデルを取得中 ",
+    "ko": "음성 모델 다운로드 중 ",
+    "fr": "Téléchargement du modèle vocal ",
+    "ru": "Загрузка речевой модели "
+  },
+  "语音包校验失败，请重试": {
+    "en": "Speech model verification failed. Retry.",
+    "ja": "音声モデルの検証失敗。再試行してください",
+    "ko": "음성 팩 검증 실패. 다시 시도하세요",
+    "fr": "Vérification du modèle vocal échouée. Réessayez.",
+    "ru": "Проверка речевой модели не пройдена. Повторите."
+  },
+  "语音模型安装完成": {
+    "en": "Speech model installed",
+    "ja": "音声モデルを導入しました",
+    "ko": "음성 모델 설치 완료",
+    "fr": "Modèle vocal installé",
+    "ru": "Речевая модель установлена"
+  },
+  "正在校验基础离线包": {
+    "en": "Verifying offline pack",
+    "ja": "オフラインパックを検証中",
+    "ko": "오프라인 팩 검증 중",
+    "fr": "Vérification du pack hors ligne",
+    "ru": "Проверка офлайн-пакета"
+  },
+  "离线包格式不匹配，请选择 Lishon 基础离线语言包": {
+    "en": "Invalid pack format. Select a Lishon offline language pack.",
+    "ja": "形式が不正です。Lishon のオフライン言語パックを選んでください",
+    "ko": "팩 형식 오류. Lishon 오프라인 언어 팩을 선택하세요",
+    "fr": "Format invalide. Choisissez un pack hors ligne Lishon.",
+    "ru": "Неверный формат. Выберите офлайн-языковой пакет Lishon."
+  },
+  "离线包缺失或校验失败：{0}": {
+    "en": "Offline pack missing or invalid: {0}",
+    "ja": "オフラインパックの不足・検証失敗：{0}",
+    "ko": "오프라인 팩 누락 또는 검증 실패: {0}",
+    "fr": "Pack hors ligne absent ou invalide : {0}",
+    "ru": "Офлайн-пакет отсутствует или неверен: {0}"
+  },
+  "基础离线包导入完成，无需联网": {
+    "en": "Offline pack imported without network access",
+    "ja": "ネット接続なしでパックを読み込みました",
+    "ko": "네트워크 없이 오프라인 팩 가져오기 완료",
+    "fr": "Pack hors ligne importé sans réseau",
+    "ru": "Офлайн-пакет импортирован без сети"
+  },
+  "本地未安装 {0} → {1} 直译包。请在「语言与模型」查看已安装方向，或启用 AI 直接翻译；不会使用英语中转。": {
+    "en": "No local {0} → {1} model. Check Languages & models or enable direct AI translation. English pivoting is not used.",
+    "ja": "{0} → {1} のモデルがありません。「言語とモデル」で確認するか AI を有効にしてください。英語は経由しません。",
+    "ko": "로컬 {0} → {1} 모델이 없습니다. 언어 및 모델을 확인하거나 AI 직접 번역을 켜세요. 영어 중계는 하지 않습니다.",
+    "fr": "Aucun modèle local {0} → {1}. Vérifiez les modèles ou activez l’IA directe, sans pivot anglais.",
+    "ru": "Нет локальной модели {0} → {1}. Проверьте модели или включите прямой перевод ИИ, без английского посредника."
+  },
+  "请选择 1 至 3 种支持的目标语言": {
+    "en": "Choose 1 to 3 supported target languages",
+    "ja": "対応する目標言語を 1～3 個選んでください",
+    "ko": "지원되는 목표 언어를 1~3개 선택하세요",
+    "fr": "Choisissez 1 à 3 langues cibles prises en charge",
+    "ru": "Выберите от 1 до 3 поддерживаемых целевых языков"
+  },
+  "当前目录缺少完整语音识别包：{0}。请重新运行新版安装程序补齐，或在「语言与模型」导入基础离线包。": {
+    "en": "Speech model missing or incomplete: {0}. Prepare the model or import an offline pack in Languages & models.",
+    "ja": "音声モデルが不足しています：{0}。モデルを準備するか「言語とモデル」でオフラインパックを読み込んでください。",
+    "ko": "음성 모델이 없거나 불완전합니다: {0}. 언어 및 모델에서 준비하거나 오프라인 팩을 가져오세요.",
+    "fr": "Modèle vocal absent ou incomplet : {0}. Préparez-le ou importez un pack dans Langues et modèles.",
+    "ru": "Речевая модель отсутствует или неполна: {0}. Подготовьте её или импортируйте офлайн-пакет в разделе языков и моделей."
+  },
+  "字幕区域尺寸不合适，请重新框选": {
+    "en": "Invalid subtitle region size. Select again.",
+    "ja": "字幕範囲のサイズが不適切です。選び直してください",
+    "ko": "자막 영역 크기가 적절하지 않습니다. 다시 선택하세요",
+    "fr": "Taille de zone incorrecte. Sélectionnez à nouveau.",
+    "ru": "Неверный размер области субтитров. Выберите заново."
+  },
+  "未知指令": {
+    "en": "Unknown command",
+    "ja": "不明なコマンド",
+    "ko": "알 수 없는 명령",
+    "fr": "Commande inconnue",
+    "ru": "Неизвестная команда"
+  },
+  "名词": {
+    "en": "Noun",
+    "ja": "名詞",
+    "ko": "명사",
+    "fr": "Nom",
+    "ru": "Существительное"
+  },
+  "动词": {
+    "en": "Verb",
+    "ja": "動詞",
+    "ko": "동사",
+    "fr": "Verbe",
+    "ru": "Глагол"
+  },
+  "形容词": {
+    "en": "Adjective",
+    "ja": "形容詞",
+    "ko": "형용사",
+    "fr": "Adjectif",
+    "ru": "Прилагательное"
+  },
+  "副词": {
+    "en": "Adverb",
+    "ja": "副詞",
+    "ko": "부사",
+    "fr": "Adverbe",
+    "ru": "Наречие"
+  },
+  "连接词": {
+    "en": "Conjunction",
+    "ja": "接続詞",
+    "ko": "접속사",
+    "fr": "Conjonction",
+    "ru": "Союз"
+  },
+  "完整离线安装版包含 8 种语言、14 个与英语互译的方向和多语种语音模型。源码版需选择已有模型目录，或准备相应模型后使用。": {
+    "en": "The full offline installer includes 14 English-based translation directions across 8 languages and a multilingual speech model. Source builds require model setup.",
+    "ja": "完全オフライン版インストーラーは 8 言語・英語との 14 方向と多言語音声モデルを含みます。ソース版ではモデルの準備が必要です。",
+    "ko": "전체 오프라인 설치본에는 8개 언어의 영어 기반 14개 방향과 다국어 음성 모델이 포함됩니다. 소스 실행 시 모델을 준비해야 합니다.",
+    "fr": "L’installeur hors ligne complet inclut 14 directions avec l’anglais, 8 langues et un modèle vocal. Une version source nécessite de préparer les modèles.",
+    "ru": "Полный офлайн-установщик содержит 14 направлений с английским, 8 языков и речевую модель. Для запуска из исходников нужно подготовить модели."
+  },
+  "可选择已有模型目录，或下载所需模型。基础离线包可导入中英模型和语音识别包；补充下载支持断点续传。": {
+    "en": "Select an existing model folder, download missing models or import a compatible offline pack. Downloads support resuming.",
+    "ja": "既存モデルのフォルダーを選択し、不足分をダウンロードするか対応パックを読み込みます。中断したダウンロードは再開できます。",
+    "ko": "기존 모델 폴더를 선택하거나 누락된 모델을 내려받거나 호환 팩을 가져오세요. 이어받기를 지원합니다.",
+    "fr": "Choisissez un dossier existant, téléchargez les modèles manquants ou importez un pack compatible. Reprise des téléchargements disponible.",
+    "ru": "Выберите папку моделей, скачайте недостающие или импортируйте совместимый пакет. Поддерживается докачка."
+  },
+  "可供本地使用": {
+    "en": "Available for local use",
+    "ja": "ローカル用モデル",
+    "ko": "로컬 사용 가능",
+    "fr": "Pour usage local",
+    "ru": "Для локального использования"
+  },
+  "约 148 MB · 8 种语言共用": {
+    "en": "~148 MB · shared by 8 languages",
+    "ja": "約 148 MB · 8 言語で共用",
+    "ko": "약 148 MB · 8개 언어 공용",
+    "fr": "~148 Mo · commun à 8 langues",
+    "ru": "~148 МБ · для 8 языков"
+  },
+  "听译需先把声音识别为文字，翻译包不能替代语音识别包。请选择含 Whisper 的模型目录、下载语音包，或导入基础离线包。": {
+    "en": "Audio must first be transcribed. Translation models cannot replace speech recognition. Select a folder containing Whisper, download the speech model, or import an offline pack.",
+    "ja": "音声はまず文字起こしが必要です。翻訳モデルは音声認識の代わりにはなりません。Whisper があるフォルダーを選ぶか、音声モデルをダウンロードするか、オフラインパックを読み込んでください。",
+    "ko": "먼저 음성을 텍스트로 변환해야 합니다. 번역 모델은 음성 인식을 대신할 수 없습니다. Whisper가 있는 폴더를 선택하거나 음성 모델을 다운로드하거나 오프라인 팩을 가져오세요.",
+    "fr": "La transcription précède la traduction. Un modèle de traduction ne remplace pas la reconnaissance vocale. Sélectionnez un dossier contenant Whisper, téléchargez le modèle vocal ou importez un pack hors ligne.",
+    "ru": "Сначала речь нужно преобразовать в текст. Модель перевода не заменяет распознавание речи. Выберите папку с Whisper, скачайте речевую модель или импортируйте офлайн-пакет."
+  },
+  "语音识别包用于听写，翻译包用于转换语言，不包含语音朗读。源码版需自行准备模型。下载失败会切换备用源，可重试续传；已完成的文件会保留。网络可达性受运营商和站点影响，也可导入离线包。": {
+    "en": "Speech models transcribe audio; translation models convert text. Speech synthesis is not included. Source builds require separate model setup. Failed downloads try alternate sources and can be resumed; completed files are retained. Availability depends on your network. Offline packs can also be imported.",
+    "ja": "音声モデルは文字起こし、翻訳モデルは言語変換に使います。音声読み上げは含みません。ソース版ではモデルを別途準備してください。失敗したダウンロードは代替配信元を試し、再開できます。完了済みファイルは保持されます。接続可否はネットワークによって異なります。オフラインパックも読み込めます。",
+    "ko": "음성 모델은 받아쓰기에, 번역 모델은 언어 변환에 사용됩니다. 음성 합성은 포함되지 않습니다. 소스 버전은 모델을 별도로 준비해야 합니다. 다운로드 실패 시 대체 소스를 시도하며 이어받을 수 있습니다. 완료된 파일은 유지됩니다. 접속 여부는 네트워크에 따라 다르며 오프라인 팩도 가져올 수 있습니다.",
+    "fr": "Les modèles vocaux transcrivent le son et les modèles de traduction convertissent le texte. La synthèse vocale n’est pas incluse. La version source nécessite des modèles séparés. Les téléchargements essaient des sources alternatives et peuvent reprendre ; les fichiers terminés sont conservés. La disponibilité dépend du réseau. Des packs hors ligne peuvent aussi être importés.",
+    "ru": "Речевые модели преобразуют звук в текст, модели перевода переводят его. Синтез речи не включён. Для сборки из исходников модели готовятся отдельно. При сбое загрузки пробуются запасные источники; загрузку можно продолжить, готовые файлы сохраняются. Доступность зависит от сети. Можно импортировать офлайн-пакеты."
+  }
+}
