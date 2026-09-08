@@ -154,5 +154,6 @@ export async function startAudio({
       onError(new Error(t("音频设备已断开，请重新开始监听。")));
     }
   };
+  await api.call('audio',{action:'started'});
   return stop;
 }

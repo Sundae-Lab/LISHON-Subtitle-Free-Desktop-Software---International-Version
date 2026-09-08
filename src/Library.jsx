@@ -1,6 +1,7 @@
+import SessionHistory from './SessionHistory';
 import { t, localeTag } from "./i18n";
 import React, { useEffect, useState } from 'react';
-import { Heart, BookOpen, MessageSquare, Search, Trash2, ChevronLeft, ChevronRight, Check, Minus, Palette as PaletteIcon } from 'lucide-react';
+import { Heart, BookOpen, MessageSquare, Search, Trash2, ChevronLeft, ChevronRight, Check, Minus, History as HistoryIcon, Palette as PaletteIcon } from 'lucide-react';
 import { api, languages as languageNames } from './bridge';
 import { Gloss, LanguageBadge } from './LibraryGloss';
 import { Toggle } from './components';
@@ -28,6 +29,7 @@ export default function Library({
     [revision, setRevision] = useState(0),
     [busy, setBusy] = useState(false);
   useEffect(() => {
+    if(kind==='history')return;
     let live = true;
     setBusy(true);
     const timer = setTimeout(() => api.call('library', {
@@ -107,17 +109,17 @@ export default function Library({
   };
   const glosses = (row, compact) => <div className={'comparison-glosses ' + (variants(row).length > 1 ? 'comparing' : '')}>{variants(row).map(v => <div className="comparison-variant" key={v.id}><Gloss details={v.details} compact={compact} />{!compact && v.details.forms?.length > 0 && <div className="card-forms">{v.details.forms.map((f, i) => <span key={i}>{t(f.label)}：{f.word}　</span>)}</div>}</div>)}</div>;
   return <><header className="page-heading"><div><h1>{t("我的语库")}</h1><p>{t("把遇见的词句，留在自己的语言里。")}</p></div><span className="library-count">{t("{0} 条 · 本地保存", [data.count])}</span></header>
- <section className="library-index"><div><strong>{t("实时翻译中显示收藏的单词")}</strong><p>{t("开启后，最多索引 {0} 条语库记录。关闭实时高亮可继续收藏，关键词检索始终可用。", [data.limit])}</p></div><div className="library-index-actions"><Toggle label={t("实时翻译高亮收藏词")} checked={!!data.highlight} onChange={index} /><button className="icon-button" aria-label={t("收藏词高亮配色")} aria-expanded={colors} disabled={!data.highlight} onClick={() => setColors(!colors)}><PaletteIcon size={19} /></button></div></section>
- {colors && data.highlight && <div className="favorite-colors"><span>{t("文字颜色")}</span><Palette label={t("收藏词文字颜色")} value={settings.favoriteColor} onChange={favoriteColor => update({
+ <section className={"library-index-card "+(colors&&data.highlight?"expanded":"")}><div className="library-index"><div><strong>{t("实时翻译中显示收藏的单词")}</strong><p>{t("开启后，最多索引 {0} 条语库记录。关闭实时高亮可继续收藏，关键词检索始终可用。", [data.limit])}</p></div><div className="library-index-actions"><Toggle label={t("实时翻译高亮收藏词")} checked={!!data.highlight} onChange={index} /><button className="icon-button" aria-label={t("收藏词高亮配色")} aria-expanded={colors} disabled={!data.highlight} onClick={() => setColors(!colors)}><PaletteIcon size={19} /></button></div></div>
+ <div className="favorite-colors-reveal" inert={!(colors&&data.highlight)}><div className="favorite-colors"><span>{t("文字颜色")}</span><Palette label={t("收藏词文字颜色")} value={settings.favoriteColor} onChange={favoriteColor => update({
         favoriteColor
       })} /><span>{t("背景颜色")}</span><Palette label={t("收藏词背景颜色")} value={settings.favoriteBackground} onChange={favoriteBackground => update({
         favoriteBackground
       })} /><mark style={{
         background: settings.favoriteBackground,
         color: settings.favoriteColor
-      }}>{t("word 单词")}</mark></div>}
+      }}>{t("word 单词")}</mark></div></div></section>
  {error && <div className="error-banner" role="alert">{t(error)}<button onClick={() => setError('')}>{t("知道了")}</button></div>}
- <section className="library-panel"><div className="library-tabs">{[['favorite', Heart, t("喜欢的单词")], ['word', BookOpen, t("单词卡片")], ['sentence', MessageSquare, t("句子卡片")]].map(([id, Icon, label]) => <button key={id} className={kind === id ? 'selected' : ''} onClick={() => {
+ <section className="library-panel"><div className="library-tabs">{[['favorite', Heart, t("喜欢的单词")], ['word', BookOpen, t("单词卡片")], ['sentence', MessageSquare, t("句子卡片")], ['history',HistoryIcon,t("本地翻译历史")]].map(([id, Icon, label]) => <button key={id} className={kind === id ? 'selected' : ''} onClick={() => {
           setData(old => ({
             ...old,
             items: []
@@ -127,7 +129,7 @@ export default function Library({
           setSelecting(false);
           setSelected([]);
         }}><Icon size={17} />{label}</button>)}</div>
- <div className="library-tools"><label><Search size={17} /><input aria-label={t("检索语库")} placeholder={t("检索单词、句子或释义")} value={query} onChange={e => {
+ {kind==='history'?<SessionHistory settings={settings} update={update}/>:<><div className="library-tools"><label><Search size={17} /><input aria-label={t("检索语库")} placeholder={t("检索单词、句子或释义")} value={query} onChange={e => {
             setQuery(e.target.value);
             setPage(0);
           }} /></label><select aria-label={t("语库排序")} value={sort} onChange={e => {
@@ -157,5 +159,5 @@ export default function Library({
           }} />}
  <div>{kind === 'favorite' ? <><div className="favorite-line"><h3>{row.term}</h3>{glosses(row, true)}</div>{date(row)}</> : kind === 'word' ? <><h3>{row.term}</h3>{glosses(row, false)}{date(row)}</> : <><h3>{row.term}</h3><div className="library-translation">{translations(row).map((r, i) => <p key={i}><LanguageBadge code={r.target} /><span>{r.translation}</span></p>)}</div>{date(row)}</>}</div></article>)}
  {!busy && !data.items.length && <div className="library-empty"><BookOpen size={32} /><h3>{query ? t("没有找到对应记录") : t("从一个词，开始积累")}</h3><p>{t("在划词翻译中点击单词，或框选句子，添加到这里。")}</p></div>}</div>
- <div className="library-pagination"><span>{t("共 {0} 组", [data.total])}</span><button aria-label={t("语库上一页")} disabled={page === 0} onClick={() => setPage(page - 1)}><ChevronLeft size={16} /></button><span>{page + 1}</span><button aria-label={t("语库下一页")} disabled={(page + 1) * 50 >= data.total} onClick={() => setPage(page + 1)}><ChevronRight size={16} /></button></div></section></>;
+ <div className="library-pagination"><span>{t("共 {0} 组", [data.total])}</span><button aria-label={t("语库上一页")} disabled={page === 0} onClick={() => setPage(page - 1)}><ChevronLeft size={16} /></button><span>{page + 1}</span><button aria-label={t("语库下一页")} disabled={(page + 1) * 50 >= data.total} onClick={() => setPage(page + 1)}><ChevronRight size={16} /></button></div></>}</section></>;
 }

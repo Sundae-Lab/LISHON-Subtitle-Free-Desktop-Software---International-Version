@@ -32,7 +32,7 @@ export function LanguageBar({
       target: e.target.value
     })}>{enabled.map(code => <option key={code} value={code}>{languages[code]}</option>)}</select>}{editorControls && <div className="editor-size-control"><button className="editor-size-trigger" aria-label={t("原文和译文字号")} aria-expanded={sizes} onClick={() => setSizes(!sizes)}><CaseSensitive size={19} /><span>{t("字号")}</span></button>{sizes && <div className="editor-size-panel" role="group" aria-label={t("阅读字号")}>{[[t("原文"), 'editorSourceSize'], [t("译文"), 'editorTargetSize']].map(([label, key]) => <div key={key}><span>{label}</span>{[['small', t("小")], ['medium', t("中")], ['large', t("大")]].map(([value, name]) => <button key={value} aria-label={label + name + t("号")} aria-pressed={settings[key] === value} onClick={() => update({
             [key]: value
-          })}>{name}</button>)}</div>)}</div>}</div>}<span className="local-label"><Monitor size={15} />{settings.aiEnabled ? t("AI 翻译") : t("本地翻译")}</span></div>;
+          })}>{name}</button>)}</div>)}</div>}</div>}</div>;
 }
 export function Bilingual(props) {
   return <WordWorkspace {...props} />;

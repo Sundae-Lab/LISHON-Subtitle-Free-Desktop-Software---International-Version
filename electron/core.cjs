@@ -1,5 +1,5 @@
 const {widthLevel,widthForLevel,levelForWidth}=require('./subtitle-width.cjs');
-const defaults = {uiLanguage:'zh',theme:'light',closeAction:'ask',source:'en',target:'zh',fontSize:28,fontFamily:'Microsoft YaHei UI',textColor:'#ffffff',textShadow:true,editorSourceSize:'medium',editorTargetSize:'medium',backgroundColor:'#16171d',backgroundOpacity:78,opacityLevel:8,favoriteBackground:'#2457c5',favoriteColor:'#ffffff',libraryDates:false,allowSubtitleCapture:true,backgroundBlur:false,backgroundEnabled:true,blurTone:'dark',blurLevel:4,blurAmount:16,widthLevel:4,lines:2,bilingual:true,overlayWidth:760,chunkSeconds:3,history:false,multiTarget:false,subtitleTargets:[{code:'zh',fontSize:28,textColor:'#ffffff'}]};
+const defaults = {uiLanguage:'zh',theme:'light',closeAction:'ask',source:'en',target:'zh',fontSize:28,fontFamily:'Microsoft YaHei UI',textColor:'#ffffff',textShadow:true,editorSourceSize:'medium',editorTargetSize:'medium',backgroundColor:'#16171d',backgroundOpacity:78,opacityLevel:8,favoriteBackground:'#2457c5',favoriteColor:'#ffffff',libraryDates:false,allowSubtitleCapture:true,backgroundBlur:false,backgroundEnabled:true,blurTone:'dark',blurLevel:4,blurAmount:16,widthLevel:4,lines:2,bilingual:true,overlayWidth:760,chunkSeconds:3,history:false,historyEnabled:false,historyDirectory:'',multiTarget:false,subtitleTargets:[{code:'zh',fontSize:28,textColor:'#ffffff'}]};
 function cleanSettings(value={}) {
  const out={...defaults};
  if(['zh','en','ja','ko','fr','ru'].includes(value.uiLanguage))out.uiLanguage=value.uiLanguage;
@@ -14,8 +14,9 @@ function cleanSettings(value={}) {
  if(['Segoe UI','Microsoft YaHei UI','SimHei','SimSun'].includes(value.fontFamily)) out.fontFamily=value.fontFamily;
  if([...allowed,'auto'].includes(value.source)) out.source=value.source;
  if(allowed.includes(value.target)) out.target=value.target;
- for(const key of ['allowSubtitleCapture','bilingual','history','backgroundBlur','backgroundEnabled','multiTarget','libraryDates','textShadow']) if(typeof value[key]==='boolean') out[key]=value[key];
+ for(const key of ['allowSubtitleCapture','bilingual','historyEnabled','backgroundBlur','backgroundEnabled','multiTarget','libraryDates','textShadow']) if(typeof value[key]==='boolean') out[key]=value[key];
  for(const key of ['editorSourceSize','editorTargetSize'])if(['small','medium','large'].includes(value[key]))out[key]=value[key];
+ if(typeof value.historyDirectory==='string'&&require('node:path').win32.isAbsolute(value.historyDirectory)&&!/[\0\r\n]/.test(value.historyDirectory))out.historyDirectory=value.historyDirectory;
  out.lines=Math.round(out.lines);
  out.opacityLevel=Number.isFinite(value.opacityLevel)?Math.max(1,Math.min(10,Math.round(value.opacityLevel))):Math.round(out.backgroundOpacity/100*9)+1;
  out.backgroundOpacity=Math.round((out.opacityLevel-1)*100/9);

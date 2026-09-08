@@ -2,7 +2,8 @@ param(
     [Parameter(Mandatory=$true)][string]$SourceRoot,
     [string]$DestinationRoot,
     [string]$DestinationFile,
-    [string]$LogPath
+    [string]$LogPath,
+    [string]$InstallationRoot
 )
 $ErrorActionPreference = 'Stop'
 function Get-BundledFileHash([string]$FilePath) {
@@ -128,4 +129,18 @@ if (!$speechComplete) {
     catch { if ($backup) { Move-Item -LiteralPath $backup -Destination $speechDestination }; throw }
     Write-Output 'Installed speech/base'
 } else { Write-Output 'Preserved speech/base' }
+# Exact model inventory supports optional uninstall cleanup without deleting the chosen root.
+$modelFiles = @($manifest.packages | ForEach-Object { $pair=$_.pair; $_.files | ForEach-Object { 'translation/'+$pair+'/'+$_.path } }) + @($speechFiles | ForEach-Object { 'speech/base/'+$_.path })
+[IO.File]::WriteAllText((Join-Path $targetBase '.lishon-model-files.json'),(@{version=1;files=$modelFiles} | ConvertTo-Json -Depth 5),(New-Object Text.UTF8Encoding($false)))
 if ($LogPath) { [IO.Directory]::CreateDirectory((Split-Path -Parent $LogPath)) | Out-Null; [IO.File]::WriteAllText($LogPath, 'OK: 14 translation directions and Whisper speech verified in ' + $targetBase) }
+if ($InstallationRoot) {
+    $installBase = [IO.Path]::GetFullPath($InstallationRoot)
+    if (-not [IO.Path]::IsPathRooted($InstallationRoot) -or -not [IO.Directory]::Exists($installBase)) { throw 'Invalid software installation folder' }
+    # Keep the chosen location beside this installation, so new Windows profiles also find its models.
+    # A unique install ID applies a newly chosen location once without overriding later in-app changes.
+    $location = @{version=1;id=[guid]::NewGuid().ToString('N');modelPath=$targetBase}
+    $marker = Join-Path $installBase 'lishon-model-location.json'
+    $temporary = Join-Path $installBase ('lishon-location-' + [guid]::NewGuid().ToString('N') + '.tmp')
+    [IO.File]::WriteAllText($temporary,($location | ConvertTo-Json), (New-Object Text.UTF8Encoding($false)))
+    if ([IO.File]::Exists($marker)) { [IO.File]::Replace($temporary,$marker,$null) } else { [IO.File]::Move($temporary,$marker) }
+}

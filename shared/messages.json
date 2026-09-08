@@ -3617,5 +3617,173 @@
     "ko": "음성 모델은 받아쓰기에, 번역 모델은 언어 변환에 사용됩니다. 음성 합성은 포함되지 않습니다. 소스 버전은 모델을 별도로 준비해야 합니다. 다운로드 실패 시 대체 소스를 시도하며 이어받을 수 있습니다. 완료된 파일은 유지됩니다. 접속 여부는 네트워크에 따라 다르며 오프라인 팩도 가져올 수 있습니다.",
     "fr": "Les modèles vocaux transcrivent le son et les modèles de traduction convertissent le texte. La synthèse vocale n’est pas incluse. La version source nécessite des modèles séparés. Les téléchargements essaient des sources alternatives et peuvent reprendre ; les fichiers terminés sont conservés. La disponibilité dépend du réseau. Des packs hors ligne peuvent aussi être importés.",
     "ru": "Речевые модели преобразуют звук в текст, модели перевода переводят его. Синтез речи не включён. Для сборки из исходников модели готовятся отдельно. При сбое загрузки пробуются запасные источники; загрузку можно продолжить, готовые файлы сохраняются. Доступность зависит от сети. Можно импортировать офлайн-пакеты."
+  },
+  "本地翻译历史": {
+    "en": "Translation history",
+    "ja": "翻訳履歴",
+    "ko": "번역 기록",
+    "fr": "Historique des traductions",
+    "ru": "История переводов"
+  },
+  "连续屏幕字幕或实时听译超过 15 秒后自动保存。关闭功能不会删除已有记录。": {
+    "en": "Automatically saves screen or live audio sessions longer than 15 seconds. Turning this off keeps existing records.",
+    "ja": "15秒を超える画面字幕・リアルタイム音声のセッションを自動保存します。オフにしても履歴は残ります。",
+    "ko": "15초가 넘는 화면 자막·실시간 음성 세션을 자동 저장합니다. 꺼도 기존 기록은 유지됩니다.",
+    "fr": "Enregistre les sessions de sous-titres ou audio de plus de 15 secondes. Désactiver conserve les fichiers.",
+    "ru": "Автосохранение сеансов субтитров и аудио дольше 15 секунд. Отключение не удаляет записи."
+  },
+  "历史记录存储位置": {
+    "en": "History folder",
+    "ja": "履歴の保存先",
+    "ko": "기록 저장 위치",
+    "fr": "Dossier de l’historique",
+    "ru": "Папка истории"
+  },
+  "请先选择存储文件夹": {
+    "en": "Choose a storage folder first",
+    "ja": "先に保存先を選択してください",
+    "ko": "먼저 저장 폴더를 선택하세요",
+    "fr": "Choisissez d’abord un dossier",
+    "ru": "Сначала выберите папку"
+  },
+  "选择文件夹": {
+    "en": "Choose folder",
+    "ja": "フォルダーを選択",
+    "ko": "폴더 선택",
+    "fr": "Choisir un dossier",
+    "ru": "Выбрать папку"
+  },
+  "打开文件夹": {
+    "en": "Open folder",
+    "ja": "フォルダーを開く",
+    "ko": "폴더 열기",
+    "fr": "Ouvrir le dossier",
+    "ru": "Открыть папку"
+  },
+  "开启本地历史记录，先设置保存位置。超过 15 秒的字幕与听译会话将自动记录。": {
+    "en": "Choose a folder to enable local history. Caption and audio sessions longer than 15 seconds are saved automatically.",
+    "ja": "保存先を設定して履歴を有効にします。15秒を超える字幕・音声セッションが自動保存されます。",
+    "ko": "저장 위치를 설정해 기록을 켜세요. 15초가 넘는 자막·음성 세션이 자동 저장됩니다.",
+    "fr": "Choisissez un dossier pour activer l’historique local des sessions de plus de 15 secondes.",
+    "ru": "Выберите папку для локальной истории. Сеансы субтитров и аудио дольше 15 секунд сохранятся автоматически."
+  },
+  "开启历史记录": {
+    "en": "Enable history",
+    "ja": "履歴を有効にする",
+    "ko": "기록 켜기",
+    "fr": "Activer l’historique",
+    "ru": "Включить историю"
+  },
+  "双击名称重命名，双击内容打开文件。": {
+    "en": "Double-click a name to rename, or content to open the file.",
+    "ja": "名前をダブルクリックして変更、内容をダブルクリックしてファイルを開きます。",
+    "ko": "이름을 두 번 클릭해 변경하고 내용을 두 번 클릭해 파일을 여세요.",
+    "fr": "Double-cliquez sur le nom pour renommer, ou le contenu pour ouvrir.",
+    "ru": "Дважды нажмите имя для переименования или текст для открытия файла."
+  },
+  "删除记录": {
+    "en": "Delete record",
+    "ja": "履歴を削除",
+    "ko": "기록 삭제",
+    "fr": "Supprimer l’entrée",
+    "ru": "Удалить запись"
+  },
+  "还没有翻译历史记录": {
+    "en": "No translation history yet",
+    "ja": "翻訳履歴はまだありません",
+    "ko": "번역 기록이 없습니다",
+    "fr": "Aucun historique pour le moment",
+    "ru": "История переводов пока пуста"
+  },
+  "选择历史记录存储位置": {
+    "en": "Choose history storage folder",
+    "ja": "履歴の保存先を選択",
+    "ko": "기록 저장 위치 선택",
+    "fr": "Choisir le dossier de l’historique",
+    "ru": "Выбрать папку истории"
+  },
+  "历史记录{0}": {
+    "en": "History {0}",
+    "ja": "履歴{0}",
+    "ko": "기록 {0}",
+    "fr": "Historique {0}",
+    "ru": "Запись {0}"
+  },
+  "识别语言": {
+    "en": "Recognized language",
+    "ja": "認識言語",
+    "ko": "인식 언어",
+    "fr": "Langue reconnue",
+    "ru": "Распознанный язык"
+  },
+  "历史记录阅读": {
+    "en": "History reader",
+    "ja": "履歴を読む",
+    "ko": "기록 읽기",
+    "fr": "Lecture de l’historique",
+    "ru": "Просмотр истории"
+  },
+  "切换阅读方式": {
+    "en": "Switch reading layout",
+    "ja": "表示方法を切り替え",
+    "ko": "읽기 방식 전환",
+    "fr": "Changer la disposition",
+    "ru": "Сменить режим чтения"
+  },
+  "按语种归类": {
+    "en": "Group by language",
+    "ja": "言語別に表示",
+    "ko": "언어별로 보기",
+    "fr": "Regrouper par langue",
+    "ru": "Группировать по языкам"
+  },
+  "逐条对照": {
+    "en": "Entry-by-entry",
+    "ja": "項目ごとに対訳",
+    "ko": "항목별 대조",
+    "fr": "Entrée par entrée",
+    "ru": "По отдельным записям"
+  },
+  "导出文档": {
+    "en": "Export document",
+    "ja": "文書をエクスポート",
+    "ko": "문서 내보내기",
+    "fr": "Exporter le document",
+    "ru": "Экспорт документа"
+  },
+  "退出全屏": {
+    "en": "Exit fullscreen",
+    "ja": "全画面表示を終了",
+    "ko": "전체 화면 종료",
+    "fr": "Quitter le plein écran",
+    "ru": "Выйти из полного экрана"
+  },
+  "全屏阅读": {
+    "en": "Read fullscreen",
+    "ja": "全画面で読む",
+    "ko": "전체 화면으로 읽기",
+    "fr": "Lire en plein écran",
+    "ru": "Читать на весь экран"
+  },
+  "关闭阅读面板": {
+    "en": "Close reader",
+    "ja": "閲覧パネルを閉じる",
+    "ko": "읽기 패널 닫기",
+    "fr": "Fermer le lecteur",
+    "ru": "Закрыть панель чтения"
+  },
+  "双击名称重命名，双击内容打开阅读面板。": {
+    "en": "Double-click a name to rename, or content to open the reader.",
+    "ja": "名前をダブルクリックして変更、内容をダブルクリックして閲覧パネルを開きます。",
+    "ko": "이름을 두 번 클릭해 변경하고 내용을 두 번 클릭해 읽기 패널을 여세요.",
+    "fr": "Double-cliquez sur le nom pour renommer, ou le contenu pour ouvrir le lecteur.",
+    "ru": "Дважды нажмите имя для переименования или текст для чтения."
+  },
+  "显示序号和语种": {
+    "en": "Show numbering and languages",
+    "ja": "番号と言語を表示",
+    "ko": "번호 및 언어 표시",
+    "fr": "Afficher les numéros et les langues",
+    "ru": "Показывать номера и языки"
   }
 }

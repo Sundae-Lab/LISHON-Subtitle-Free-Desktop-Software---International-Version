@@ -1,6 +1,6 @@
 {
   "name": "lishon-international",
-  "version": "0.6.0",
+  "version": "0.7.2",
   "description": "Lishon — multilingual Windows desktop translation",
   "author": "Lishon",
   "private": true,
@@ -46,6 +46,18 @@
       {
         "from": "engine/dist/lingua-engine",
         "to": "engine"
+      },
+      {
+        "from": "LICENSE",
+        "to": "licenses/LICENSE"
+      },
+      {
+        "from": "NOTICE",
+        "to": "licenses/NOTICE"
+      },
+      {
+        "from": "THIRD_PARTY_NOTICES.md",
+        "to": "licenses/THIRD_PARTY_NOTICES.md"
       }
     ],
     "win": {
@@ -69,7 +81,8 @@
       ],
       "language": "2052",
       "displayLanguageSelector": false
-    }
+    },
+    "afterPack": "scripts/after-pack.cjs"
   },
   "license": "Apache-2.0"
 }

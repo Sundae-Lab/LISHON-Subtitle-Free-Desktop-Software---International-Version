@@ -1,3 +1,4 @@
+import {HistoryStorage} from './SessionHistory';
 import { t, localeTag } from "./i18n";
 import InterfaceLanguage from './InterfaceLanguage';
 import React from 'react';
@@ -105,8 +106,7 @@ export default function Settings({
           lines: +e.target.value
         })}>{[1, 2, 3].map(n => <option key={n} value={n}>{t("{0} 行", [n])}</option>)}</select></Field></section>
  <section className="settings-section"><h2>{t("桌面字幕")}</h2><SubtitleSettings settings={s} update={update} run={run} /></section>
- <section className="settings-section"><h2>{t("处理与隐私")}</h2><Field label={t("保存本地翻译历史")} description={t("最多保留 30 条。关闭时清除已有历史；音频文件不会复制到应用。")}><Toggle label={t("保存翻译历史")} checked={s.history} onChange={history => update({
-          history
-        })} /></Field><p className="subtle">{t("识别在本地运行；本地模式离线翻译，AI 模式将待译文字及开启的短上下文发送至所选服务商。模型下载连接官方站点。自动划词开启后，会在需要时复制选区。关闭应用将停止所有监听。")}</p></section>
+ <section className="settings-section"><h2>{t("处理与隐私")}</h2><Field label={t("保存本地翻译历史")}><Toggle label={t("保存翻译历史")} checked={s.historyEnabled} onChange={historyEnabled => run(async()=>{if(historyEnabled&&!s.historyDirectory){const chosen=await api.call('history-folder',{enable:true});if(chosen)await update({historyEnabled:true,historyDirectory:chosen.directory});}else await update({historyEnabled});})}/></Field><HistoryStorage settings={s} update={update}/>
+ <p className="subtle">{t("识别在本地运行；本地模式离线翻译，AI 模式将待译文字及开启的短上下文发送至所选服务商。模型下载连接官方站点。自动划词开启后，会在需要时复制选区。关闭应用将停止所有监听。")}</p></section>
  </>;
 }

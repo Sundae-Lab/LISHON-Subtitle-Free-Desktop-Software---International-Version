@@ -1,11 +1,19 @@
+param([string]$ModelDirectory)
 $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath (Split-Path -Parent $PSScriptRoot)
 npm ci
 if ($LASTEXITCODE -ne 0) { throw 'npm ci failed' }
-uv venv .venv --python 3.11
+if (-not (Test-Path -LiteralPath '.venv\Scripts\python.exe')) {
+    uv venv .venv --python 3.11
+    if ($LASTEXITCODE -ne 0) { throw 'Python environment creation failed' }
+}
 uv pip install --python .venv\Scripts\python.exe -r engine\requirements-lock.txt
 if ($LASTEXITCODE -ne 0) { throw 'Python dependency installation failed' }
-.venv\Scripts\python.exe scripts\prepare-bundled-models.py
+if ($ModelDirectory) {
+    .venv\Scripts\python.exe scripts\prepare-bundled-models.py --from-installed $ModelDirectory
+} else {
+    .venv\Scripts\python.exe scripts\prepare-bundled-models.py
+}
 if ($LASTEXITCODE -ne 0) { throw 'Bundled model preparation failed' }
 node scripts/compress-models.cjs
 if ($LASTEXITCODE -ne 0) { throw 'Bundled model compression failed' }

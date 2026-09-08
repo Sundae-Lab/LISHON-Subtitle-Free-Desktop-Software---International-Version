@@ -19,7 +19,7 @@ def digest(path):
         return hashlib.file_digest(stream, 'sha256').hexdigest()
 
 
-def bundle_speech(cache, catalog, output, manifest):
+def bundle_speech(cache, catalog, output, manifest, installed=None):
     import sys
     sys.path.insert(0, str(ROOT / 'engine'))
     from model_downloads import download
@@ -34,6 +34,9 @@ def bundle_speech(cache, catalog, output, manifest):
     speech.mkdir(parents=True, exist_ok=True)
     for item in catalog['speech']:
         source = cache / item['name']
+        existing = installed / 'speech/base' / item['name'] if installed else None
+        if existing and existing.is_file() and existing.stat().st_size == item['size'] and digest(existing) == item['sha256']:
+            shutil.copyfile(existing, source)
         if not source.exists() or source.stat().st_size != item['size'] or digest(source) != item['sha256']:
             download(item, source, 'Preparing Whisper', lambda *args: print(*args, flush=True))
         if digest(source) != item['sha256']:
@@ -77,7 +80,7 @@ def prepare(cache, installed=None):
             if not {'metadata.json','model/model.bin'}.issubset({f['path'] for f in files}):
                 raise ValueError('Installed model incomplete')
             manifest['packages'].append({'pair': pair, 'version': item['package_version'], 'files': files})
-        bundle_speech(cache, catalog, output, manifest)
+        bundle_speech(cache, catalog, output, manifest, installed)
         return
     chunk_size = 2 * 1024 * 1024
     basic = ROOT / '听现Lishon-基础离线语言包.lishonpack'
